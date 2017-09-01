@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Downloading DSE Studio 2.0.0 .."
-#wget -P /tmp http://path/to/datastax-studio-2.0.0.tgz
+wget -P /tmp http://www.estranger.net/datastax-studio-2.0.0.tar.gz
 echo "Downloading workbooks .."
 wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
 
