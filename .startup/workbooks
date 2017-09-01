@@ -12,7 +12,7 @@ tar -zxf /tmp/datastax-studio-2.0.0.tar.gz
 sed -i 's%baseDirectory: null%baseDirectory: /opt/dse/datastax-studio-2.0.0/dse-workshop-studio%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
 sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
 cd /opt/dse/datastax-studio-2.0.0
-tar -zxvf /tmp/dse-workshop-studio.tgz
+tar -zxf /tmp/dse-workshop-studio.tgz
 
 echo "Starting DSE Studio .."
 nohup /opt/dse/datastax-studio-2.0.0/bin/server.sh &
