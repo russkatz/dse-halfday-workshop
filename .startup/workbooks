@@ -1,4 +1,20 @@
 #!/bin/sh
 
-echo downloading workbooks..
-wget 
+echo "Downloading DSE Studio 2.0.0 .."
+#wget -P /tmp http://path/to/datastax-studio-2.0.0.tgz
+echo "Downloading workbooks .."
+wget -P /tmp https://github.com/russkatz/dse-halfday-workshop/blob/master/files/dse-workshop-studio.tgz > /dev/null
+
+echo "Configuring DSE Studio .."
+mkdir -p /opt/dse/
+cd /opt/dse
+tar -zxf /tmp/datastax-studio-2.0.0.tar.gz
+sed -i 's%baseDirectory: null%baseDirectory: /opt/dse/datastax-studio-2.0.0/dse-workshop-studio%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
+sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
+cd /opt/dse/datastax-studio-2.0.0
+tar -zxvf /tmp/dse-workshop-studio.tgz
+
+echo "Starting DSE Studio .."
+nohup /opt/dse/datastax-studio-2.0.0/bin/server.sh &
+
+echo "http://"`curl -s http://api.ipify.org`":9091"
