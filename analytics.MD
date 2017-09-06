@@ -25,7 +25,7 @@
 ## Spark Batch Hands On
 ##### DSBank has deployed another DSE cluster to do their realtime fraud detection using DSE Analytics. Our cluster will be serving the realtime fraud reports to DSBank and it's users.
 ##### Every transaction goes through the DSE Fraud cluster (ML pipeline) and publishes the results to the enterprise message bus.
-##### You need to DSE Analytics to stream the results off of the ESB and into DSE for serving the end user reports and real time dashboards.
+##### You need DSE Analytics to stream the results off of the ESB and into DSE for serving the end user reports and real time dashboards.
 
 To support the use case you will need two new data models.
 The first model is to support looking up transactions by id, which will be required for the Spark Streaming process.
@@ -85,8 +85,8 @@ The table transactions_by_id needs to be populated with all of the transactions 
 `val sample = sc.cassandraTable("datastax_banking_iot", "transactions_by_id").limit(20).collect()`
 `sample.foreach(println)`
 
-#### Spark Streaming
-## Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, looks up transaction in DSE, and writes out everything to a new table used for reporting.
+## Spark Streaming Hands-On
+#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, looks up the transaction in DSE, and writes out everything to a new table used for reporting.
 
 `(Show some code)`
 
