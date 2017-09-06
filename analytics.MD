@@ -3,7 +3,7 @@
 
 * Start the DSE Spark SQL prompt
 
-`dse spark-sql`
+** `dse spark-sql`
 
 * Find the list of the merchants that a particular user spends the most money with.
 
