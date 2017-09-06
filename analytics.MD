@@ -1,5 +1,5 @@
-SparkSQL Hands On
-Sometimes the business needs to run analytical queries against the data. SparkSQL lets you run adhoc queries and aggregations against large sets of data in DSE.
+-- SparkSQL Hands On
+--- Sometimes the business needs to run analytical queries against the data. SparkSQL lets you run adhoc queries and aggregations against large sets of data in DSE.
 
 * Start the DSE Spark SQL prompt
 `dse spark-sql`
