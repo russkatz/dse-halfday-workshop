@@ -1,13 +1,16 @@
 ## SparkSQL Hands On
-### Sometimes the business needs to run analytical queries against the data. SparkSQL lets you run adhoc queries and aggregations against large sets of data in DSE.
+#### Sometimes the business needs to run analytical queries against the data. SparkSQL lets you run adhoc queries and aggregations against large sets of data in DSE.
 
 * Start the DSE Spark SQL prompt
+
 `dse spark-sql`
 
 * Find the list of the merchants that a particular user spends the most money with.
+
 `select merchant, sum(amount) as total from datastax_banking_iot.latest_transactions where cc_no = '1234123412342116' group by merchant order by total desc;`
 
 * Find the accounts that are doing the most transactions at the bank.
+
 `select cc_no, count(cc_no) as total_trans from datastax_banking_iot.latest_transactions group by cc_no order by total_trans desc limit 10;`
 
 #Top Merchants (Total amount)
