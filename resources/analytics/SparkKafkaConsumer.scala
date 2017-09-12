@@ -12,9 +12,6 @@ import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.{Milliseconds, Seconds, StreamingContext, Time}
 import org.apache.spark.{SparkConf, SparkContext}
 
-case class EventAttributes(a: Map[String,String])
-case class Event(eventtype: String, eventid: String, channel: String, attributes: String)
-case class ThreatEvent(eventtype: String, eventid: String, channel: String, attributes: String, threat: Int)
 case class FraudEvent(transaction_id: String, threat: Int)
 case class AccountFraud(account_number: String, fraud_level: Int, transaction_id: String, amount: String, location: String, merchant: String, notes: String, transaction_time: String, status: String, user_id: String)
 
