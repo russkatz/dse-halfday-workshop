@@ -5,13 +5,13 @@
 
 `dse spark-sql`
 
-* Find the list of the merchants that a particular user spends the most money with.
+* Find the list of merchants that Betty spends the most money with.
 
-`select merchant, sum(amount) as total from datastax_banking_iot.latest_transactions where cc_no = '1234123412342116' group by merchant order by total desc;`
+`select merchant, sum(amount) as total from dsbank.latest_transactions where account_number = '1234123412342116' group by merchant order by total desc;`
 
-* Find the accounts that are doing the most transactions at the bank.
+* Across the entire bank find the merchants that are doing the most transactions
 
-`select cc_no, count(cc_no) as total_trans from datastax_banking_iot.latest_transactions group by cc_no order by total_trans desc limit 10;`
+`select account_number, count(account_number) as total_trans from datastax_banking_iot.latest_transactions group by account_number order by total_trans desc limit 10;`
 
 * Find the top merchants that the bank's users are spending the most money with.
 
@@ -21,6 +21,9 @@
 
 `select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_trans desc limit 10;`
 
+* Or you can order your results by total value of each merchant
+
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_amount desc limit 10;`
 
 ## Spark Batch Hands On
 ##### DSBank has deployed another DSE cluster to do their realtime fraud detection using DSE Analytics. Our cluster will be serving the realtime fraud reports to DSBank and it's users.
@@ -31,8 +34,8 @@ To support the use case you will need two new data models.
 The first model is to support looking up transactions by id, which will be required for the Spark Streaming process.
 
 ```
-CREATE TABLE datastax_banking_iot.transactions_by_id (
-    cc_no text,
+CREATE TABLE dsbank.transactions_by_id (
+    account_number text,
     transaction_time timestamp,
     amount double,
     items map<text, double>,
@@ -50,10 +53,10 @@ CREATE TABLE datastax_banking_iot.transactions_by_id (
 The second data model is to serve the fraud report.
 
 ```
-CREATE TABLE datastax_banking_iot.cc_fraud (
+CREATE TABLE dsbank.account_fraud (
     transaction_id text,
     fraud_level int,
-    cc_no text,
+    account_number text,
     transaction_time timestamp,
     amount double,
     location text,
@@ -61,7 +64,7 @@ CREATE TABLE datastax_banking_iot.cc_fraud (
     notes text,
     status text,
     user_id text,
-    PRIMARY KEY ((cc_no, fraud_level), transaction_id)
+    PRIMARY KEY ((account_number, fraud_level), transaction_id)
 );
 ```
 
@@ -71,29 +74,63 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 `dse spark`
 
-
 * Create a varible that points to the table you want to copy from
 
-`val transactions = sc.cassandraTable("datastax_banking_iot", "latest_transactions")`
+`val transactions = sc.cassandraTable("dsbank", "latest_transactions")`
 
-* Take that table and write it to another table
+* Write all of the rows from "lastest_transactions" into "transactions_by_id"
 
 `transactions.saveToCassandra("datastax_banking_iot", "transactions_by_id")`
 
-* Verify that your new table has data
+* Verify that the table "transactions_by_id"  has data
 
 `val sample = sc.cassandraTable("datastax_banking_iot", "transactions_by_id").limit(20).collect()`
 `sample.foreach(println)`
 
 ## Spark Streaming Hands-On
-#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, looks up the transaction in DSE, and writes out everything to a new table used for reporting.
+#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
 
-`(Show some code)`
+* The spark streaming code is written in Scala and compiled into a JAR to be submitted to DSE Analytics. This is a code snippet from the JAR file you need to deploy, but if you would like to learn more about the streaming application check out https://github.com/russkatz/dse-halfday-workshop
 
-* Execute the JAR file you received from your developers as a spark stream
+```
+kafkaStream
+    .foreachRDD {
+      (message: RDD[(String, String)], batchTime: Time) => {
+        val threatdf = message.map {
+          case (k, v) => v.split(";")
+        }.map(payload => {
+          val transaction_id = payload(0)
+          val threat = payload(1).toInt
+          FraudEvent(transaction_id, threat)
+        }).toDF("transaction_id", "threat")
+        val threatrdd = threatdf.rdd.collect()
+        threatrdd.foreach { t =>
+                 val row = t.toString.split(",")
+                 val transaction_id = row(0).substring(1)
+                 val threat = row(1).dropRight(1)
+                 val event = sc.cassandraTable("dsbank", "transactions_by_id").where("transaction_id = ?", transaction_id).collect()
+                 event.map { row => 
+                   val transaction_id = row.getString("transaction_id")
+                   val account_number = row.getString("account_number")
+                   val amount = row.getString("amount")
+                   val location = row.getString("location")
+                   val merchant = row.getString("merchant")
+                   val notes = row.getString("notes")
+                   val transaction_time = row.getString("transaction_time")
+                   val status = "status"
+                   val user_id = "null"
+                   val newrow = sc.parallelize(Seq(AccountFraud(account_number, threat.toInt, transaction_id, amount, location, merchant, notes, transaction_time, status, user_id)))
+                   newrow.saveToCassandra("dsbank", "account_fraud")
+                   }
+        }
+      }
+    }
+```
+
+* To execute the stream create by your developers you need to submit the JAR to DSE Spark, using the command below.
 
 `dse spark-submit --class com.datastax.demo.FraudReport /path/to/fraud_report.jar`
 
 * Verify that data is now streaming into the reports table in realtime
 
-`cqlsh: select * from datastax_banking_iot.cc_fraud`
+`cqlsh: select * dsbank.account_fraud;`
