@@ -15,7 +15,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 case class EventAttributes(a: Map[String,String])
 case class Event(eventtype: String, eventid: String, channel: String, attributes: String)
 case class ThreatEvent(eventtype: String, eventid: String, channel: String, attributes: String, threat: Int)
-case class FraudEvent(eventtype: String, eventid: String, threat: Int)
+case class FraudEvent(transaction_id: String, threat: Int)
+case class AccountFraud(account_number: String, fraud_level: Int, transaction_id: String, amount: String, location: String, merchant: String, notes: String, transaction_time: String, status: String, user_id: String)
 
 object SparkKafkaConsumer extends App {
 
@@ -26,10 +27,10 @@ object SparkKafkaConsumer extends App {
   val sqlContext = SQLContext.getOrCreate(sc)
   import sqlContext.implicits._
 
-  val ssc = new StreamingContext(sc, Milliseconds(100))
+  val ssc = new StreamingContext(sc, Milliseconds(5000))
   ssc.checkpoint(appName)
 
-  val kafkaTopics = Set("threat")
+  val kafkaTopics = Set("fraud")
   val kafkaParams = Map[String, String]("metadata.broker.list" -> "127.0.0.1:9092")
 
   val kafkaStream = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, kafkaTopics)
@@ -37,29 +38,33 @@ object SparkKafkaConsumer extends App {
   kafkaStream
     .foreachRDD {
       (message: RDD[(String, String)], batchTime: Time) => {
-        val threatrdd = message.map {
+        val threatdf = message.map {
           case (k, v) => v.split(";")
         }.map(payload => {
-          val eventtype = payload(0)
-          val eventid = payload(1)
-          val threat = payload(2).toInt
-          FraudEvent(eventtype, eventid, threat)
-        })
-        threatrdd.foreach { t => 
-           val row = t.toString.split(",")
-           val eventtype = row(0).substring(1)
-           val eventid = row(1)
-           val threat = row(2).dropRight(1)
-           if(threat.toInt > 80) {
-             val event = sc.cassandraTable("dsbank", "events").where("eventtype = ?", eventtype).where("eventid = ?", eventid).collect() 
-             val attributes = event(0).getString("attributes")
-             val channel = event(0).getString("channel")
-             val te = Seq((eventtype, eventid, channel, attributes, threat.toInt)).toDF("eventtype", "eventid", "channel", "attributes", "threat")
-             te.write.format("org.apache.spark.sql.cassandra")
-                 .mode(SaveMode.Append)
-                 .options(Map("keyspace" -> "dsbank", "table" -> "fraudevents"))
-                 .save()
-          }
+          val transaction_id = payload(0)
+          val threat = payload(1).toInt
+          FraudEvent(transaction_id, threat)
+        }).toDF("transaction_id", "threat")
+        //threatdf.show
+        val threatrdd = threatdf.rdd.collect()
+        threatrdd.foreach { t =>
+                 val row = t.toString.split(",")
+                 val transaction_id = row(0).substring(1)
+                 val threat = row(1).dropRight(1)
+                 val event = sc.cassandraTable("dsbank", "transactions_by_id").where("transaction_id = ?", transaction_id).collect()
+                 event.map { row => 
+                   val transaction_id = row.getString("transaction_id")
+                   val account_number = row.getString("account_number")
+                   val amount = row.getString("amount")
+                   val location = row.getString("location")
+                   val merchant = row.getString("merchant")
+                   val notes = row.getString("notes")
+                   val transaction_time = row.getString("transaction_time")
+                   val status = "status"
+                   val user_id = "null"
+                   val newrow = sc.parallelize(Seq(AccountFraud(account_number, threat.toInt, transaction_id, amount, location, merchant, notes, transaction_time, status, user_id)))
+                   newrow.saveToCassandra("dsbank", "account_fraud")
+                   }
         }
       }
     }
