@@ -2,7 +2,7 @@
 from kafka import KafkaProducer
 import time
 
-file = "/root/fraud.topic"
+file = "./fraud.topic"
 producer = KafkaProducer(bootstrap_servers='127.0.0.1:9092')
 while 1:
    with open(file, "r") as topic:
