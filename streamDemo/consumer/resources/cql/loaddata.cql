@@ -1,1 +1,0 @@
-COPY demo.sensor_meta  (serial_number, deploy_date , floor , hive_num , latitude , longitude , main_date  , manuf_date  , retired    , sensor_type  , vendor     , wing, lat_long  ) FROM 'producer/data/hive_sensorsClean.csv' WITH HEADER='true';
