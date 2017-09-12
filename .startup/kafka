@@ -1,0 +1,11 @@
+#!/bin/sh
+
+wget -P /tmp/  http://www-eu.apache.org/dist/kafka/0.11.0.0/kafka_2.11-0.11.0.0.tgz
+
+mkdir -p /opt/kafka
+cd /opt/kafka
+tar -zxvf /tmp/kafka_2.11-0.11.0.0.tgz
+nohup /opt/kafka/kafka_2.11-0.11.0.0/bin/zookeeper-server-start.sh /opt/kafka/kafka_2.11-0.11.0.0/config/zookeeper.properties &
+sleep 5
+nohup /opt/kafka/kafka_2.11-0.11.0.0/bin/kafka-server-start.sh /opt/kafka/kafka_2.11-0.11.0.0/config/server.properties &
+

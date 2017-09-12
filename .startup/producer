@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+from time import sleep
+from kafka import KafkaProducer
+
+file = "/root/fraud.topic"
+producer = KafkaProducer(bootstrap_servers='127.0.0.1:9092')
+topic = "fraud"
+while 1:
+   with open(file, "r") as topic:
+      for msg in topic:
+         print(msg)
+         producer.send(topic, msg)
+#         sleep(0.2)
+      producer.flush()
