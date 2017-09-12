@@ -1,3 +1,3 @@
 #!/bin/sh
 
-resources/analytics/producer.py
+nohup resources/analytics/producer.py &
