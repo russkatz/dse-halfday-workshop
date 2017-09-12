@@ -1,4 +1,5 @@
 workbooks
 packages
 kafka
+setupcql
 producer

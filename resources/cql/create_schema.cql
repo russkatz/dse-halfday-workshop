@@ -1,0 +1,48 @@
+DROP KEYSPACE dsbank;
+
+CREATE KEYSPACE dsbank WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
+
+CREATE TABLE dsbank.transactions_by_id (
+    transaction_id text PRIMARY KEY,
+    amount double,
+    account_number text,
+    items map<text, double>,
+    location text,
+    merchant text,
+    notes text,
+    status text,
+    tags set<text>,
+    transaction_time timestamp,
+    user_id text
+);
+
+CREATE TABLE dsbank.latest_transactions (
+    account_number text,
+    transaction_time timestamp,
+    amount double,
+    items map<text, double>,
+    location text,
+    merchant text,
+    notes text,
+    status text,
+    tags set<text>,
+    transaction_id text,
+    user_id text,
+    PRIMARY KEY (account_number, transaction_time)
+) WITH CLUSTERING ORDER BY (transaction_time DESC);
+
+CREATE TABLE dsbank.account_fraud (
+    transaction_id text,
+    fraud_level int,
+    account_number text,
+    transaction_time timestamp,
+    amount double,
+    location text,
+    merchant text,
+    notes text,
+    status text,
+    user_id text,
+    PRIMARY KEY ((account_number, fraud_level), transaction_id)
+);
+
+COPY dsbank.latest_transactions FROM 'transactions.cql' ;

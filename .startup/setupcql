@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd resources/cql
+gunzip transactions.cql.gz
+cqlsh -f create_schema.cql
+gzip transactions.cql
