@@ -15,15 +15,15 @@
 
 * Find the top merchants that the bank's users are spending the most money with.
 
-`select merchant, sum(amount) as total_amount from datastax_banking_iot.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
 
 * Find the merchants doing the most transactions with the bank, and the total value of all transactions for each merchant.
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_trans desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_trans desc limit 10;`
 
 * Or you can order your results by total value of each merchant
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
 
 ## Spark Batch Hands On
 ##### DSBank has deployed another DSE cluster to do their realtime fraud detection using DSE Analytics. Our cluster will be serving the realtime fraud reports to DSBank and it's users.
