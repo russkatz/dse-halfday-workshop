@@ -80,15 +80,15 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 * Write all of the rows from "lastest_transactions" into "transactions_by_id"
 
-`transactions.saveToCassandra("datastax_banking_iot", "transactions_by_id")`
+`transactions.saveToCassandra("dsbank", "transactions_by_id")`
 
 * Verify that the table "transactions_by_id"  has data
 
-`val sample = sc.cassandraTable("datastax_banking_iot", "transactions_by_id").limit(20).collect()`
+`val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()`
 `sample.foreach(println)`
 
 ## Spark Streaming Hands-On
-#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
+#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events. These fraud events only include the transaction_id and fraud score determined by the DSE realtime fraud cluster. The stream then queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
 
 * The spark streaming code is written in Scala and compiled into a JAR to be submitted to DSE Analytics. This is a code snippet from the JAR file you need to deploy, but if you would like to learn more about the streaming application check out https://github.com/russkatz/dse-halfday-workshop
 
@@ -129,7 +129,7 @@ kafkaStream
 
 * To execute the stream create by your developers you need to submit the JAR to DSE Spark, using the command below.
 
-`dse spark-submit --class com.datastax.demo.FraudReport /path/to/fraud_report.jar`
+`dse spark-submit --class com.datastax.demo.FraudReport /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
 
 * Verify that data is now streaming into the reports table in realtime
 
