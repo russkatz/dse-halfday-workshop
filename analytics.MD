@@ -11,7 +11,7 @@
 
 * Across the entire bank find the merchants that are doing the most transactions
 
-`select account_number, count(account_number) as total_trans from datastax_banking_iot.latest_transactions group by account_number order by total_trans desc limit 10;`
+`select account_number, count(account_number) as total_trans from dsbank.latest_transactions group by account_number order by total_trans desc limit 10;`
 
 * Find the top merchants that the bank's users are spending the most money with.
 
