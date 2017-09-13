@@ -84,8 +84,10 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 * Verify that the table "transactions_by_id" has data. Note that adding `.collect()` to the statement makes this no longer be a "lazy evaluation" and executes the work right away.
 
-`val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()`
-`sample.foreach(println)`
+````
+val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()
+sample.foreach(println)
+```
 
 ## Spark Streaming Hands-On
 #### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events. These fraud events only include the transaction_id and fraud score determined by the DSE realtime fraud cluster. The stream then queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
