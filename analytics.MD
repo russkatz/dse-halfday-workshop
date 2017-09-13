@@ -131,7 +131,7 @@ kafkaStream
 
 * To execute the stream create by your developers you need to submit the JAR to DSE Spark, using the command below.
 
-`dse spark-submit --class com.datastax.demo.SparkKafkaConsumer /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
+`dse spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 --class com.datastax.demo.SparkKafkaConsumer /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
 
 * Verify that data is now streaming into the reports table in realtime
 
