@@ -131,7 +131,7 @@ kafkaStream
 
 * To execute the stream create by your developers you need to submit the JAR to DSE Spark, using the command below.
 
-`dse spark-submit --class com.datastax.demo.FraudReport /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
+`dse spark-submit --class com.datastax.demo.SparkKafkaConsumer /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
 
 * Verify that data is now streaming into the reports table in realtime
 
