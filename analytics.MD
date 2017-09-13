@@ -9,21 +9,21 @@
 
 `select merchant, sum(amount) as total from dsbank.latest_transactions where account_number = '1234123412342116' group by merchant order by total desc;`
 
-* Across the entire bank find the merchants that are doing the most transactions
+* Across the entire bank find the accounts that are doing the most transactions
 
-`select account_number, count(account_number) as total_trans from datastax_banking_iot.latest_transactions group by account_number order by total_trans desc limit 10;`
+`select account_number, count(account_number) as total_trans from dsbank.latest_transactions group by account_number order by total_trans desc limit 10;`
 
 * Find the top merchants that the bank's users are spending the most money with.
 
-`select merchant, sum(amount) as total_amount from datastax_banking_iot.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
 
 * Find the merchants doing the most transactions with the bank, and the total value of all transactions for each merchant.
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_trans desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_trans desc limit 10;`
 
 * Or you can order your results by total value of each merchant
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from datastax_banking_iot.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
 
 ## Spark Batch Hands On
 ##### DSBank has deployed another DSE cluster to do their realtime fraud detection using DSE Analytics. Our cluster will be serving the realtime fraud reports to DSBank and it's users.
@@ -74,21 +74,23 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 `dse spark`
 
-* Create a varible that points to the table you want to copy from
+* Create a varible that points to the table you want to copy from. This is a "lazy evaluation", meaning Spark won't execute the work that needs to be done until it is needed.
 
 `val transactions = sc.cassandraTable("dsbank", "latest_transactions")`
 
-* Write all of the rows from "lastest_transactions" into "transactions_by_id"
+* Write all of the rows from "lastest_transactions" into "transactions_by_id". This will actually execute the evaluation of the transactions varible we created in the previous step.
 
-`transactions.saveToCassandra("datastax_banking_iot", "transactions_by_id")`
+`transactions.saveToCassandra("dsbank", "transactions_by_id")`
 
-* Verify that the table "transactions_by_id"  has data
+* Verify that the table "transactions_by_id" has data. Note that adding `.collect()` to the statement makes this no longer be a "lazy evaluation" and executes the work right away.
 
-`val sample = sc.cassandraTable("datastax_banking_iot", "transactions_by_id").limit(20).collect()`
-`sample.foreach(println)`
+```
+val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()
+sample.foreach(println)
+```
 
 ## Spark Streaming Hands-On
-#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events, queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
+#### Your development team has written a Spark Streaming application that listens to the ESB for new realtime fraud events. These fraud events only include the transaction_id and fraud score determined by the DSE realtime fraud cluster. The stream then queries the transaction information from DSE (transactions_by_id), and writes out all of the information to a new table (account_fraud) used for reporting.
 
 * The spark streaming code is written in Scala and compiled into a JAR to be submitted to DSE Analytics. This is a code snippet from the JAR file you need to deploy, but if you would like to learn more about the streaming application check out https://github.com/russkatz/dse-halfday-workshop
 
@@ -129,7 +131,7 @@ kafkaStream
 
 * To execute the stream create by your developers you need to submit the JAR to DSE Spark, using the command below.
 
-`dse spark-submit --class com.datastax.demo.FraudReport /path/to/fraud_report.jar`
+`dse spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 --class com.datastax.demo.SparkKafkaConsumer /tmp/dse-halfday-workshop/resources/analytics/stream.jar`
 
 * Verify that data is now streaming into the reports table in realtime
 
