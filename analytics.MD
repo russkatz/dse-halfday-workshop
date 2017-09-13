@@ -9,7 +9,7 @@
 
 `select merchant, sum(amount) as total from dsbank.latest_transactions where account_number = '1234123412342116' group by merchant order by total desc;`
 
-* Across the entire bank find the merchants that are doing the most transactions
+* Across the entire bank find the accounts that are doing the most transactions
 
 `select account_number, count(account_number) as total_trans from dsbank.latest_transactions group by account_number order by total_trans desc limit 10;`
 
