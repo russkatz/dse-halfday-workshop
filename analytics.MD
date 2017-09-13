@@ -74,15 +74,15 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 `dse spark`
 
-* Create a varible that points to the table you want to copy from
+* Create a varible that points to the table you want to copy from. This is a "lazy evaluation", meaning Spark won't execute the work that needs to be done until it is needed.
 
 `val transactions = sc.cassandraTable("dsbank", "latest_transactions")`
 
-* Write all of the rows from "lastest_transactions" into "transactions_by_id"
+* Write all of the rows from "lastest_transactions" into "transactions_by_id". This will actually execute the evaluation of the transactions varible we created in the previous step.
 
 `transactions.saveToCassandra("dsbank", "transactions_by_id")`
 
-* Verify that the table "transactions_by_id"  has data
+* Verify that the table "transactions_by_id" has data. Note that adding `.collect()` to the statement makes this no longer be a "lazy evaluation" and executes the work right away.
 
 `val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()`
 `sample.foreach(println)`
