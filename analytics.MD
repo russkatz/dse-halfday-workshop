@@ -84,7 +84,7 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 * Verify that the table "transactions_by_id" has data. Note that adding `.collect()` to the statement makes this no longer be a "lazy evaluation" and executes the work right away.
 
-````
+```
 val sample = sc.cassandraTable("dsbank", "transactions_by_id").limit(20).collect()
 sample.foreach(println)
 ```
