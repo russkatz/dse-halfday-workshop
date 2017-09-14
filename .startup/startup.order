@@ -3,3 +3,5 @@ packages
 kafka
 setupcql
 producer
+dseconfig
+restartdse

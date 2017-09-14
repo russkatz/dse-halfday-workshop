@@ -1,0 +1,10 @@
+#!/bin/sh
+
+myhost=`hostname`
+
+if [ `hostname` = "node0" ]; then
+  sudo service dse restart
+else
+  sleep 120
+  sudo service dse restart
+fi

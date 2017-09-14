@@ -15,7 +15,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 case class FraudEvent(transaction_id: String, threat: Int)
 case class AccountFraud(account_number: String, fraud_level: Int, transaction_id: String, amount: String, location: String, merchant: String, notes: String, transaction_time: String, status: String, user_id: String)
 
-object SparkKafkaConsumer extends App {
+object DsbankReports extends App {
 
   val appName = "SparkKafkaConsumer"
   val conf = new SparkConf().setAppName(appName)
@@ -35,16 +35,16 @@ object SparkKafkaConsumer extends App {
   kafkaStream
     .foreachRDD {
       (message: RDD[(String, String)], batchTime: Time) => {
-        val threatdf = message.map {
+        val df = message.map {
           case (k, v) => v.split(";")
         }.map(payload => {
           val transaction_id = payload(0)
           val threat = payload(1).toInt
           FraudEvent(transaction_id, threat)
         }).toDF("transaction_id", "threat")
-        //threatdf.show
-        val threatrdd = threatdf.rdd.collect()
-        threatrdd.foreach { t =>
+        df.show
+        val rdd1 = df.rdd.collect()
+        rdd1.foreach { t =>
                  val row = t.toString.split(",")
                  val transaction_id = row(0).substring(1)
                  val threat = row(1).dropRight(1)
