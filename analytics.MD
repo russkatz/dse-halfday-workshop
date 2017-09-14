@@ -7,23 +7,23 @@
 
 * Find the list of merchants that Betty spends the most money with.
 
-`select merchant, sum(amount) as total from dsbank.latest_transactions where account_number = '1234123412342116' group by merchant order by total desc;`
+`select merchant, sum(amount) as total from dsbank.transactions where account_number = '1234123412342116' group by merchant order by total desc;`
 
 * Across the entire bank find the accounts that are doing the most transactions
 
-`select account_number, count(account_number) as total_trans from dsbank.latest_transactions group by account_number order by total_trans desc limit 10;`
+`select account_number, count(account_number) as total_trans from dsbank.transactions group by account_number order by total_trans desc limit 10;`
 
 * Find the top merchants that the bank's users are spending the most money with.
 
-`select merchant, sum(amount) as total_amount from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount from dsbank.transactions group by merchant order by total_amount desc limit 10;`
 
 * Find the merchants doing the most transactions with the bank, and the total value of all transactions for each merchant.
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_trans desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.transactions group by merchant order by total_trans desc limit 10;`
 
 * Or you can order your results by total value of each merchant
 
-`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.latest_transactions group by merchant order by total_amount desc limit 10;`
+`select merchant, sum(amount) as total_amount, count(amount) as total_trans from dsbank.transactions group by merchant order by total_amount desc limit 10;`
 
 ## Spark Batch Hands On
 ##### DSBank has deployed another DSE cluster to do their realtime fraud detection using DSE Analytics. Our cluster will be serving the realtime fraud reports to DSBank and it's users.
