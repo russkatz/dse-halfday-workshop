@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo pip install kafka-python
+pip install kafka-python
+
 wget -P /tmp/  http://www-eu.apache.org/dist/kafka/0.11.0.0/kafka_2.11-0.11.0.0.tgz
 
 mkdir -p /opt/kafka

@@ -1,4 +1,6 @@
 #!/bin/sh
 
-sleep 5
+sudo pip install kafka-python
+pip install kafka-python
+
 nohup resources/analytics/producer.py &
