@@ -2,13 +2,13 @@
 
 myhost=`hostname`
 
-#if [ `hostname` = "node0" ]; then
-#  sudo service dse stop
-#  sleep 60
-#  sudo service dse start
-#else
-#  sleep 120
-#  sudo service dse stop
-#  sleep 60
-#  sudo service dse start
-#fi
+if [ `hostname` = "node0" ]; then
+  sudo service dse stop
+  sleep 60
+  sudo service dse start
+else
+  sleep 120
+  sudo service dse stop
+  sleep 60
+  sudo service dse start
+fi
