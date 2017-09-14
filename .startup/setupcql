@@ -1,6 +1,4 @@
 #!/bin/sh
 
 cd resources/cql
-gunzip transactions.cql.gz
-cqlsh `ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'` -f create_schema.cql
-gzip transactions.cql
+cqlsh localhost -f create_schema.cql
