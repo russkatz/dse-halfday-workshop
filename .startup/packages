@@ -1,5 +1,5 @@
 #!/bin/sh
 
-apt-get install -y  python-pip 
+sudo apt-get install -y  python-pip 
 
-pip install kafka-python
+sudo pip install kafka-python
