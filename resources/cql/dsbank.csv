@@ -1,0 +1,1001 @@
+account_number,transaction_time,amount,items,location,merchant,notes,status,tags,transaction_id,user_id
+1234123412341240,2017-09-06 16:31:46.959+0000,1458.74,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",31f4d4cc-8519-4982-be7b-b8aa06523ae3,banderson
+1234123412341240,2017-09-06 14:54:43.125+0000,696.57,,Atlanta,Amazon,Shopping,SUCCESS,"{'Home', 'Shopping'}",7cd4369d-0d1a-4abd-99ca-7f8eb5b98543,banderson
+1234123412341240,2017-09-06 04:45:51.837+0000,240.46,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",ed79fa80-9e1c-472b-a2df-350a06a47cab,banderson
+1234123412341240,2017-09-06 00:06:44.733+0000,528.49,,Dallas,Target,Shopping,CANCELLED,"{'Home', 'Shopping'}",13098812-88b8-48d3-aada-1cce6bd852c5,banderson
+1234123412341240,2017-09-05 15:39:34.835+0000,1167.72,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",dd6df464-83f6-42c9-ac81-7e2020814f11,banderson
+1234123412341240,2017-09-05 09:06:59.539+0000,2064.26,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",becea5cb-6c4a-4cfc-9b2a-93a2100ae501,banderson
+1234123412341240,2017-09-04 23:38:26.888+0000,2551.34,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",3ad1d732-5299-4d36-9cbe-d1b7ab86b1fc,banderson
+1234123412341240,2017-09-04 08:01:47.351+0000,2679.18,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6bbcee60-72c9-41ee-9632-97c10a672810,banderson
+1234123412341240,2017-09-03 08:18:15.690+0000,862.63,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",6e8c563c-01fa-416e-a3a8-27aa75cfab51,banderson
+1234123412341240,2017-09-03 05:21:33.213+0000,2108.43,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",eb0d0bc4-04b6-4748-9aef-87c83c8e0ab6,banderson
+1234123412341240,2017-09-02 22:01:26.272+0000,122.36,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",031daba5-af3c-489f-a195-76f0413c24bf,banderson
+1234123412341240,2017-09-02 16:51:32.813+0000,934.83,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",3abe5356-521f-445f-b858-42f77d3366a4,banderson
+1234123412341240,2017-09-02 03:24:38.717+0000,2059.78,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",7754c5cd-f909-4da5-b8d3-1934eba6169b,banderson
+1234123412341240,2017-09-01 12:37:36.612+0000,1650.79,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",06256ed3-4d29-428e-878a-01d7890723df,banderson
+1234123412341240,2017-08-31 23:51:49.599+0000,2068.61,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",6de8c1fd-dcd4-4f1d-ba85-a483f7c6f4e3,banderson
+1234123412341240,2017-08-31 09:27:57.209+0000,112.12,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",934f8127-19f3-458b-b878-b7e81358cdf0,banderson
+1234123412341240,2017-08-30 22:42:54.729+0000,2001.32,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",cf093234-ac92-417b-aa71-4a6a731dbd3b,banderson
+1234123412341240,2017-08-30 20:42:55.075+0000,2281.39,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",27809b06-de25-49d3-97b4-fc9c7bc8959c,banderson
+1234123412341240,2017-08-30 17:08:39.437+0000,1873.87,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",17640692-95a5-40a9-a215-43ba8a96f455,banderson
+1234123412341240,2017-08-30 06:34:34.278+0000,289.95,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",e9fb9aee-36b3-4e06-ade9-49638dfb1c27,banderson
+1234123412341240,2017-08-29 18:27:42.186+0000,687.58,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",cac29f49-71b6-40be-b0b3-d4402664080a,banderson
+1234123412341240,2017-08-29 12:45:07.318+0000,1904.70,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",b0183848-909b-4c22-9b6d-2557bc636482,banderson
+1234123412341240,2017-08-29 10:05:37.147+0000,1519.37,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",6a4cc3f8-0a3e-4d10-8969-d9836adca5ad,banderson
+1234123412341240,2017-08-28 13:58:35.471+0000,218.16,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",21d215aa-4302-4a77-8f20-8172ce213c09,banderson
+1234123412341240,2017-08-28 06:31:34.204+0000,1226.53,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",c584e6d7-f7f2-47c8-9c95-4b877a45b634,banderson
+1234123412341240,2017-08-27 20:13:38.453+0000,2559.60,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",f3306b18-5115-4721-a39b-63f4d8adcbf3,banderson
+1234123412341240,2017-08-27 13:26:10.045+0000,1810.84,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",eff2a469-3230-4600-b151-b12f2d385e4d,banderson
+1234123412341240,2017-08-27 11:30:23.960+0000,1891.35,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",85788ee3-18fc-4a13-ac6a-99c38fa6ed61,banderson
+1234123412341240,2017-08-26 04:47:39.854+0000,2583.60,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",2d52b62d-b1c6-44ae-81d0-41ecf90db5ac,banderson
+1234123412341240,2017-08-22 22:27:34.250+0000,1131.45,,Dallas,Target,Shopping,CANCELLED,"{'Home', 'Shopping'}",74630cca-6182-4f74-b6b7-4349428c4146,banderson
+1234123412341240,2017-08-22 16:58:16.025+0000,2052.22,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",da546331-6518-4b66-ae09-5f44858d3d7d,banderson
+1234123412341240,2017-08-22 02:40:50.257+0000,2118.25,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",679fd99a-2a39-4f8a-a3f9-677ae923037e,banderson
+1234123412341240,2017-08-21 21:50:50.230+0000,1243.00,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e86bc81b-bd1e-4c6d-85aa-0f46a64280ef,banderson
+1234123412341240,2017-08-20 15:43:32.381+0000,1232.81,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7552d86a-e22a-432e-9407-d52aa05411f8,banderson
+1234123412341240,2017-08-20 04:04:15.795+0000,1046.21,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b692396e-ef3e-46e4-9bf9-60aede95784d,banderson
+1234123412341240,2017-08-19 18:12:23.360+0000,1496.91,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",ba40f512-ad5f-49e0-8937-208e268d1c55,banderson
+1234123412341240,2017-08-19 15:43:13.805+0000,1949.81,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",5170ef60-bd1d-42f7-9e1c-1282458ecf13,banderson
+1234123412341240,2017-08-19 04:49:17.662+0000,1714.11,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",b108f38a-d408-43bd-b7fb-088c313d1530,banderson
+1234123412341240,2017-08-19 00:50:04.098+0000,2034.42,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",fe9def72-159e-4c34-ac00-8295a3b6dd8e,banderson
+1234123412341240,2017-08-18 20:44:58.332+0000,2819.89,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",65f80112-82c3-4d1d-babe-6c55902bea4b,banderson
+1234123412341240,2017-08-18 02:14:24.125+0000,904.18,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",14862650-0234-4dbf-b428-17b00539dba6,banderson
+1234123412341240,2017-08-17 15:48:06.076+0000,1735.63,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",e9bfd035-4079-4753-a83b-5122722e497f,banderson
+1234123412341240,2017-08-17 12:13:25.983+0000,2068.46,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",4d4090f3-b95e-41f7-83b3-4a6f662ffb8f,banderson
+1234123412341240,2017-08-16 12:19:37.403+0000,1012.26,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",e9c84974-c206-4e71-8e19-10bae4c6546f,banderson
+1234123412341240,2017-08-16 00:49:58.169+0000,2679.32,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",bcb90ba0-9476-4bfe-abaa-43f70211e4f4,banderson
+1234123412341240,2017-08-15 16:22:28.897+0000,570.29,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",2040d9c3-35b1-4874-817d-56fd0da2eacc,banderson
+1234123412341240,2017-08-15 10:15:25.434+0000,668.99,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",4f4aa9a5-0122-4022-936a-e2af69279ec7,banderson
+1234123412341240,2017-08-14 23:44:34.623+0000,2783.96,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",d0298664-e417-4a8f-8340-bbb02adff266,banderson
+1234123412341240,2017-08-14 22:33:04.097+0000,4.15,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",2d0cea18-d4c9-484c-b591-aebad547d86f,banderson
+1234123412341240,2017-08-14 13:07:26.952+0000,638.26,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a096efa8-1644-4b53-9f5b-d1dd03d0b7f0,banderson
+1234123412341240,2017-08-13 16:26:55.370+0000,1837.78,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",6f61ad8b-85e7-41de-9beb-f67986003890,banderson
+1234123412341240,2017-08-13 12:50:29.386+0000,971.89,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",22063f60-caba-44d7-8ee1-c35842b21d4e,banderson
+1234123412341240,2017-08-13 12:47:59.217+0000,842.16,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",43c3ef93-1843-4393-b5fb-2409f01b864e,banderson
+1234123412341240,2017-08-13 12:31:28.661+0000,615.21,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",1f3f014f-3f44-41f8-9ee7-4429730d104b,banderson
+1234123412341240,2017-08-13 03:19:17.727+0000,1233.93,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",386360d9-b172-4d8f-851a-cb7e2c65ead9,banderson
+1234123412341240,2017-08-13 01:26:33.910+0000,626.38,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",ba3d7f04-4862-4d21-a082-95e9e8cea1e3,banderson
+1234123412341240,2017-08-12 11:13:50.649+0000,2924.04,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",47a67364-015c-4b94-bca7-78b9fad173c5,banderson
+1234123412341240,2017-08-11 12:29:59.486+0000,1415.88,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",3f9ea286-b974-412e-8037-e67e1bdd80b2,banderson
+1234123412341240,2017-08-11 02:05:31.349+0000,2419.17,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",faf26ed9-75d8-4d50-8c3f-c8c09bda4d62,banderson
+1234123412341240,2017-08-09 19:54:28.572+0000,181.71,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",2a4f62aa-a09e-4164-8754-b4989556382d,banderson
+1234123412341240,2017-08-09 17:23:41.818+0000,908.64,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",46997e22-82dc-466a-b2ba-823730958eda,banderson
+1234123412341240,2017-08-09 09:29:39.755+0000,3476.24,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",75ace066-dc94-4630-b3f0-d136e45ccc1b,banderson
+1234123412341240,2017-08-08 22:12:55.181+0000,907.93,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",1db41969-b1e9-401e-a6d7-a551509330dc,banderson
+1234123412341240,2017-08-08 18:31:23.140+0000,438.64,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",db9fb6a3-7288-4c93-8faa-e4cdb77ab1d0,banderson
+1234123412341240,2017-08-08 14:49:01.535+0000,476.09,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c19a7ed8-d80f-42ce-8d38-16c87ee92796,banderson
+1234123412341240,2017-08-08 14:15:25.760+0000,2348.51,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",33082bb5-f8ef-4cbe-80b0-190e836df7dd,banderson
+1234123412341240,2017-08-07 23:18:58.286+0000,1762.88,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",f8b2b1d1-b9ee-4fd2-8d6c-e9099923883b,banderson
+1234123412341240,2017-08-07 21:21:54.894+0000,112.53,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",1f72a486-b8b4-4bfb-9654-524cd2201e34,banderson
+1234123412341240,2017-08-07 20:00:10.994+0000,1376.21,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",92396377-7200-47b4-9297-b90607a4d438,banderson
+1234123412341240,2017-08-07 16:04:36.222+0000,383.24,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",569592cf-91ec-4ade-bad9-57695f38ea82,banderson
+1234123412341240,2017-08-07 09:13:37.257+0000,928.62,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",14420812-c1e9-4e75-9209-766cf554d365,banderson
+1234123412341240,2017-08-06 19:12:41.688+0000,1200.69,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",743ad661-f17b-4a26-8cf1-7d48704ea213,banderson
+1234123412341240,2017-08-06 14:49:23.436+0000,2891.67,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",178495ee-eac4-457c-b982-7d6d5ad71349,banderson
+1234123412341240,2017-08-04 08:08:29.970+0000,1587.44,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",975b4c2d-abdb-48a4-8e22-b7a71b2f8c73,banderson
+1234123412341240,2017-08-03 20:54:13.900+0000,2053.73,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",0c38adf0-d507-496d-adaf-8a9c1d0fa121,banderson
+1234123412341240,2017-08-02 23:15:03.694+0000,1648.63,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",e38977ad-c982-4e6f-9a0f-c4348be49b87,banderson
+1234123412341240,2017-08-02 03:43:51.689+0000,785.58,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",6fbe620e-703d-4c81-9d76-a199e4408be4,banderson
+1234123412341240,2017-08-01 23:03:30.137+0000,173.81,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3919cd1e-4fc9-4260-aafd-a9ea62bb612a,banderson
+1234123412341240,2017-08-01 04:16:43.121+0000,1827.17,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",59ccc679-4d17-44e1-8c48-b90978a22fec,banderson
+1234123412341240,2017-08-01 02:37:12.422+0000,229.83,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b77508aa-f30e-4778-aba1-4b44136c857b,banderson
+1234123412341240,2017-07-31 15:16:40.650+0000,1976.71,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",88dbb479-9208-4869-b773-1f9bfdcee2a4,banderson
+1234123412341240,2017-07-29 06:49:35.738+0000,486.68,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",ad215d85-5362-466b-bed8-3807495f334b,banderson
+1234123412341240,2017-07-29 00:19:22.998+0000,1684.94,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",ea0a4f6d-b4df-4e6c-aa78-ae02eb359a8c,banderson
+1234123412341240,2017-07-26 12:03:03.726+0000,2028.62,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",acfcce03-d434-44f6-a96c-0d81e96cb0fd,banderson
+1234123412341240,2017-07-26 06:20:52.761+0000,3337.58,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",0d0f4261-c493-455e-bc80-6b084e8e7cc5,banderson
+1234123412341240,2017-07-26 05:25:20.990+0000,786.17,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c642df80-d917-4898-9eb7-a5e7cea6b812,banderson
+1234123412341240,2017-07-25 19:17:26.394+0000,2089.68,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",6a95f547-75f2-4d55-8625-ba2f0d33ef97,banderson
+1234123412341240,2017-07-25 16:58:05.010+0000,1676.01,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",0e327a55-f6c3-43b0-872f-74045602ed0c,banderson
+1234123412341240,2017-07-25 16:18:48.199+0000,1037.17,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",25a89f7d-9cef-41f8-b495-e177d2664ced,banderson
+1234123412341240,2017-07-25 11:55:27.943+0000,2245.74,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",6b405aa6-c7ac-4fd4-aee1-bda0fe1f6f04,banderson
+1234123412341240,2017-07-25 02:49:43.666+0000,279.91,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",9313a04b-d58a-46df-a860-97d73ce255a5,banderson
+1234123412341240,2017-07-25 00:16:32.260+0000,1154.42,,Orlando,Wal-Mart,Shopping,FAILED,"{'Home', 'Shopping'}",ae0ffc4c-c15d-4866-bb3b-261a14946e05,banderson
+1234123412341240,2017-07-24 21:58:00.610+0000,398.10,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",20d19164-4d62-48cf-ad89-6e428e535310,banderson
+1234123412341240,2017-07-23 11:14:45.843+0000,865.51,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",533c70e7-e5d9-49fd-b02f-c77f582183e6,banderson
+1234123412341240,2017-07-23 07:25:13.365+0000,918.48,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",0c410595-2506-41e9-b0fe-8e81184747ae,banderson
+1234123412341240,2017-07-22 20:22:47.321+0000,2766.17,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",01b9c803-2fc6-46b9-bc73-15b9870dde88,banderson
+1234123412341240,2017-07-22 16:01:51.720+0000,2018.87,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",cff24f4d-9d17-4e39-996a-05d253652fe6,banderson
+1234123412341240,2017-07-22 10:48:15.566+0000,2422.11,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3eccab18-09f2-451a-aab6-882283a5b7c5,banderson
+1234123412341240,2017-07-22 06:43:26.731+0000,1443.81,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",586ffbe2-f3d7-4883-be93-721ac84e4195,banderson
+1234123412341240,2017-07-22 01:25:47.991+0000,1034.88,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",45d3f2d9-0869-43b2-b51b-8f770814e530,banderson
+1234123412341240,2017-07-20 14:37:25.499+0000,2249.21,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",b81ebb36-e900-4259-b628-7c159b1fa44e,banderson
+1234123412341240,2017-07-20 08:34:49.762+0000,1772.76,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",da3e04e0-8203-4ea0-b22a-531720a49e3e,banderson
+1234123412341240,2017-07-20 02:45:31.352+0000,1426.68,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",62084f3e-1658-4ce2-a670-57816dbc4cdc,banderson
+1234123412341240,2017-07-20 02:03:35.648+0000,579.66,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",36b51fae-cd8a-42fe-8638-60b49aea157c,banderson
+1234123412341240,2017-07-19 21:21:40.426+0000,707.93,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",543b76d4-1d0a-4417-a793-49e6f79d40a1,banderson
+1234123412341240,2017-07-19 06:54:34.388+0000,703.87,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",afe9ca1a-9c28-4481-962d-155f6b528ed3,banderson
+1234123412341240,2017-07-18 22:17:19.217+0000,938.80,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",f5c7ffc8-d1dd-489b-b5b4-32adddf7b337,banderson
+1234123412341240,2017-07-18 16:43:11.545+0000,2930.65,,Dallas,Starbucks,Shopping,CANCELLED,"{'Home', 'Shopping'}",248d50d2-fec4-45d5-af31-4519b68ccb1e,banderson
+1234123412341240,2017-07-17 21:20:37.107+0000,2085.17,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",f23d68c1-a7c4-4c87-aea7-fb20084312e7,banderson
+1234123412341240,2017-07-16 15:13:51.303+0000,1406.23,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",86d5880f-313c-410a-b908-1790159ec03f,banderson
+1234123412341240,2017-07-15 20:27:13.196+0000,1639.95,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",82be9e17-6686-4e90-bb96-7e1f899e230a,banderson
+1234123412341240,2017-07-15 15:13:47.918+0000,2367.53,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",0ebf006c-72fd-4a2b-8d32-2f0d4954e6be,banderson
+1234123412341240,2017-07-15 09:49:39.269+0000,129.63,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a8d44a09-9d5d-4556-b7f8-d73efd78b5e2,banderson
+1234123412341240,2017-07-13 23:33:25.700+0000,2145.28,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",eb64230f-6f04-416f-8046-b6d68d3cfc8c,banderson
+1234123412341240,2017-07-13 12:52:50.250+0000,330.97,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",f7c5e1c5-d835-49cf-8b22-a0673af86d9c,banderson
+1234123412341240,2017-07-13 10:41:37.999+0000,214.96,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",0eba39d8-80e4-4e7e-bfab-67339db508d3,banderson
+1234123412341240,2017-07-13 04:37:15.796+0000,36.09,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",54eccd1e-0843-4a1b-b313-6a7907bd3a5b,banderson
+1234123412341240,2017-07-13 04:31:30.362+0000,1785.25,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",e0d4bd66-6f3d-4fae-9ac6-15cdef7c0076,banderson
+1234123412341240,2017-07-12 20:43:21.125+0000,2228.88,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",5f5a1b21-9d8e-4b4c-9549-741484160c86,banderson
+1234123412341240,2017-07-12 14:39:39.753+0000,1410.02,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",96d5bbe6-c4cc-4a82-8b09-2a134fee4d3c,banderson
+1234123412341240,2017-07-12 06:41:06.296+0000,712.52,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",41254e16-d6da-4617-a3e0-5d82ea025e27,banderson
+1234123412341240,2017-07-10 18:19:57.271+0000,2668.69,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",17d7c136-9390-4334-85d7-a4a6c8ec36d9,banderson
+1234123412341240,2017-07-10 06:12:24.696+0000,3125.58,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",19c15c6c-b2a9-4681-a619-be184d2567e4,banderson
+1234123412341240,2017-07-09 16:32:14.304+0000,3854.74,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",ad41c0a8-308c-42ca-90bc-4699d1aca54d,banderson
+1234123412341240,2017-07-09 13:22:18.622+0000,1146.74,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",eea759d8-b722-499b-bc7a-46f731a71afe,banderson
+1234123412341240,2017-07-09 01:02:41.321+0000,959.56,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4d7711bf-e490-4769-9e65-f8a223ab192b,banderson
+1234123412341240,2017-07-08 10:38:58.681+0000,1464.55,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",37d5a24e-3ff4-4516-a5cf-be14ca55899f,banderson
+1234123412341240,2017-07-08 08:19:58.821+0000,632.44,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",01e1de33-a172-4b1f-871c-3b7ae497d67f,banderson
+1234123412341240,2017-07-06 17:24:58.392+0000,1820.70,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",30e5ae9b-4256-4958-b5a4-6312d244e81e,banderson
+1234123412341240,2017-07-06 11:54:02.139+0000,2753.76,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",801461b6-8079-46f6-b738-b2e5fc09f6b3,banderson
+1234123412341240,2017-07-05 15:20:02.938+0000,1832.07,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",f2d8f163-945a-48ac-bf10-bb7f4a7fbcb1,banderson
+1234123412341240,2017-07-05 01:35:56.038+0000,393.90,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",fba7dbba-7adf-4428-8756-66fcf0a442e5,banderson
+1234123412341240,2017-07-04 17:11:22.572+0000,2431.58,,Atlanta,Amazon,Shopping,CANCELLED,"{'Home', 'Shopping'}",603d219e-0dd6-4195-a3a4-a5f1cdfeff06,banderson
+1234123412341240,2017-07-03 09:51:20.384+0000,1104.99,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",dd393e71-aab9-482c-80a8-d6bdbb8267ab,banderson
+1234123412341240,2017-07-03 08:22:47.223+0000,167.54,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",0084435c-28ee-406e-af89-86fef227c81f,banderson
+1234123412341240,2017-07-03 07:27:04.345+0000,817.80,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",9645dde1-3029-45c6-824b-43be44034432,banderson
+1234123412341240,2017-07-03 02:40:03.328+0000,105.98,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",39ab43f5-c3ac-4e44-80de-6d5966e27737,banderson
+1234123412341240,2017-07-02 23:24:58.193+0000,2203.32,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",e6c94a23-a30d-4730-8f2b-3bb5792dc04e,banderson
+1234123412341240,2017-07-02 07:59:41.086+0000,1592.37,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",57a033ec-4d50-424e-ad61-440405aa3d0b,banderson
+1234123412341240,2017-07-02 04:02:12.003+0000,2846.23,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",1a64485e-2904-4776-8fe7-3ac9da8fdf3a,banderson
+1234123412341240,2017-07-01 18:00:00.263+0000,1953.76,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",c2a356ed-b8e7-4e6d-9c62-fcd517459ad3,banderson
+1234123412341240,2017-07-01 16:01:08.765+0000,1374.74,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",6154a6a5-d8c1-4058-acab-0481368ce127,banderson
+1234123412341240,2017-07-01 05:52:45.614+0000,1230.15,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",123376f8-4505-4895-b1e3-04659eced1f7,banderson
+1234123412341240,2017-07-01 05:19:50.797+0000,1361.26,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",564767a7-3388-4429-a617-94b2751d82f3,banderson
+1234123412341240,2017-06-30 02:49:22.284+0000,2577.96,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a69311d5-b355-4a47-bbdc-1d101176f967,banderson
+1234123412341240,2017-06-29 16:58:44.214+0000,1819.54,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",dbab1048-554f-4abe-9ed0-6389b4bf88a8,banderson
+1234123412341240,2017-06-29 14:43:51.233+0000,1665.67,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",1ce60cb6-452e-4a2d-a26a-c98dc00bece3,banderson
+1234123412341240,2017-06-29 13:37:58.855+0000,479.66,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",6d9e2512-6513-4d4f-896f-affe1a60c141,banderson
+1234123412341240,2017-06-29 11:48:03.009+0000,355.03,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",78b3ade6-0de9-4798-90cf-bc7b1626795c,banderson
+1234123412341240,2017-06-29 09:28:01.094+0000,1671.52,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",fc2dff13-111f-45da-ac33-cbfca2e95225,banderson
+1234123412341240,2017-06-29 08:55:25.664+0000,2397.87,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",fc2e9747-bacd-451c-b72f-6366d72c501e,banderson
+1234123412341240,2017-06-28 11:00:03.127+0000,306.50,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",eb3e1f5a-901b-4af0-92a3-6a021d7cb0a5,banderson
+1234123412341240,2017-06-28 03:00:52.626+0000,847.89,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",5e111a7b-07ae-4111-aaf8-fa1d175bb602,banderson
+1234123412341240,2017-06-27 18:16:26.224+0000,1035.50,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",5abd52bf-8e1a-4c33-b3b3-3073ec4abedd,banderson
+1234123412341240,2017-06-27 13:10:01.555+0000,846.15,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",35e779c9-5625-4a1a-a2e1-66400ca43c19,banderson
+1234123412341240,2017-06-26 21:25:22.204+0000,1619.96,,Dallas,BestBuy,Pharmacy,FAILED,"{'Home', 'Pharmacy'}",7a4073c2-45de-4894-a6fa-0ae06f99e76a,banderson
+1234123412341240,2017-06-26 07:39:13.856+0000,160.52,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",f257863b-e7d6-4777-ad7c-04267751e3f8,banderson
+1234123412341240,2017-06-25 19:55:48.623+0000,2419.91,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",ca4ed7d2-8d5b-4d67-b7c8-0d78e76c4ddd,banderson
+1234123412341240,2017-06-24 17:56:18.834+0000,920.22,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",166c6db2-62ac-4548-900b-547ec024555a,banderson
+1234123412341240,2017-06-24 07:43:55.439+0000,2230.77,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",49626699-146b-4540-b2e5-400f4a1cd0b1,banderson
+1234123412341240,2017-06-23 15:48:12.453+0000,1134.19,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",2a0236fd-1105-44f9-8d8c-18a881ea19bf,banderson
+1234123412341240,2017-06-22 15:58:34.742+0000,3817.04,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7b961de5-30db-4972-a5aa-92a9a80c9e6c,banderson
+1234123412341240,2017-06-22 13:53:26.216+0000,1150.51,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",c8da2df6-6947-43aa-9ebf-5878b6a0b452,banderson
+1234123412341240,2017-06-22 12:54:34.077+0000,1066.97,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",808a8700-0803-4012-9992-3b37f0a705c8,banderson
+1234123412341240,2017-06-21 10:39:16.234+0000,2010.93,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",6142531a-3a7e-42f5-bf6e-808f11a588e2,banderson
+1234123412341240,2017-06-21 02:26:29.694+0000,968.49,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",1bad7e5e-0498-4f12-a024-5fc23ea27012,banderson
+1234123412341240,2017-06-20 07:16:47.810+0000,423.46,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",12ff9723-fcc7-42d0-9fa3-3f43b3da2660,banderson
+1234123412341240,2017-06-19 07:46:20.081+0000,633.53,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",1cc15e38-91df-487d-83de-9ed702401b05,banderson
+1234123412341240,2017-06-19 05:37:00.586+0000,1012.06,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",6c1fca58-a1b2-448a-8bfd-bb7d3fd9d184,banderson
+1234123412341240,2017-06-17 05:03:28.060+0000,637.71,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",56a39b8a-8a68-4186-816d-4166ae65435f,banderson
+1234123412341240,2017-06-17 02:29:54.444+0000,1373.97,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",ee6a830a-afb9-4993-9c66-5ebcc311c011,banderson
+1234123412341240,2017-06-16 15:41:57.854+0000,209.42,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",c127be9d-3731-400f-ad18-22f240e8cecc,banderson
+1234123412341240,2017-06-16 13:18:30.849+0000,353.89,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",e699f8f7-ec03-4979-bdc1-dabc69fdf536,banderson
+1234123412341240,2017-06-16 13:14:36.766+0000,3378.91,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",07ba673a-84f4-4e84-bee3-530b3941c879,banderson
+1234123412341240,2017-06-15 19:46:02.826+0000,799.12,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",33bdc4f4-0183-4cc2-b60f-4666b39e0425,banderson
+1234123412341240,2017-06-15 14:26:46.134+0000,754.20,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",6b5062e7-f89c-4dd4-976a-9017c5b60318,banderson
+1234123412341240,2017-06-15 04:30:40.595+0000,802.68,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",a1ca1e42-ea40-4459-863d-b3747cbbc709,banderson
+1234123412341240,2017-06-14 17:55:04.689+0000,484.01,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",ae73f583-8680-4cd4-a83b-75ff5cc21828,banderson
+1234123412341240,2017-06-14 12:27:34.043+0000,1266.13,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",12481dff-72f7-49b3-bbe9-0ddf9a8a20ef,banderson
+1234123412341240,2017-06-14 03:58:28.435+0000,1223.69,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",b2746927-e2c2-4b66-97d7-3e4ca9d1e117,banderson
+1234123412341240,2017-06-14 00:41:36.831+0000,405.01,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",040ffd80-89ec-478c-a78c-d93b9d9c16b8,banderson
+1234123412341240,2017-06-13 21:35:25.597+0000,1628.89,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",db2b5a1a-5ff0-40e4-900f-4585ce24e8cf,banderson
+1234123412341240,2017-06-13 06:47:14.939+0000,368.39,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",8e573444-9bbc-4ceb-adc3-ccf6faf0c812,banderson
+1234123412341240,2017-06-12 22:55:29.572+0000,932.75,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a68650fb-dc88-4a7f-9e34-e5266fa79cbd,banderson
+1234123412341240,2017-06-12 09:04:03.688+0000,2351.44,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",369e6457-872c-4349-93d4-3b3d80720fc1,banderson
+1234123412341240,2017-06-12 01:42:46.952+0000,885.23,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",8bebf13e-e486-48ad-b692-898968a99c06,banderson
+1234123412341240,2017-06-11 17:21:48.744+0000,3656.77,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",9b99c2d1-3d7c-4896-9cc1-ff26e58bddda,banderson
+1234123412341240,2017-06-10 22:49:01.772+0000,21.29,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",e5c9e874-a4f9-430d-a862-21c35d8e9d40,banderson
+1234123412341240,2017-06-10 03:48:19.803+0000,1462.18,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",f281b2c7-71bf-40ef-b140-47eb8889a012,banderson
+1234123412341240,2017-06-10 01:23:12.513+0000,1035.34,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",9c7443d8-5398-48ad-89a9-5980228abc4a,banderson
+1234123412341240,2017-06-09 23:08:45.172+0000,1592.19,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",2944b597-69a5-4d79-8666-01585b55546d,banderson
+1234123412341240,2017-06-09 20:06:50.005+0000,1107.46,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",03b39cc5-db53-4f2e-acc7-8cd80b546bcd,banderson
+1234123412341240,2017-06-09 18:57:51.453+0000,937.27,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",9a26b786-818c-4d27-9955-07abc94fdea9,banderson
+1234123412341240,2017-06-09 14:50:50.285+0000,1702.36,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",3c8805ac-0473-4b45-8cbe-1a1bdf8c909e,banderson
+1234123412341240,2017-06-09 07:34:25.337+0000,1014.54,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",83d76167-06e7-4785-bec0-5abcbc4a0f6e,banderson
+1234123412341240,2017-06-08 13:18:46.652+0000,2860.14,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",b81427f3-61e4-4ff3-83e1-f1d8d9de7d6a,banderson
+1234123412341240,2017-06-07 19:45:19.348+0000,1858.57,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",953cd795-cf83-47c4-b094-4cf7f99e23eb,banderson
+1234123412341240,2017-06-07 16:18:22.077+0000,859.05,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",19ef9761-4430-46a4-a486-251763e74194,banderson
+1234123412341240,2017-06-07 14:42:49.277+0000,1907.95,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",bf99a4e2-d36e-46fc-b4d6-b21faec9dc91,banderson
+1234123412341240,2017-06-07 05:00:31.361+0000,1375.85,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",340d3db1-502d-420a-9c13-95e319d54a1a,banderson
+1234123412341240,2017-06-06 21:59:08.078+0000,3274.97,,West Palm Beach,Target,Shopping,CANCELLED,"{'Home', 'Shopping'}",ebc0ffab-a3a7-4bd8-a55e-917ed72d9a5b,banderson
+1234123412341240,2017-06-06 06:26:41.804+0000,2181.98,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",253cf019-826c-4a1d-b000-7f860410b68d,banderson
+1234123412341240,2017-06-05 04:03:15.412+0000,145.63,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",850499ef-6dae-4cb0-aa4c-d0d07fb78a6f,banderson
+1234123412341240,2017-06-04 15:54:15.987+0000,1818.79,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",9b7d5b6d-5016-4395-8a8f-a7d2122b9d09,banderson
+1234123412341240,2017-06-04 07:20:11.078+0000,2319.74,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",a1d4f2fa-9cab-463f-b72d-043931829c72,banderson
+1234123412341240,2017-06-04 04:01:38.523+0000,317.47,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",c19b23fd-eee2-4420-8aaa-3432b5e18086,banderson
+1234123412341240,2017-06-03 11:57:06.909+0000,1690.94,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",575c713e-9f29-4d58-9188-4e99e5090cbe,banderson
+1234123412341240,2017-06-03 09:59:40.845+0000,972.28,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",fe264f4e-a4f5-4465-a15f-00f208636861,banderson
+1234123412341240,2017-06-03 09:34:13.241+0000,288.70,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",8263971b-1818-4603-9448-d000258de797,banderson
+1234123412341240,2017-06-03 04:01:55.531+0000,857.81,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",fe6b5901-28db-49e3-86f2-6317008172fb,banderson
+1234123412341240,2017-06-02 18:36:56.700+0000,2069.77,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",07d5c4a2-974b-4a84-83f8-047a6ed94f8b,banderson
+1234123412341240,2017-06-02 15:26:51.042+0000,2469.15,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",c5dd7f18-50f7-4ad0-92e9-21621f39b75a,banderson
+1234123412341240,2017-06-02 14:17:26.870+0000,1041.66,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",5fbb07b3-b8e0-43a9-ad20-c55e3c9e9a46,banderson
+1234123412341240,2017-06-02 12:24:18.405+0000,2571.79,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",dd58486d-4e50-4db2-b87f-321eaa3c27b4,banderson
+1234123412341240,2017-06-02 09:43:57.808+0000,824.97,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",ae3c1234-feb2-4904-aa9f-eeecf2167f45,banderson
+1234123412341240,2017-06-01 11:30:13.024+0000,2859.50,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",bb7611ce-a4ed-4265-b7b1-7c9d7a1e3162,banderson
+1234123412341240,2017-06-01 10:31:16.750+0000,1658.46,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",d0a584d2-cd51-461a-af5d-31d678bf9b78,banderson
+1234123412341240,2017-05-31 21:12:44.918+0000,1384.43,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",334b87cd-9d9c-42dd-b890-b175a1659190,banderson
+1234123412341240,2017-05-31 19:31:04.906+0000,977.14,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",8c152ba6-1dc9-4b69-abd6-a7469150dfe0,banderson
+1234123412341240,2017-05-30 10:02:16.795+0000,364.57,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",58480eb5-6e9f-4730-9835-ca862a87717a,banderson
+1234123412341240,2017-05-29 21:34:57.870+0000,1368.09,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",e4c53502-3499-4b4f-8e9c-be50fe873fa3,banderson
+1234123412341240,2017-05-29 10:09:04.043+0000,688.37,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",ae40be82-afff-4331-a4ed-bdb5f47116ff,banderson
+1234123412341240,2017-05-29 05:08:11.197+0000,613.77,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",983185de-3050-469f-8e4e-7b4d0a27fa21,banderson
+1234123412341240,2017-05-28 06:01:53.608+0000,1316.64,,Dallas,Target,Shopping,SUCCESS,"{'Home', 'Shopping'}",edc0dc58-7dae-466d-9c28-e6c443713f60,banderson
+1234123412341240,2017-05-27 20:05:10.416+0000,1617.36,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",8f67e03d-38a3-4f05-ba67-57fb390f99cb,banderson
+1234123412341240,2017-05-27 19:47:32.311+0000,553.74,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",f2625877-36fa-4e7d-899a-45854c3a9415,banderson
+1234123412341240,2017-05-27 16:22:05.433+0000,3052.70,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",cbd6a250-86c6-455d-ab70-1ce6f71e9d9a,banderson
+1234123412341240,2017-05-26 21:51:58.898+0000,3436.10,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",83cdd38e-e6b4-4295-aab1-7a670a3eb8bd,banderson
+1234123412341240,2017-05-26 21:28:18.440+0000,1340.15,,Atlanta,PizzaHut,HouseHold,CANCELLED,"{'Home', 'HouseHold'}",152f3e4e-d8c6-4095-991a-642c21b8b83c,banderson
+1234123412341240,2017-05-26 09:56:30.132+0000,538.78,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",1ac0c135-b206-4bb2-b9a0-ccf3738937f3,banderson
+1234123412341240,2017-05-25 22:18:41.499+0000,809.00,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",8259d810-6938-4c7c-a544-5b2b56d5059d,banderson
+1234123412341240,2017-05-25 21:19:51.530+0000,624.43,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",aea0344d-6afe-4ef6-b144-1dc29cd30940,banderson
+1234123412341240,2017-05-25 10:40:18.401+0000,1863.35,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",4c543580-2cd0-4d28-8589-3eea15579d9b,banderson
+1234123412341240,2017-05-25 07:39:57.596+0000,1356.22,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",91e41bd7-a685-493d-a742-fa9cd7d2562b,banderson
+1234123412341240,2017-05-24 18:10:16.567+0000,316.27,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",122759d8-6e82-4b5d-9c18-bc277210150f,banderson
+1234123412341240,2017-05-23 03:45:47.252+0000,1032.37,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",37d4c645-b97f-4964-942a-ad42a26c4fb9,banderson
+1234123412341240,2017-05-23 02:57:21.618+0000,1796.15,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",22841350-1553-4b31-9d41-d92f9e5de4cb,banderson
+1234123412341240,2017-05-22 23:44:45.660+0000,93.46,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",d479f23c-45ed-4c98-9c4f-0f8f5f3b196a,banderson
+1234123412341240,2017-05-22 17:05:36.418+0000,1837.71,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a0d258b3-1130-4032-80d9-896dc61b184d,banderson
+1234123412341240,2017-05-21 19:51:13.621+0000,3366.56,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",fc71ddc2-644b-4d7e-9450-4e3280f18ca3,banderson
+1234123412341240,2017-05-21 16:23:32.306+0000,1160.45,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",ee47d3cf-8533-4e7d-87fc-a9da051611d5,banderson
+1234123412341240,2017-05-21 15:16:07.518+0000,205.63,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",07611c42-2be1-442d-aa5e-0131fc3064ea,banderson
+1234123412341240,2017-05-21 15:14:18.771+0000,1532.50,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",b01f3e80-f2f7-4606-9017-f602152852d1,banderson
+1234123412341240,2017-05-21 12:22:39.128+0000,1473.83,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",85eee744-f8b5-4772-8d86-b9ac3d6252c0,banderson
+1234123412341240,2017-05-21 10:26:40.458+0000,2240.15,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",a15dc6d8-cf88-4d2f-a030-74a911024fe8,banderson
+1234123412341240,2017-05-20 22:32:27.151+0000,753.23,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",59fdbd83-46d4-4208-9d74-1f24b4fdea86,banderson
+1234123412341240,2017-05-20 07:46:25.905+0000,2002.73,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",1097935d-dc5d-4b70-9438-c211eda9b21b,banderson
+1234123412341240,2017-05-20 00:24:52.313+0000,1038.87,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",4100e4bd-0774-4c19-a08c-fe035fb06a82,banderson
+1234123412341240,2017-05-19 22:10:05.830+0000,2279.30,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",5af5559f-00d8-471e-988a-531c77bd87fa,banderson
+1234123412341240,2017-05-19 19:22:08.021+0000,2941.02,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",2969e9b9-22b9-44b0-bd57-cbab3bd72b89,banderson
+1234123412341240,2017-05-19 18:24:03.507+0000,1586.41,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",aae8586a-a6b5-49c9-b404-856c1d04a2a2,banderson
+1234123412341240,2017-05-19 14:21:23.429+0000,1269.23,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",fe8265fd-f7b1-48ca-a595-2a877a894935,banderson
+1234123412341240,2017-05-19 08:55:23.757+0000,2145.80,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",e2c8bb9b-4c37-48ad-ae99-b7108a596df9,banderson
+1234123412341240,2017-05-18 19:04:36.106+0000,479.51,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",ef81e101-5084-4f8c-b9bc-395ae27742ee,banderson
+1234123412341240,2017-05-18 12:54:20.228+0000,370.23,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",8913ee8f-e448-41c9-bcf2-c017cdcfd642,banderson
+1234123412341240,2017-05-18 09:49:14.910+0000,1562.90,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e0ca3aad-eaf5-4d38-b8a2-31172f57515d,banderson
+1234123412341240,2017-05-16 10:40:09.697+0000,2529.92,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",dee21827-2286-4a11-8c11-0140bbed1f9c,banderson
+1234123412341240,2017-05-16 09:32:56.601+0000,1882.99,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",62a76d5e-2888-44c9-9c45-bca7552ee2a9,banderson
+1234123412341240,2017-05-16 03:06:35.444+0000,1419.02,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",dea40334-371e-4530-8ae4-0f3268fd1d8d,banderson
+1234123412341240,2017-05-15 21:48:04.145+0000,1609.79,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",5245f1df-191f-4ba1-a6e7-849dcbd9b102,banderson
+1234123412341240,2017-05-15 13:27:07.663+0000,1517.40,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",0ea2b32d-13da-4d6a-b939-f4493b5a1d20,banderson
+1234123412341240,2017-05-15 08:17:45.631+0000,2191.88,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",3433f7da-0cba-4b21-90c5-5602a361172e,banderson
+1234123412341240,2017-05-15 03:42:03.090+0000,1910.45,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",d0f390d6-f4fc-4843-ba7a-f05f136fc0c4,banderson
+1234123412341240,2017-05-14 10:27:27.375+0000,874.29,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",959fcc55-3df9-45a9-a026-e5949f11b264,banderson
+1234123412341240,2017-05-14 09:52:19.474+0000,2130.61,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7b412d70-150a-4683-960f-a22332fc2cdb,banderson
+1234123412341240,2017-05-13 23:38:09.780+0000,1794.18,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",fcf53909-142c-4e3a-a8c6-d281fc82afb1,banderson
+1234123412341240,2017-05-13 13:23:32.524+0000,157.70,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d2e395e0-154a-465e-b6de-027262504c15,banderson
+1234123412341240,2017-05-13 08:42:30.289+0000,3429.56,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",852483c5-c9db-459a-bd1d-5578a2571558,banderson
+1234123412341240,2017-05-13 05:59:13.486+0000,697.76,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",83bdf102-8097-4891-9929-52e5e6d707ae,banderson
+1234123412341240,2017-05-13 03:41:06.893+0000,349.69,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",1d2a4eee-b022-4734-b36b-2eff25cbbdf6,banderson
+1234123412341240,2017-05-13 01:43:58.082+0000,2341.17,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",2a9e220b-69a2-49e5-b364-59047eba38d2,banderson
+1234123412341240,2017-05-11 17:58:40.381+0000,2003.21,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",f381a879-efac-4b2e-8659-9f0893a226cd,banderson
+1234123412341240,2017-05-10 17:57:29.927+0000,228.60,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",9ba88d22-f671-454d-bc80-47782befd576,banderson
+1234123412341240,2017-05-10 17:00:03.925+0000,605.10,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",97c738a5-af3f-447d-97cf-8332804372a8,banderson
+1234123412341240,2017-05-10 12:36:04.180+0000,266.56,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",b7c1778e-ca25-4bf4-94e1-7730448cf965,banderson
+1234123412341240,2017-05-10 08:21:16.472+0000,1292.81,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",08bf0d4d-89e1-497f-85e8-8a7f675da87a,banderson
+1234123412341240,2017-05-10 00:23:10.448+0000,2376.47,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",f023e581-62a3-4f54-aec3-6149ac9c6f75,banderson
+1234123412341240,2017-05-09 22:33:11.029+0000,2131.02,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",be29cb22-a25c-48a3-a3a9-e6548bf8821f,banderson
+1234123412341240,2017-05-08 20:18:13.255+0000,1971.64,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",7bb9c2b6-90b3-45b9-8030-3a15ca9752ce,banderson
+1234123412341240,2017-05-08 03:17:00.211+0000,1657.37,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",a91ba572-8048-421f-b381-59ef4d8210a1,banderson
+1234123412341240,2017-05-07 11:00:14.321+0000,1591.30,,Orlando,Kroger,Shopping,FAILED,"{'Home', 'Shopping'}",d61edb30-6b60-4ff7-8fde-51f5a23c984c,banderson
+1234123412341240,2017-05-06 01:10:29.043+0000,1758.24,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",c2ca49f0-dec4-49d8-89d9-33699a497ebe,banderson
+1234123412341240,2017-05-05 23:13:28.954+0000,482.88,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",b31627f7-ec1e-482e-9540-9446596692ec,banderson
+1234123412341240,2017-05-05 19:15:50.629+0000,3073.81,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",58352d4e-f262-4df9-a9c2-081e169baab9,banderson
+1234123412341240,2017-05-05 09:34:10.620+0000,2852.38,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",618621b6-e8e9-49df-beb2-3269101152bb,banderson
+1234123412341240,2017-05-05 01:37:38.150+0000,2776.72,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",98d7a125-f34a-4f09-9725-a713439fddde,banderson
+1234123412341240,2017-05-04 22:33:00.298+0000,1374.09,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",96234295-f1d7-4b0e-aa6e-ad1b096bb0fd,banderson
+1234123412341240,2017-05-04 08:21:39.693+0000,795.51,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",8f4fa7cd-b6c6-4ffe-8c1f-8fe02d98b87c,banderson
+1234123412341240,2017-05-04 07:40:17.207+0000,511.24,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b2be4f86-c4ed-46e4-8e5d-1ca54e2636b7,banderson
+1234123412341240,2017-05-04 05:43:00.912+0000,282.19,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",31c3cfa3-19e7-4ab6-8abe-332921df603a,banderson
+1234123412341240,2017-05-03 19:57:18.128+0000,828.69,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",dcca4d53-9f3f-4581-9049-5d8f6dc0ec5d,banderson
+1234123412341240,2017-05-03 11:53:53.966+0000,1629.83,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",92f57da7-7849-407b-a3bb-1ffc86bae4a4,banderson
+1234123412341240,2017-05-02 11:24:56.537+0000,1427.55,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",a8e5b1e0-d216-426c-92fe-6b30f94717cf,banderson
+1234123412341240,2017-05-02 08:19:15.046+0000,3680.31,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",b3bd5051-1a7e-4203-be54-7bb19c7127c8,banderson
+1234123412341240,2017-05-02 04:02:23.609+0000,3382.22,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",bd341e6b-40d9-46ce-983c-3bb9c3282eb5,banderson
+1234123412341240,2017-05-01 10:40:14.066+0000,1086.95,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",33876dff-81a2-4d9a-97d2-69221e41924e,banderson
+1234123412341240,2017-05-01 08:15:29.129+0000,2040.47,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",b4f42daf-3ef8-4d32-8f8a-a7dcecf05db3,banderson
+1234123412341240,2017-04-30 17:59:31.698+0000,1405.13,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",51283abb-6ce8-4b47-9366-e17f43138298,banderson
+1234123412341240,2017-04-30 05:31:55.244+0000,1048.38,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",19bb8891-3f5b-4484-8f0b-db77a9f53f32,banderson
+1234123412341240,2017-04-29 12:53:10.379+0000,588.16,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",8dab7d0c-e12c-4978-a940-3a4e1ae13e5a,banderson
+1234123412341240,2017-04-29 12:49:57.751+0000,3181.16,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",7c54163e-31c3-4184-90d3-0eef7f0e4d08,banderson
+1234123412341240,2017-04-29 12:12:44.017+0000,2491.15,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",df59e83b-5d48-4c0d-87e5-7b61c87ea6db,banderson
+1234123412341240,2017-04-29 03:17:13.052+0000,2064.00,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",c8fe26d9-2964-411f-9412-04c8d026dfe6,banderson
+1234123412341240,2017-04-28 19:02:46.034+0000,1089.41,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",d668f91b-4ad1-4553-9f83-4d2f1994e22f,banderson
+1234123412341240,2017-04-28 13:50:10.127+0000,2028.37,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",420d3921-d460-4e98-bc84-6eddec6795d2,banderson
+1234123412341240,2017-04-28 00:39:30.967+0000,2002.96,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",e8aad644-bf8f-493e-b4a1-d10e1ca101b4,banderson
+1234123412341240,2017-04-27 12:09:38.380+0000,1013.24,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",a66cbbc5-6ed8-4bc2-91c3-c7f2dacdf368,banderson
+1234123412341240,2017-04-26 18:57:42.449+0000,2368.73,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",74061257-60db-4ef6-b217-644d36e758cd,banderson
+1234123412341240,2017-04-26 16:00:10.696+0000,200.29,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",07f454f6-e3fe-496b-8991-4b8173e54938,banderson
+1234123412341240,2017-04-26 04:09:23.014+0000,1413.13,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",12df0af0-d116-4bec-9f8f-8523e7ab2b36,banderson
+1234123412341240,2017-04-25 12:31:49.321+0000,1306.41,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",fe99f54b-cc4d-4982-9e5b-54560429f9b1,banderson
+1234123412341240,2017-04-25 09:16:45.236+0000,856.31,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",dafd6e96-29b0-49eb-b218-e30aaf893469,banderson
+1234123412341240,2017-04-25 04:34:20.396+0000,442.54,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",511061b1-ba73-4367-80e9-ded58943c098,banderson
+1234123412341240,2017-04-25 00:03:04.963+0000,3500.09,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",9ed24e60-70d4-4992-8d79-94c8d5bff27e,banderson
+1234123412341240,2017-04-24 21:43:05.018+0000,1284.89,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",5bb9c7f4-4f0f-4402-8b3d-b3aa92d15069,banderson
+1234123412341240,2017-04-23 23:42:09.630+0000,2191.51,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",cd8887b8-7c0d-422d-9d06-0b5b8753cb26,banderson
+1234123412341240,2017-04-23 19:37:10.965+0000,593.69,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",ec638774-a512-4e4e-8dde-87e902fb64c1,banderson
+1234123412341240,2017-04-22 19:48:10.551+0000,156.03,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",168d8756-d753-4b55-8fae-75c065223ae3,banderson
+1234123412341240,2017-04-22 15:30:11.164+0000,739.41,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",3d1bd965-b09d-41a6-a2f8-43f272f7c585,banderson
+1234123412341240,2017-04-22 07:03:07.719+0000,1666.70,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",767035c3-b967-443a-ae28-1a3efb55be16,banderson
+1234123412341240,2017-04-22 03:36:24.065+0000,809.79,,Atlanta,Macys,Shopping,SUCCESS,"{'Home', 'Shopping'}",7c0f1e51-74da-4c2e-9c99-3b9294869195,banderson
+1234123412341240,2017-04-21 21:19:00.502+0000,96.25,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",b0709314-7112-4b88-9308-803b4126154e,banderson
+1234123412341240,2017-04-21 21:16:52.359+0000,1006.71,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",df23224c-2aef-473b-a51f-b130d681e393,banderson
+1234123412341240,2017-04-21 13:29:55.313+0000,663.93,,Tampa,Starbucks,Shopping,FAILED,"{'Home', 'Shopping'}",57b90106-a08d-465d-a822-a6b8da1299a1,banderson
+1234123412341240,2017-04-20 12:04:13.790+0000,2963.35,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",1f34cf08-2ec1-4bc1-9bf7-c87d45598366,banderson
+1234123412341240,2017-04-19 08:42:38.007+0000,514.22,,Atlanta,PizzaHut,HouseHold,CANCELLED,"{'Home', 'HouseHold'}",5dbf6ff0-f189-4c2b-847f-4433a458724a,banderson
+1234123412341240,2017-04-18 13:39:27.833+0000,2833.73,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",1d546ab8-f4a3-4252-a6e4-881f39d95ea4,banderson
+1234123412341240,2017-04-18 12:39:21.750+0000,929.09,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",2f642ae7-ee47-4515-a2b5-5adfef554d31,banderson
+1234123412341240,2017-04-18 08:33:21.721+0000,117.62,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",660ee4d3-553e-4728-ad07-1ab0c66fd539,banderson
+1234123412341240,2017-04-17 23:47:26.899+0000,3555.15,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",cc342945-b0f0-4006-9c80-23a55b714890,banderson
+1234123412341240,2017-04-17 16:52:23.788+0000,3204.54,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",cb5109bc-adb3-4195-83c4-2effcb90dfa9,banderson
+1234123412341240,2017-04-17 09:01:42.176+0000,755.71,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",4381c69f-215d-4d47-aace-4f9e425970d7,banderson
+1234123412341240,2017-04-16 22:40:46.246+0000,2547.40,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",2ef3b1dc-fe20-4628-92c3-bd19f762dfd0,banderson
+1234123412341240,2017-04-16 21:04:10.289+0000,1863.83,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",8bd5e7e6-9668-4ef0-ad3a-fe87997ec306,banderson
+1234123412341240,2017-04-16 17:48:36.141+0000,316.42,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",f93b89d0-b75c-4086-a60b-b16d129915c7,banderson
+1234123412341240,2017-04-16 14:47:03.703+0000,2189.34,,Orlando,Starbucks,Shopping,FAILED,"{'Home', 'Shopping'}",d9b3f8aa-7d6a-4bd4-bde3-4b086c29a142,banderson
+1234123412341240,2017-04-15 19:34:23.238+0000,1875.23,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",5cf2e574-7c56-4b8d-91ac-ec21dedf9185,banderson
+1234123412341240,2017-04-15 17:38:10.312+0000,1368.60,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",b15e3646-b7fe-425c-a5f9-282e278972d6,banderson
+1234123412341240,2017-04-15 14:56:18.206+0000,1401.80,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",2981514b-ffea-4048-9a85-379e52df9334,banderson
+1234123412341240,2017-04-15 14:18:12.827+0000,1748.71,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",c0df1fac-efcb-49e3-8986-1e2ac045283b,banderson
+1234123412341240,2017-04-14 23:49:48.973+0000,2636.23,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",7d1bdd71-7726-403c-861a-6c3e2d59a739,banderson
+1234123412341240,2017-04-14 11:33:52.639+0000,1171.11,,Dallas,Wal-Mart,Shopping,SUCCESS,"{'Home', 'Shopping'}",87431d8a-2289-4933-b527-91c5e2310aee,banderson
+1234123412341240,2017-04-13 18:11:45.108+0000,1701.04,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",5b393b81-df25-4229-b6c1-345db061de7c,banderson
+1234123412341240,2017-04-13 12:25:20.083+0000,1944.84,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",7011f44d-c1fb-44d3-974b-4c587dda5417,banderson
+1234123412341240,2017-04-13 12:12:12.974+0000,1058.16,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",747f6f1a-a0c4-4699-9685-bf946e67982f,banderson
+1234123412341240,2017-04-12 05:53:41.686+0000,723.33,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",3cefaad9-fc48-448c-ad07-83eba8808c0d,banderson
+1234123412341240,2017-04-11 15:56:12.067+0000,1379.95,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",af618914-90ca-47c6-af7d-297373dce989,banderson
+1234123412341240,2017-04-11 01:25:56.569+0000,3579.86,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",892b4335-a476-47e2-9eed-1fe564033e07,banderson
+1234123412341240,2017-04-10 14:44:20.370+0000,889.78,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",2ea840e1-0d3b-48fd-b16b-d74764d7c556,banderson
+1234123412341240,2017-04-10 13:13:10.067+0000,395.25,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",2c1a8de2-121f-4369-96ce-18c5bb64c522,banderson
+1234123412341240,2017-04-10 08:57:39.095+0000,2602.86,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",1489df92-76ec-4e8c-ab40-c6ba2e9e031e,banderson
+1234123412341240,2017-04-10 08:53:20.666+0000,1659.39,,Dallas,Macys,Shopping,CANCELLED,"{'Home', 'Shopping'}",85a88efe-0ffa-493c-b23d-8e08fc6e4c03,banderson
+1234123412341240,2017-04-09 10:08:19.994+0000,1952.45,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",9cc7bce7-debe-4a2f-ae7c-138c0fa786a8,banderson
+1234123412341240,2017-04-08 10:07:24.399+0000,1536.89,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",1f1070e3-fc1a-483a-b7a9-8a573a6ff554,banderson
+1234123412341240,2017-04-07 17:19:18.618+0000,1348.21,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",261122c2-635b-42be-ae9c-dd47e9b47368,banderson
+1234123412341240,2017-04-07 11:37:45.197+0000,541.82,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d501fac4-2266-476d-b6d6-eccdc1a3b8de,banderson
+1234123412341240,2017-04-07 03:45:19.172+0000,913.05,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",402caa00-013f-442b-b756-c5b80fa87447,banderson
+1234123412341240,2017-04-07 00:15:43.564+0000,1921.69,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",13df3735-572f-41ed-a7a8-b9e6f64a7593,banderson
+1234123412341240,2017-04-05 21:39:04.487+0000,163.76,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",288352de-89f4-4a04-912c-b32a0cdc1e8f,banderson
+1234123412341240,2017-04-05 19:57:08.254+0000,2212.69,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",bb90531d-b7de-4f25-b7c4-f1204a5f4bf6,banderson
+1234123412341240,2017-04-05 19:27:54.745+0000,2680.04,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",2fdc5748-7aba-4b31-a0a1-be82b8dbd9b2,banderson
+1234123412341240,2017-04-04 00:08:20.227+0000,517.72,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",310a0b7f-cb32-4239-9f0f-8d4054e4cb70,banderson
+1234123412341240,2017-04-03 22:51:32.824+0000,604.69,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",fd9328e4-fb93-44bf-923f-b1260ec1af3e,banderson
+1234123412341240,2017-04-03 17:18:20.243+0000,505.56,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",52315dc3-e0cd-4cc2-b823-cbc5f3dc1f09,banderson
+1234123412341240,2017-04-03 09:45:00.857+0000,806.53,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",741e4ad7-f3b1-4070-bed1-387606f7552e,banderson
+1234123412341240,2017-04-02 04:33:08.015+0000,1538.05,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",8fbb75df-a601-4a99-b60d-9e703ed5a667,banderson
+1234123412341240,2017-04-01 19:03:25.553+0000,1352.15,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",0a066b0c-e6e5-4b56-a71d-2f27d72d63c5,banderson
+1234123412341240,2017-03-31 22:19:33.871+0000,1813.36,,Orlando,Target,Shopping,CANCELLED,"{'Home', 'Shopping'}",15650e48-0930-481a-8e1a-1967683a76bb,banderson
+1234123412341240,2017-03-31 18:09:58.872+0000,432.03,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",d9a613ad-2602-449e-8ccb-b50d64417313,banderson
+1234123412341240,2017-03-31 06:46:35.787+0000,919.88,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",900479f0-a58d-463b-a5a4-2a7c89b9d4bf,banderson
+1234123412341240,2017-03-31 00:28:01.036+0000,3580.08,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",10f9ab36-7e50-49a7-81a1-c4a7b0c206ae,banderson
+1234123412341240,2017-03-30 07:43:36.408+0000,705.82,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",350799e8-c46f-4b4b-bef5-0a8604181eed,banderson
+1234123412341240,2017-03-30 00:27:57.303+0000,2118.28,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",060aac8f-4c10-421c-aa86-af14d0e059a8,banderson
+1234123412341240,2017-03-29 22:19:55.433+0000,984.46,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",30723f00-f942-4378-9421-976a85745e88,banderson
+1234123412341240,2017-03-29 09:02:18.789+0000,1337.14,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",5950d7cb-a7cd-4d23-a08a-e211aa28f318,banderson
+1234123412341240,2017-03-29 07:59:12.039+0000,1641.99,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",8bf5a482-eb15-4545-b37e-8066f7b165b8,banderson
+1234123412341240,2017-03-29 07:36:44.217+0000,2798.77,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",c9939fa9-b0e1-43b6-8dae-16019d577431,banderson
+1234123412341240,2017-03-29 06:59:26.554+0000,1267.15,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",46b1e409-93ff-4566-b1f3-4aa73224ed12,banderson
+1234123412341240,2017-03-29 03:45:41.464+0000,1293.57,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",3b562dd8-d172-4bd3-9538-7e5d01d50e12,banderson
+1234123412341240,2017-03-28 22:43:41.703+0000,633.97,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",ae5580ca-4743-4d7f-a793-44adf632ebd8,banderson
+1234123412341240,2017-03-28 14:44:56.059+0000,43.62,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",ca500f75-912c-48d3-a2be-c73de7f3d759,banderson
+1234123412341240,2017-03-28 03:12:43.728+0000,1929.91,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",56c796fa-9618-427e-af29-7f79d39d3b57,banderson
+1234123412341240,2017-03-27 23:00:07.692+0000,2218.64,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",2daea04f-b46f-4396-afed-01ea917bdd46,banderson
+1234123412341240,2017-03-27 21:16:22.016+0000,1681.63,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",75df73f7-903e-4d91-8953-11623b6fcbfc,banderson
+1234123412341240,2017-03-26 00:44:26.792+0000,3320.76,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a4eb5880-1ec6-45b5-8310-abedc1d10feb,banderson
+1234123412341240,2017-03-25 20:49:03.642+0000,906.54,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",9cb4f124-efff-4a81-83ee-c59ee7567a24,banderson
+1234123412341240,2017-03-25 10:21:11.485+0000,1964.69,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",e3ff0d5f-3abe-48ed-b3bd-95a254ef75d4,banderson
+1234123412341240,2017-03-24 23:24:06.571+0000,995.71,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",efab7589-cea9-4cac-9aa0-c3224fdb9583,banderson
+1234123412341240,2017-03-24 13:52:10.997+0000,2723.76,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",b2865ac2-83d4-477b-9b11-a958aa9823e4,banderson
+1234123412341240,2017-03-24 12:20:05.780+0000,3693.60,,Atlanta,Amazon,Shopping,CANCELLED,"{'Home', 'Shopping'}",44b0b530-010b-4c35-938a-0b900a8b4431,banderson
+1234123412341240,2017-03-23 23:28:23.052+0000,795.72,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",d01e6759-6b53-4866-b05c-cbb941b44c62,banderson
+1234123412341240,2017-03-23 18:52:46.104+0000,1232.55,,West Palm Beach,Target,Shopping,CANCELLED,"{'Home', 'Shopping'}",37068138-17f4-419b-9c9b-4f198f9f6cd0,banderson
+1234123412341240,2017-03-23 12:21:54.539+0000,1224.88,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",10834b3e-b8b9-4abd-828f-c96363710c25,banderson
+1234123412341240,2017-03-22 20:25:13.994+0000,1169.94,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",bb469592-033f-43ba-917b-ee669aa3ef66,banderson
+1234123412341240,2017-03-22 08:30:39.096+0000,2173.12,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",086ba840-4852-4a4b-b968-3cc5f3be930d,banderson
+1234123412341240,2017-03-22 06:20:26.323+0000,355.46,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",8b1909f0-fb1a-4153-84c1-5d6b2117131b,banderson
+1234123412341240,2017-03-22 04:05:28.911+0000,524.04,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",cee8730e-84bc-47c4-afb0-91cc0c91d98f,banderson
+1234123412341240,2017-03-21 22:06:28.495+0000,2825.76,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",f8844b8c-c6fa-40c7-96df-8237444ea743,banderson
+1234123412341240,2017-03-21 22:03:18.101+0000,1775.73,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",bfae5444-1641-4f5d-ba60-e17e618ff6d0,banderson
+1234123412341240,2017-03-21 12:57:25.508+0000,981.12,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",8af095cf-6264-44e0-901d-c518545733e5,banderson
+1234123412341240,2017-03-20 22:26:44.785+0000,1486.46,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",bc36b39f-5ec4-4df6-bc52-fbc6c2e0ba48,banderson
+1234123412341240,2017-03-20 07:00:44.407+0000,878.65,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",339eb3a4-a248-4b29-9f2f-85f0435ffd0b,banderson
+1234123412341240,2017-03-20 00:52:01.252+0000,649.41,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",c319356b-3b2e-4cba-b9a1-d4e5416d746b,banderson
+1234123412341240,2017-03-19 14:43:48.845+0000,1832.34,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",70708bdc-7e55-42dc-893d-7d67f3762879,banderson
+1234123412341240,2017-03-19 04:59:15.839+0000,656.36,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3c0d7b4b-8646-46b6-b8af-f5e961ca14a4,banderson
+1234123412341240,2017-03-18 20:31:11.990+0000,1355.31,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",906a25e0-d371-4c9f-a34f-5d3544533a92,banderson
+1234123412341240,2017-03-18 00:23:46.282+0000,2071.07,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",94d4d66c-ec1d-4d14-9f99-2623cbb47e6e,banderson
+1234123412341240,2017-03-17 07:18:37.118+0000,3267.37,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",454e2305-21b4-4495-ba14-e62dfd50ac01,banderson
+1234123412341240,2017-03-15 23:31:00.872+0000,853.03,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",6da193e2-0689-4e03-b3bd-61d8e68a52f1,banderson
+1234123412341240,2017-03-14 21:09:17.096+0000,390.06,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",ec315f27-6cb6-4daa-a0ea-6d565d792a3e,banderson
+1234123412341240,2017-03-14 21:06:52.466+0000,1988.57,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3f56279c-c2db-4852-8979-6dbe0d42167f,banderson
+1234123412341240,2017-03-14 00:15:14.167+0000,582.29,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",bb3081fa-52b2-4e18-98b3-9cc25447f456,banderson
+1234123412341240,2017-03-13 11:39:46.851+0000,2093.22,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",1a657024-2b4e-40a6-8740-a0e52dacfdb7,banderson
+1234123412341240,2017-03-13 05:21:35.108+0000,781.29,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",57a3e480-e2df-44c6-a4cc-cb36e8876a79,banderson
+1234123412341240,2017-03-12 21:05:39.195+0000,1723.60,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",f9523629-315d-4d14-a60f-1c5500908baf,banderson
+1234123412341240,2017-03-12 17:23:52.429+0000,1609.80,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",6a4803af-fe04-4d91-8d99-701aa3d74380,banderson
+1234123412341240,2017-03-12 09:14:34.361+0000,2570.63,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",3d9268f7-baf9-4edc-8b7c-74758e4a5c31,banderson
+1234123412341240,2017-03-11 21:08:01.994+0000,1142.49,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",8dce51a2-8554-4348-b7e9-835ff7334304,banderson
+1234123412341240,2017-03-11 06:38:51.471+0000,573.13,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",c80a35be-febd-4292-bbd5-2842238b4cc5,banderson
+1234123412341240,2017-03-11 00:47:02.033+0000,317.46,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",e83d977a-c1c3-4b2e-9c74-e3100a3994cc,banderson
+1234123412341240,2017-03-10 21:19:51.835+0000,1274.97,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",0abb7a0d-fbbc-48e5-a7ed-f18b09f0ffda,banderson
+1234123412341240,2017-03-10 06:23:40.135+0000,1196.97,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",739b0e30-b226-4535-8fcd-21f238a5002f,banderson
+1234123412341240,2017-03-10 06:00:06.175+0000,2501.10,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",bf28e297-61a2-4465-889b-abdcd734a3af,banderson
+1234123412341240,2017-03-10 03:56:22.843+0000,1072.59,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",30a04128-9c5c-490c-9fb1-83c5d88672b3,banderson
+1234123412341240,2017-03-09 10:04:15.178+0000,2754.81,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6cfd7011-e8e6-4066-b76e-65324c7dd4a2,banderson
+1234123412341240,2017-03-08 21:31:27.605+0000,680.53,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",7cb0d6fa-3eef-4b11-a250-8a4202663c32,banderson
+1234123412341240,2017-03-08 20:58:44.576+0000,612.29,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",7a1518c5-4048-47e2-9e3e-c4c26a3cc17f,banderson
+1234123412341240,2017-03-08 02:30:03.115+0000,1552.47,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",fc298ff4-5ab4-4191-a686-730c61f133a7,banderson
+1234123412341240,2017-03-07 13:10:23.875+0000,671.08,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a4cd7eb9-842e-4691-aebe-94955c8c8c88,banderson
+1234123412341240,2017-03-07 05:34:13.165+0000,1165.28,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",5f519a81-998b-4aa7-b2c9-eb71c958dacc,banderson
+1234123412341240,2017-03-06 20:05:14.688+0000,1783.53,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",b33c5ff3-c80f-476c-a03b-52deda797ef0,banderson
+1234123412341240,2017-03-06 13:26:35.536+0000,809.47,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",2b0a0ea4-bc9a-4835-91c7-fa8cdf758ac3,banderson
+1234123412341240,2017-03-06 06:00:31.212+0000,1522.84,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3dfc7f70-091f-4d00-ac60-4173fc29766c,banderson
+1234123412341240,2017-03-05 23:25:13.505+0000,1204.44,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",0bec87d1-07ce-49dc-a62f-b110c18c229a,banderson
+1234123412341240,2017-03-05 00:19:01.478+0000,1037.13,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",7579bf03-bc4c-4f32-8317-6500a000b621,banderson
+1234123412341240,2017-03-04 17:55:27.596+0000,1524.88,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",1845ff99-d0d5-4ad0-aee9-1af3ac7147bb,banderson
+1234123412341240,2017-03-04 11:16:30.594+0000,1539.94,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",8ad9a44e-e862-44a4-a9c8-abbb6c686f06,banderson
+1234123412341240,2017-03-03 17:08:26.868+0000,2335.93,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",09dac8eb-b981-4780-b269-58b28eb85d27,banderson
+1234123412341240,2017-03-03 03:54:33.108+0000,772.53,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",c478af5d-a21d-4497-9178-4b5434dc580e,banderson
+1234123412341240,2017-03-03 00:48:17.188+0000,2510.05,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",a44521a5-7e31-4a8f-8906-28bc9b786faf,banderson
+1234123412341240,2017-03-02 19:03:05.991+0000,1725.41,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",fad8e6b2-967e-4018-99f6-fef75b9350b2,banderson
+1234123412341240,2017-03-02 12:40:03.166+0000,2.11,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",daa59e22-d98b-4a76-afbe-34595e1c2c34,banderson
+1234123412341240,2017-03-02 08:12:54.387+0000,2047.18,,Dallas,Macys,Shopping,FAILED,"{'Home', 'Shopping'}",f94cda05-6776-4433-aaf8-be226c6345cb,banderson
+1234123412341240,2017-03-01 18:12:55.179+0000,2011.00,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",211dd3de-3d17-4e56-94c7-ff5f48718fd3,banderson
+1234123412341240,2017-03-01 09:39:54.918+0000,1468.64,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",3000f6df-97ee-4c22-96cb-974fdef6e42f,banderson
+1234123412341240,2017-03-01 08:29:49.958+0000,2543.47,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",04b899dd-a240-487e-8bec-80346dae40bb,banderson
+1234123412341240,2017-03-01 07:09:41.112+0000,877.82,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3495681b-821d-441e-b876-3db1895e2c76,banderson
+1234123412341240,2017-02-28 12:21:37.888+0000,1120.84,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",a7be1b9a-33e6-48e9-af4e-5025fd730bed,banderson
+1234123412341240,2017-02-27 23:30:11.328+0000,2153.71,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",3812b8d7-0b62-4bf3-8669-ef059100917f,banderson
+1234123412341240,2017-02-27 21:39:00.766+0000,2769.45,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",07932ae3-e918-4f49-a67f-1df528a36ae3,banderson
+1234123412341240,2017-02-27 15:22:06.263+0000,966.01,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d1aa7a56-92e8-4727-9d98-dee0b56575ab,banderson
+1234123412341240,2017-02-27 09:35:39.364+0000,1866.68,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",6e404afc-d5fe-4cd2-a480-fbf7c43d0773,banderson
+1234123412341240,2017-02-26 17:49:02.933+0000,544.52,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",3ee7b6ec-4739-4ba4-ba7e-736c8a465cce,banderson
+1234123412341240,2017-02-26 11:06:14.640+0000,2463.40,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",bd724b40-46ca-4385-942f-7ef37d284415,banderson
+1234123412341240,2017-02-26 09:30:03.924+0000,635.52,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",11532a5f-29cd-4b9b-bc18-993bb8d42d30,banderson
+1234123412341240,2017-02-26 07:27:50.656+0000,2045.84,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",cf27e6ba-56f5-4a30-97ec-8dac5bfd82ab,banderson
+1234123412341240,2017-02-26 00:54:19.542+0000,576.42,,Orlando,Kroger,Shopping,CANCELLED,"{'Home', 'Shopping'}",94291516-eca5-4fa9-8354-6c75222bd997,banderson
+1234123412341240,2017-02-25 14:12:50.382+0000,213.26,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",33799d7f-24eb-4e09-a5d1-27ce89afda86,banderson
+1234123412341240,2017-02-25 04:18:28.888+0000,260.31,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",0d1da30b-1a1b-4b77-9616-ba8f1f113b82,banderson
+1234123412341240,2017-02-24 03:21:21.440+0000,3326.31,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",97397c3f-73c2-4c5c-af3d-8ad8c5a193d3,banderson
+1234123412341240,2017-02-23 15:19:40.659+0000,365.96,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",cd64d9fd-706d-4b6e-af00-6af066597dff,banderson
+1234123412341240,2017-02-23 08:12:54.099+0000,989.68,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",cd7b5f40-7ba1-4835-8713-11011a31e9ff,banderson
+1234123412341240,2017-02-23 04:40:14.155+0000,803.03,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",12e1f3eb-9ecb-4650-bc38-e6939e18f1b8,banderson
+1234123412341240,2017-02-22 14:04:27.219+0000,1504.47,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",24fe3ec3-9409-48fc-af9e-95bc22871210,banderson
+1234123412341240,2017-02-21 23:11:32.301+0000,858.25,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",2cd0da9d-2998-4b28-91f6-03ea369e0487,banderson
+1234123412341240,2017-02-21 22:53:32.274+0000,936.30,,West Palm Beach,Amazon,Shopping,CANCELLED,"{'Home', 'Shopping'}",fad3012a-46c1-4fd1-8539-bbcb030d7c7b,banderson
+1234123412341240,2017-02-21 09:53:31.185+0000,369.02,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",8195ec49-726e-4f2e-8e6d-8138c01454e6,banderson
+1234123412341240,2017-02-20 23:35:49.776+0000,2946.86,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",a0e6f5fc-e866-4ac2-9b7c-8de69f7e7a81,banderson
+1234123412341240,2017-02-20 09:26:02.485+0000,941.11,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",5b3fcae9-52c0-49e0-8a9a-e66339fc8acb,banderson
+1234123412341240,2017-02-20 06:36:56.415+0000,2376.13,,Atlanta,Starbucks,Shopping,FAILED,"{'Home', 'Shopping'}",472330de-c997-4b48-b338-461481168c79,banderson
+1234123412341240,2017-02-19 16:06:02.838+0000,807.99,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",6a2acde6-c05d-4f74-b299-c309158c7c22,banderson
+1234123412341240,2017-02-19 15:18:41.780+0000,1992.22,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",07f46088-69e1-4b2c-978d-57f76307d2fb,banderson
+1234123412341240,2017-02-19 02:00:16.989+0000,391.19,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",0940c54d-d5d9-47e9-856c-4d1ca0d3e5a1,banderson
+1234123412341240,2017-02-18 22:10:56.763+0000,1205.71,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",10f51e24-c394-49e3-b54b-8719fd2bfcdf,banderson
+1234123412341240,2017-02-18 21:41:58.435+0000,503.85,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4941d4bc-6a93-4b62-919f-7f8051504e20,banderson
+1234123412341240,2017-02-18 07:30:42.410+0000,855.91,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b36723c4-d3f7-4dcb-b499-46ece2e32d31,banderson
+1234123412341240,2017-02-18 03:51:33.322+0000,2389.62,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",c2745a0a-0087-469f-a843-2783866f80e5,banderson
+1234123412341240,2017-02-18 03:50:36.769+0000,2502.08,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",f4d0ca77-c3ae-461a-b2cc-751ce6607640,banderson
+1234123412341240,2017-02-17 16:54:18.476+0000,2144.45,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",c2422b74-7c6a-4d33-959e-311253285099,banderson
+1234123412341240,2017-02-17 09:00:33.562+0000,1384.42,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",b6aaf171-e88a-42db-9bad-171aa96e5d3b,banderson
+1234123412341240,2017-02-16 03:18:18.907+0000,588.55,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",e60d089d-94a5-417c-a004-14aa4ae8dbb7,banderson
+1234123412341240,2017-02-16 02:22:44.017+0000,1375.43,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",f44f5560-ab01-4dce-874d-0d9727ac678c,banderson
+1234123412341240,2017-02-16 01:11:08.608+0000,1855.61,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",4e329faa-c90a-463c-9324-fd128d18a36e,banderson
+1234123412341240,2017-02-15 13:36:36.524+0000,240.37,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",81abbbd9-7504-4c47-9760-3f84c7d29dbf,banderson
+1234123412341240,2017-02-15 04:12:02.563+0000,732.77,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",4de06c3c-b28e-4133-805d-e3e97947db27,banderson
+1234123412341240,2017-02-15 00:08:35.641+0000,1066.40,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",cfd7e4d4-842e-435b-a7de-088610eac4a1,banderson
+1234123412341240,2017-02-14 10:20:50.407+0000,1900.61,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4ac00a16-4c18-4634-b3af-73aff79e5b31,banderson
+1234123412341240,2017-02-14 02:06:56.628+0000,853.53,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",40d11286-4081-4022-9415-1263aefd5775,banderson
+1234123412341240,2017-02-12 23:41:48.766+0000,1802.10,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",598f09e6-71d5-46c6-b78a-a62fcd98c936,banderson
+1234123412341240,2017-02-12 02:15:23.993+0000,772.04,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",6004ffa8-c43f-4d03-87c6-a6634347a8ef,banderson
+1234123412341240,2017-02-11 18:37:21.913+0000,2058.63,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",22cee06c-a56d-4b28-98f6-d28f8abbf5a6,banderson
+1234123412341240,2017-02-11 14:30:45.436+0000,816.73,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",c73a3154-da05-45eb-9d8b-ea40c3700b6f,banderson
+1234123412341240,2017-02-10 18:02:18.954+0000,830.33,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",e3c675a6-9281-413a-8d55-88f0457b9b98,banderson
+1234123412341240,2017-02-10 15:01:13.338+0000,921.85,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b75fb296-8908-4331-9194-572d12cbed96,banderson
+1234123412341240,2017-02-10 07:07:00.800+0000,563.20,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",6abd579b-3e3f-44f1-9ccc-60356a36b067,banderson
+1234123412341240,2017-02-10 06:03:42.744+0000,2788.67,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",31752878-b03c-43d4-8cee-808f8d676d5c,banderson
+1234123412341240,2017-02-09 00:46:44.147+0000,279.25,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3d901246-c783-4639-92ad-32082fd7ac24,banderson
+1234123412341240,2017-02-08 14:14:26.950+0000,1145.41,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",fe9b0f7f-6499-4087-a88e-da64aa992975,banderson
+1234123412341240,2017-02-08 03:57:52.874+0000,2686.29,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",2e98ebb1-b7d9-4f75-9b83-32ba86a51034,banderson
+1234123412341240,2017-02-07 21:51:06.156+0000,2445.57,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",68156ffb-1e04-43c4-a555-81b9fd2865ce,banderson
+1234123412341240,2017-02-07 16:49:04.330+0000,1646.69,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",bf16d404-bc1c-4b75-ae73-a0e5ef79faf2,banderson
+1234123412341240,2017-02-07 06:45:05.478+0000,1630.76,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",89733d20-c3a2-49ad-b6d5-18dba0de5aad,banderson
+1234123412341240,2017-02-06 13:57:33.139+0000,872.04,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",dc3fbfb9-f672-40af-8b24-fbe697509e80,banderson
+1234123412341240,2017-02-06 10:16:55.922+0000,1041.49,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",e397849a-a063-4ee1-a33e-dfb417655005,banderson
+1234123412341240,2017-02-05 12:00:42.528+0000,2423.84,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",c8a23367-286a-4540-b3ce-2f8aa6061f1d,banderson
+1234123412341240,2017-02-04 01:56:17.229+0000,492.13,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",83ccad92-3a76-48b7-8325-146974f5807d,banderson
+1234123412341240,2017-02-03 21:17:50.365+0000,1563.15,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",c6744606-59a6-4f57-a640-a8e73fe6eb7d,banderson
+1234123412341240,2017-02-03 20:18:19.086+0000,2275.49,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",223c8191-29f4-4e14-b6ef-e13032f62ac0,banderson
+1234123412341240,2017-02-03 06:09:34.998+0000,902.39,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",3173c273-1df6-4dc9-8887-a6a31471fddc,banderson
+1234123412341240,2017-02-02 20:31:33.770+0000,2654.76,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",8cd616fb-3066-46dc-905f-988344b5be27,banderson
+1234123412341240,2017-02-02 18:00:41.111+0000,527.34,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",0c8f1ce0-f2a2-4d9f-a830-686331b33ef2,banderson
+1234123412341240,2017-02-02 15:53:22.110+0000,2056.73,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",3e34792b-96e8-48a6-a93d-bac3995bca40,banderson
+1234123412341240,2017-02-02 15:18:48.763+0000,2425.88,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",3b86197d-08ad-4466-b02e-dc5bfbe516cf,banderson
+1234123412341240,2017-02-02 06:18:16.392+0000,1127.56,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",69666985-d862-437c-9800-8616e3aa9bc5,banderson
+1234123412341240,2017-02-02 05:12:59.758+0000,3361.99,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",2c271624-f70e-4627-86dd-3dcb9c1ed32f,banderson
+1234123412341240,2017-02-01 16:36:23.403+0000,1534.32,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",52083614-04a1-4405-91c8-4ed505622c55,banderson
+1234123412341240,2017-02-01 15:15:54.906+0000,3132.17,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",670f13bc-5688-4525-9488-921c8907e835,banderson
+1234123412341240,2017-02-01 09:56:10.596+0000,2159.72,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",6dee79f1-20c6-4c76-85d2-4c8ad403e235,banderson
+1234123412341240,2017-02-01 02:47:00.308+0000,1950.69,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e389b0f2-46a8-484d-8c4f-e4ed74dd2ca9,banderson
+1234123412341240,2017-01-31 21:15:40.674+0000,341.40,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",4b954768-4961-4193-b037-90550bdaf24e,banderson
+1234123412341240,2017-01-31 17:08:13.776+0000,2414.33,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",8d5868e3-70aa-4310-b6e1-8a4a83df9c8f,banderson
+1234123412341240,2017-01-31 14:55:51.337+0000,2658.19,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",b1841648-e4f6-464a-8092-8432dd4108ec,banderson
+1234123412341240,2017-01-31 10:54:44.834+0000,434.63,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",d48cea7d-46c2-42fb-a896-9f730fcc7628,banderson
+1234123412341240,2017-01-30 22:56:31.475+0000,3145.95,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",d27f872e-22e7-4745-a8ac-b29d2ad5bd7f,banderson
+1234123412341240,2017-01-30 22:26:45.004+0000,1845.87,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",57643e85-8c88-40e9-950e-8c25e7dbd10b,banderson
+1234123412341240,2017-01-30 17:07:45.630+0000,865.47,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",8e7dd22f-36a1-4efc-9bef-8e2fca6c5ad7,banderson
+1234123412341240,2017-01-29 19:18:10.726+0000,792.19,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",c1bdfca1-c4f3-4a2f-b565-365b52227c90,banderson
+1234123412341240,2017-01-29 08:32:52.005+0000,360.75,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",f47010ac-9f23-4d24-98a4-571e22a63fec,banderson
+1234123412341240,2017-01-29 07:02:23.925+0000,2444.99,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",341bd36e-16e5-4a84-97a7-20bab2c0673e,banderson
+1234123412341240,2017-01-28 14:47:15.624+0000,2213.54,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",60eb640d-2250-4aa6-ab22-af8efa407e0d,banderson
+1234123412341240,2017-01-28 05:13:58.163+0000,2683.03,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",196b6ae1-2997-47db-bb34-96c3a6eda740,banderson
+1234123412341240,2017-01-28 00:49:29.719+0000,2861.63,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",93330ee5-8b28-4411-a166-62caf7cd01b0,banderson
+1234123412341240,2017-01-28 00:40:44.909+0000,2054.78,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",77f29a26-6037-4e22-abdc-cd99e63ee759,banderson
+1234123412341240,2017-01-27 22:16:48.264+0000,1175.10,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",48bd5d30-48ac-4ae3-b363-59b90affc34a,banderson
+1234123412341240,2017-01-27 12:53:32.833+0000,943.13,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",a72c86eb-baac-469d-8388-9d19ee1d3250,banderson
+1234123412341240,2017-01-27 01:50:17.782+0000,419.32,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",975220da-e250-4e79-ad7c-25f8d2845d70,banderson
+1234123412341240,2017-01-26 03:25:54.144+0000,1670.70,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",3d4a6522-b6f7-452a-894b-0c46bfd81d49,banderson
+1234123412341240,2017-01-25 20:18:35.396+0000,2589.67,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",e6249562-488f-4e91-a8a6-0270726dab58,banderson
+1234123412341240,2017-01-25 16:32:52.300+0000,963.83,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",93fe86dd-22a5-4ac6-b0be-a486d3f47f82,banderson
+1234123412341240,2017-01-25 10:47:24.845+0000,1337.30,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",3f95feb8-1b6a-437f-991c-477dee34fb54,banderson
+1234123412341240,2017-01-25 08:44:50.548+0000,1684.99,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",45cadd0d-8468-4fc7-adcb-d710799cacdb,banderson
+1234123412341240,2017-01-25 03:22:33.294+0000,305.41,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",99206feb-3687-4b10-855b-dfb9264899df,banderson
+1234123412341240,2017-01-24 20:39:34.642+0000,1970.40,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",2893e0ab-90a0-486a-b4ed-157bab3be878,banderson
+1234123412341240,2017-01-23 13:29:04.951+0000,999.79,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",a5d0c409-4ce2-47c9-b591-69a51ac94741,banderson
+1234123412341240,2017-01-22 21:10:22.337+0000,838.40,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4a3d6eb6-52e4-4cc8-aa1d-74431838b259,banderson
+1234123412341240,2017-01-22 17:02:02.618+0000,1821.47,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",b3566ea2-dd15-4c34-9abf-a053df0036e1,banderson
+1234123412341240,2017-01-22 11:17:47.540+0000,158.21,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",1580a501-bcf9-4285-8ed7-217271da10bb,banderson
+1234123412341240,2017-01-22 09:53:01.477+0000,1714.30,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",591f720f-6386-458f-ba15-332c4e3b5a67,banderson
+1234123412341240,2017-01-22 08:54:18.957+0000,1712.85,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",68e290e4-0163-42c3-9a8c-ccaa47502022,banderson
+1234123412341240,2017-01-21 22:40:02.573+0000,1265.74,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",2f33ed90-1896-4652-94bb-63556a93ae94,banderson
+1234123412341240,2017-01-21 17:59:05.591+0000,3775.16,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a161cdc1-7550-4532-8fb7-0c23d44063d0,banderson
+1234123412341240,2017-01-20 15:40:18.875+0000,510.53,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",785ec3db-ba64-47a2-90a6-9c93f65d11b0,banderson
+1234123412341240,2017-01-20 08:40:50.654+0000,1104.38,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",42376e02-8fb9-45d0-8e88-9d8531fa5b2d,banderson
+1234123412341240,2017-01-20 07:52:38.553+0000,3045.31,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",dcc1af98-0d8d-4f0c-a846-f54bcf0f4033,banderson
+1234123412341240,2017-01-20 05:57:46.713+0000,922.79,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",e3b640b5-424e-4952-a5d3-1fb537910386,banderson
+1234123412341240,2017-01-20 03:48:40.441+0000,672.92,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",5a07b3b9-1da3-4e2f-969b-b8cab1cdd231,banderson
+1234123412341240,2017-01-19 15:24:54.161+0000,1130.09,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",fe22c892-0db5-4ad2-ace2-891666195bc0,banderson
+1234123412341240,2017-01-19 10:39:36.079+0000,3252.54,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3d2f4eaa-676b-4e24-861d-ba1df107892c,banderson
+1234123412341240,2017-01-18 15:18:25.985+0000,279.98,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",7786a2fa-2db9-4e48-940f-aa25a90b377f,banderson
+1234123412341240,2017-01-18 06:20:52.327+0000,51.64,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",f878122e-6288-443b-9867-1fbc4462acaa,banderson
+1234123412341240,2017-01-18 02:34:26.576+0000,1448.98,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",f110a945-fe2a-472b-aa58-e9bd56010e21,banderson
+1234123412341240,2017-01-17 19:28:07.053+0000,1294.12,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",2fb806c4-d672-4411-8461-37c2d4d4d14b,banderson
+1234123412341240,2017-01-17 18:30:03.191+0000,818.98,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",53946a36-c3e5-499c-b1e0-22b6b6bfc4e0,banderson
+1234123412341240,2017-01-17 02:03:47.020+0000,1622.91,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",084fc9fc-af31-4693-a35c-19a52d9a047e,banderson
+1234123412341240,2017-01-16 12:53:54.373+0000,1677.02,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",337495dc-37cc-4869-96c5-1abbc713b404,banderson
+1234123412341240,2017-01-16 11:07:13.594+0000,1172.06,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",0ac0c0c3-1c9d-465f-95de-67def02c1663,banderson
+1234123412341240,2017-01-15 19:27:17.401+0000,1170.91,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",5a8f6f39-61c6-4eba-9bba-ffa3cc681e83,banderson
+1234123412341240,2017-01-15 13:06:19.230+0000,1387.37,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",62560426-6da1-4155-951f-8e281e506026,banderson
+1234123412341240,2017-01-15 10:45:16.833+0000,2088.68,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",0d83c751-c279-42bb-a38c-44adf5eb2faa,banderson
+1234123412341240,2017-01-15 10:15:11.155+0000,2755.88,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",b327c96d-4037-4c3f-b5a5-fe4f0bbc5655,banderson
+1234123412341240,2017-01-15 08:16:06.227+0000,2390.86,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",8d622b73-966a-4d76-9429-96b62806bbba,banderson
+1234123412341240,2017-01-14 03:01:03.874+0000,953.05,,West Palm Beach,BestBuy,Pharmacy,FAILED,"{'Home', 'Pharmacy'}",6474d95c-e8da-48d6-a37a-0292ce0bf59c,banderson
+1234123412341240,2017-01-14 02:26:28.760+0000,3071.16,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",77029a54-25a3-45ce-a763-63635c6de2b5,banderson
+1234123412341240,2017-01-13 21:51:34.143+0000,1954.87,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",7207cab2-fc1f-4f5f-9479-0105b3204de9,banderson
+1234123412341240,2017-01-13 17:16:05.712+0000,2457.03,,West Palm Beach,Macys,Shopping,SUCCESS,"{'Home', 'Shopping'}",24f99e3c-4e93-49d1-bc19-d88b2dbdf919,banderson
+1234123412341240,2017-01-13 13:35:20.063+0000,459.80,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",8b93278e-2067-4277-bd7e-fab5a80e2ce9,banderson
+1234123412341240,2017-01-13 11:26:39.242+0000,2679.65,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",41ecbbc6-89c3-4800-86b9-ad899ca46624,banderson
+1234123412341240,2017-01-13 03:42:45.916+0000,1004.47,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",df262e38-ec6b-4d7f-ade7-b3e5fd55338c,banderson
+1234123412341240,2017-01-12 21:25:59.192+0000,1979.57,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",bd096112-8b7c-41d1-890f-db14d7e09fe2,banderson
+1234123412341240,2017-01-12 06:28:00.693+0000,2288.97,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",a5ddd588-7673-4cb8-b5c7-b87fddb3eb90,banderson
+1234123412341240,2017-01-10 07:44:24.370+0000,1463.09,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",104c4d98-f731-4d9c-a6a6-73f3a74784a7,banderson
+1234123412341240,2017-01-09 22:02:50.759+0000,2630.45,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",7990a4a4-6f5e-4af5-8e15-138178c07b2a,banderson
+1234123412341240,2017-01-09 17:01:23.954+0000,213.49,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",36ec7552-5b2e-46b5-af7c-87269388e049,banderson
+1234123412341240,2017-01-09 13:41:02.875+0000,584.08,,Birmingham,BestBuy,Pharmacy,SUCCESS,"{'Home', 'Pharmacy'}",303d2e54-1915-4cee-bb9d-3733666f4ce9,banderson
+1234123412341240,2017-01-09 11:54:00.297+0000,2692.89,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",8eb20787-9599-4306-8b84-3c9156374abe,banderson
+1234123412341240,2017-01-09 00:34:27.791+0000,1492.53,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",192f4739-f3ff-4934-8beb-7a2f3bc50573,banderson
+1234123412341240,2017-01-08 09:07:22.595+0000,930.85,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",548ce2c0-db0f-49e4-aab5-177a32de55dc,banderson
+1234123412341240,2017-01-07 19:11:05.481+0000,1114.21,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",adc2e2c5-688a-4c12-955c-b010b5e1888d,banderson
+1234123412341240,2017-01-07 17:17:27.349+0000,139.79,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",4d11f2e9-8307-4c37-8c28-c13dd6aae137,banderson
+1234123412341240,2017-01-07 10:19:43.992+0000,1941.79,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",18611df8-eefd-448f-9164-f965ef075fff,banderson
+1234123412341240,2017-01-06 17:16:41.971+0000,354.37,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",fca0ab82-740b-4d8f-abcd-c13bbeb2ca04,banderson
+1234123412341240,2017-01-06 13:15:35.046+0000,3140.72,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",08800a83-9136-4bcc-873e-3fa946c68c31,banderson
+1234123412341240,2017-01-06 02:06:37.709+0000,2558.98,,Dallas,BestBuy,Pharmacy,CANCELLED,"{'Home', 'Pharmacy'}",9b457f86-ec72-44e5-b134-dba69bd2d6dc,banderson
+1234123412341240,2017-01-05 13:56:36.565+0000,901.54,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",fbe26c88-6274-4732-ae43-0c10ae7d1aed,banderson
+1234123412341240,2017-01-03 23:47:42.030+0000,37.33,,West Palm Beach,Target,Shopping,SUCCESS,"{'Home', 'Shopping'}",a1c3dbe0-8088-4bce-8266-990e0f910468,banderson
+1234123412341240,2017-01-02 18:49:41.827+0000,1089.37,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",749ef321-346e-428f-8e19-ed38b13e49d0,banderson
+1234123412341240,2017-01-01 11:37:24.415+0000,1529.85,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",f14955c6-2137-423e-a91a-808a2af4c7e2,banderson
+1234123412341240,2017-01-01 10:27:06.235+0000,893.50,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",7cf94e93-d299-4e1f-8ed4-5addb3ef2f9a,banderson
+1234123412341240,2016-12-31 22:58:01.385+0000,550.99,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",1b92af12-6008-4e2b-a2c5-30b030048910,banderson
+1234123412341240,2016-12-31 20:16:52.819+0000,2802.29,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",78341c2c-d6c2-44c9-9fc4-1d2cc010a9d5,banderson
+1234123412341240,2016-12-31 18:45:14.555+0000,899.40,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e1971a39-908b-4e61-b5dc-560e992707bf,banderson
+1234123412341240,2016-12-31 12:09:04.015+0000,1099.97,,Tampa,Target,Shopping,SUCCESS,"{'Home', 'Shopping'}",79ac240f-2f69-47d7-94ff-64b757f0f1d2,banderson
+1234123412341240,2016-12-31 11:44:59.513+0000,235.39,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",c02fd2b7-afdf-473d-a211-e45803f6880f,banderson
+1234123412341240,2016-12-31 07:24:06.132+0000,2604.61,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",2c554608-49cc-4434-88d2-153a97395ed7,banderson
+1234123412341240,2016-12-31 05:30:08.905+0000,3173.87,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",8a1cd701-f356-46ef-92e5-6be222d20268,banderson
+1234123412341240,2016-12-31 00:54:38.460+0000,2720.92,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",f6695409-c711-4d10-9ffa-9e46ec6d1290,banderson
+1234123412341240,2016-12-30 21:12:52.015+0000,1287.21,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",734bff3e-3f1f-4e28-b88c-957e96e4daf9,banderson
+1234123412341240,2016-12-30 16:50:12.140+0000,603.77,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",aad8d3f7-d93d-4458-b107-84416d9cef37,banderson
+1234123412341240,2016-12-30 16:05:40.948+0000,2234.93,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4492e8b7-2bb0-4deb-a803-a69f726c99f9,banderson
+1234123412341240,2016-12-29 12:22:26.773+0000,2413.86,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6e315ed9-89c0-4b56-911b-94a80707aa6b,banderson
+1234123412341240,2016-12-28 12:45:59.046+0000,1163.44,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",67767d00-1488-4893-a550-7437e0faeceb,banderson
+1234123412341240,2016-12-28 08:10:54.156+0000,1944.96,,Dallas,Wal-Mart,Shopping,CANCELLED,"{'Home', 'Shopping'}",f2bffa54-a87d-4670-9393-d50304493009,banderson
+1234123412341240,2016-12-28 05:33:11.201+0000,625.90,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",b04cd545-275e-41df-adf2-f65675545008,banderson
+1234123412341240,2016-12-28 03:51:42.880+0000,1413.49,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",72d92101-947f-4b3b-ba54-e7a6df622f4b,banderson
+1234123412341240,2016-12-28 00:11:34.898+0000,261.69,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e97d5562-6091-4b8b-87ea-48235a92daf6,banderson
+1234123412341240,2016-12-27 21:34:32.472+0000,1064.74,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",ce5d0042-53d9-48dc-a497-086cfc1b8644,banderson
+1234123412341240,2016-12-27 17:00:19.427+0000,2387.61,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3c9dfd31-047d-4380-ac7b-c1e8d86689ab,banderson
+1234123412341240,2016-12-26 22:27:00.932+0000,2390.15,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",4626e60a-8328-4725-be74-67a9244e1284,banderson
+1234123412341240,2016-12-26 19:27:39.134+0000,2522.86,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7e810c7c-4da2-4e82-abb2-574f296960bb,banderson
+1234123412341240,2016-12-26 01:45:08.382+0000,3147.90,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",08402477-d319-4e1d-82ce-89e7c929d7bd,banderson
+1234123412341240,2016-12-25 21:00:50.723+0000,1844.13,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",a0e45b61-cb6f-4814-af4f-d4c831a79cab,banderson
+1234123412341240,2016-12-25 20:05:48.618+0000,1532.45,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",4ea34c02-39c7-4045-b3e3-5e3ac2602ab3,banderson
+1234123412341240,2016-12-24 23:08:37.866+0000,680.87,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",250c4af8-fb38-4f21-88c1-5c2acbb04dba,banderson
+1234123412341240,2016-12-24 18:51:32.460+0000,2173.17,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",e90ce9d5-f23b-4d43-9587-6861a2e25626,banderson
+1234123412341240,2016-12-24 18:48:58.409+0000,485.78,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",ecf408d2-16bf-407f-9b92-ff890b8df251,banderson
+1234123412341240,2016-12-24 15:36:08.029+0000,1472.23,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",25d4151e-3132-41dc-b275-3d65f6f5a75b,banderson
+1234123412341240,2016-12-24 14:56:45.223+0000,926.34,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",12fe49c5-5d15-482b-af4b-2d3f8d68dae0,banderson
+1234123412341240,2016-12-24 10:39:24.149+0000,748.65,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",fd27b3d0-5bac-4ff2-b3ae-ac6e705f35fa,banderson
+1234123412341240,2016-12-23 20:37:34.703+0000,1284.62,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",9e089169-dee9-4264-9f69-d86630280f56,banderson
+1234123412341240,2016-12-23 03:23:05.949+0000,2144.21,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",cd6bd13d-0d87-4b0b-b16d-3a4b400d2183,banderson
+1234123412341240,2016-12-22 22:39:16.055+0000,847.08,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",62cc867b-15a9-4d24-b2b9-919734fa0366,banderson
+1234123412341240,2016-12-22 19:53:11.435+0000,1461.00,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",841a75ec-456b-4c60-864f-4d51ced58961,banderson
+1234123412341240,2016-12-22 04:39:31.628+0000,1974.08,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",97c73026-2742-44d0-bb94-5443ee5455c1,banderson
+1234123412341240,2016-12-21 23:55:22.933+0000,1823.66,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",83ff09ea-4b70-4a10-923a-caa095f5da90,banderson
+1234123412341240,2016-12-21 04:15:56.084+0000,2479.09,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",082fe08b-d911-4a9e-88e6-9e0f62d9a033,banderson
+1234123412341240,2016-12-20 07:49:09.502+0000,611.85,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",d1603d5c-f487-4831-98dd-5ff010b7f9bf,banderson
+1234123412341240,2016-12-20 03:26:31.181+0000,1780.67,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a3d0d28d-9078-463a-9d76-79d8701eba5b,banderson
+1234123412341240,2016-12-19 08:05:59.839+0000,2428.02,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",7cb37c1f-be73-4b18-93a3-d4cdc96ef63d,banderson
+1234123412341240,2016-12-18 12:40:00.089+0000,2284.42,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",3a10d3e3-18b7-43b4-a685-c902bd2d043b,banderson
+1234123412341240,2016-12-18 07:54:42.985+0000,281.96,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",4a6af63c-0b05-42fc-a341-a6ebe4ad11de,banderson
+1234123412341240,2016-12-17 21:44:18.803+0000,997.89,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",b2080f2f-b7e2-4690-a13f-8e797873df14,banderson
+1234123412341240,2016-12-17 16:00:54.675+0000,1197.03,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",90720566-9076-43c1-a482-3e62d552095a,banderson
+1234123412341240,2016-12-17 14:51:55.813+0000,978.16,,Tampa,Kroger,Shopping,FAILED,"{'Home', 'Shopping'}",c6f7c8c9-cecf-475f-bb1a-cacac0de77a6,banderson
+1234123412341240,2016-12-17 13:55:23.250+0000,826.03,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",9cf85820-58c6-40ac-b073-f947511497da,banderson
+1234123412341240,2016-12-16 18:32:08.246+0000,1246.78,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",87d60a77-95e4-46e8-beea-d6cd0eadda45,banderson
+1234123412341240,2016-12-16 11:30:13.262+0000,1510.92,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",81b77b92-8f13-401f-b968-7cf27c53cd55,banderson
+1234123412341240,2016-12-16 03:46:35.214+0000,2711.62,,Atlanta,Kroger,Shopping,CANCELLED,"{'Home', 'Shopping'}",131c206f-60fc-4aa4-a009-9acd73fcce58,banderson
+1234123412341240,2016-12-16 01:54:37.152+0000,1604.12,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",7a68ad8b-1537-45af-b1d4-48cde9e9ba3d,banderson
+1234123412341240,2016-12-14 12:23:03.696+0000,136.20,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",9ca51a2d-58a0-4c92-bfb0-d5c551dd66a6,banderson
+1234123412341240,2016-12-14 06:10:46.174+0000,783.76,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",2addb500-fe68-4756-b2ef-007ae0963704,banderson
+1234123412341240,2016-12-13 19:14:52.504+0000,2829.93,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",70f68fe4-e2bd-403b-8725-b22882c1c5a3,banderson
+1234123412341240,2016-12-13 17:40:47.172+0000,2737.60,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",d222d946-9722-4dda-95bf-083d7cce26b7,banderson
+1234123412341240,2016-12-13 10:01:08.017+0000,938.87,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",4ef20ff2-5c53-4efc-b46a-57908eec75d8,banderson
+1234123412341240,2016-12-12 22:04:35.443+0000,713.63,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",5467e073-7b1e-43b9-ab5f-71a7dad81712,banderson
+1234123412341240,2016-12-12 20:29:48.151+0000,1890.22,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",a9818d40-1a51-4d95-85d4-0fe03d5741ce,banderson
+1234123412341240,2016-12-12 15:45:55.985+0000,189.38,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",e6542940-5c8b-4a2e-b2e3-7b72c0f68f99,banderson
+1234123412341240,2016-12-12 06:20:13.320+0000,529.01,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",ba1712be-1261-4489-bea5-7109f6434a3e,banderson
+1234123412341240,2016-12-11 17:44:31.728+0000,2722.66,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",05f25eac-a5f2-41fe-b1f6-5bdb69eb9d2d,banderson
+1234123412341240,2016-12-11 03:27:22.351+0000,2036.85,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",63a4e18f-469d-4041-abbf-655ec75cbff7,banderson
+1234123412341240,2016-12-11 03:06:18.106+0000,2468.30,,Birmingham,Starbucks,Shopping,SUCCESS,"{'Home', 'Shopping'}",a194a4a7-8039-495d-88ce-c22dc58d9373,banderson
+1234123412341240,2016-12-10 20:12:03.709+0000,1114.57,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",a8064319-ec9d-4868-81ac-063e82a6426d,banderson
+1234123412341240,2016-12-10 16:49:52.197+0000,2621.15,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",81769061-9517-47af-9103-c35b70b1f208,banderson
+1234123412341240,2016-12-10 08:55:48.107+0000,106.63,,Orlando,Starbucks,Shopping,FAILED,"{'Home', 'Shopping'}",f85e03a6-4fbf-42b2-903e-983fd5ca5c52,banderson
+1234123412341240,2016-12-09 09:27:14.640+0000,2778.12,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",beff3083-db81-48bd-9690-4bdd1c4ecbf1,banderson
+1234123412341240,2016-12-09 01:17:24.990+0000,2575.37,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",59e4d2d9-de14-4c33-a35f-cbd77ff4fff2,banderson
+1234123412341240,2016-12-09 00:17:29.067+0000,761.03,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",1756e2d3-4e1a-4d1f-8ebd-10ba59aaa83e,banderson
+1234123412341240,2016-12-08 11:19:55.800+0000,429.29,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",9553078b-19f5-48f3-ae3c-8fdecc42b3aa,banderson
+1234123412341240,2016-12-08 05:35:00.553+0000,619.40,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a5b301bb-020c-4c19-adeb-9d5576d6add8,banderson
+1234123412341240,2016-12-07 23:30:09.267+0000,1044.05,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",9e2b5660-296c-4558-8407-f11f32f9162b,banderson
+1234123412341240,2016-12-07 10:10:12.782+0000,1199.90,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",e316e5ce-be9d-4e3e-a67b-57450959102a,banderson
+1234123412341240,2016-12-07 00:07:06.622+0000,3251.10,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",1214d6c3-dd46-4b34-8fd0-423a9080cc75,banderson
+1234123412341240,2016-12-06 16:47:24.812+0000,1426.55,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",e4b57898-7f5a-4ab2-b553-f82c1fc488eb,banderson
+1234123412341240,2016-12-06 16:42:47.508+0000,503.46,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a11ea235-6941-4c4e-868c-f5483c31c6e0,banderson
+1234123412341240,2016-12-06 09:18:24.387+0000,2158.18,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",23c43b2e-4fa7-4761-bcc5-ac80ffb9da0c,banderson
+1234123412341240,2016-12-05 22:21:47.418+0000,2365.59,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",34c7a2d0-30dd-4c7d-a049-1a2c43834028,banderson
+1234123412341240,2016-12-04 03:10:02.511+0000,422.15,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",7aad4cba-7be4-41e8-aa8d-a1eb838d4045,banderson
+1234123412341240,2016-12-03 16:15:15.706+0000,733.13,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",70f84d61-2922-435c-b56c-dbad122974d1,banderson
+1234123412341240,2016-12-03 12:10:42.624+0000,950.99,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",e862fe02-3c15-4097-b5db-8d54ea236b23,banderson
+1234123412341240,2016-12-01 21:29:29.453+0000,597.40,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6cc27ba9-eac5-495c-ad6f-be470af8eb8e,banderson
+1234123412341240,2016-12-01 05:17:25.078+0000,1452.34,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",e2fca8b8-36ab-4eba-a6f2-da309dd6121b,banderson
+1234123412341240,2016-12-01 04:42:39.412+0000,458.87,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",7e5f9e7b-456b-49c2-aa64-16835cb16ca2,banderson
+1234123412341240,2016-12-01 04:40:17.434+0000,659.34,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b5f4ab39-3da3-47e4-be99-83694f03c5d8,banderson
+1234123412341240,2016-12-01 00:19:57.139+0000,2634.44,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",6cd374f0-819b-468f-95f1-014f44cbf4ec,banderson
+1234123412341240,2016-11-30 22:35:13.036+0000,2126.73,,Dallas,Wal-Mart,Shopping,CANCELLED,"{'Home', 'Shopping'}",b030e206-a6a9-4004-9896-3907b500a855,banderson
+1234123412341240,2016-11-30 13:22:01.624+0000,3441.90,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",161310eb-85d6-4d89-8aed-f10d0bfe456a,banderson
+1234123412341240,2016-11-30 03:23:19.429+0000,106.95,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d521d4b1-0ec7-4552-b86a-239cf3b63ca3,banderson
+1234123412341240,2016-11-28 18:38:50.854+0000,1560.39,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",91483800-bff6-413b-882c-a7f9402d3288,banderson
+1234123412341240,2016-11-28 09:27:53.503+0000,1950.01,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",5a81b9f0-75b3-4cdb-abdb-351985c6858f,banderson
+1234123412341240,2016-11-28 07:06:37.241+0000,2653.44,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",b2f4adf2-b44e-45c9-93c2-54077d5c39d7,banderson
+1234123412341240,2016-11-28 03:10:45.553+0000,2971.62,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",261b5d03-121a-4344-bc71-9d70070642d3,banderson
+1234123412341240,2016-11-28 01:14:44.682+0000,373.61,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",57876ff8-6fbf-487f-896c-96d5f58fa1da,banderson
+1234123412341240,2016-11-27 00:34:20.149+0000,415.96,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",62752205-92b9-4ffe-b151-8e47b4481767,banderson
+1234123412341240,2016-11-26 10:20:17.271+0000,246.38,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",c94bface-d833-41de-9cd4-31adbf87ee54,banderson
+1234123412341240,2016-11-25 04:15:50.719+0000,1297.89,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",2446dcbb-967d-424b-9895-9d879de85339,banderson
+1234123412341240,2016-11-24 12:20:52.056+0000,2309.55,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",9c33ce9b-6afb-43bb-8100-230ea7c518e6,banderson
+1234123412341240,2016-11-24 09:36:31.033+0000,1940.83,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",9f53a36c-e28d-4cf8-875d-9033a8d3a459,banderson
+1234123412341240,2016-11-24 09:27:55.030+0000,1496.45,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",0d70d045-2afe-4d51-8b9e-81d69386d0dd,banderson
+1234123412341240,2016-11-23 20:33:00.193+0000,321.48,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",1ae9f140-1cd4-4b59-844f-fd906a0c4160,banderson
+1234123412341240,2016-11-22 19:19:11.274+0000,408.98,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",dffad64a-3ca1-4203-82ec-cf6f0e400bc5,banderson
+1234123412341240,2016-11-22 16:50:39.186+0000,308.15,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6046c4d6-3dd0-4ce7-aa1f-f1f0c8854667,banderson
+1234123412341240,2016-11-22 15:25:26.075+0000,503.57,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",54408531-3f2e-4d0a-9f45-726ff67a4bd5,banderson
+1234123412341240,2016-11-21 16:29:40.936+0000,1630.12,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",b435f5c1-bda6-49ec-8cba-6000c5c7ff6e,banderson
+1234123412341240,2016-11-21 11:04:02.112+0000,1726.00,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",0ecd0491-499d-49f2-bf37-4ea8d9d50ab4,banderson
+1234123412341240,2016-11-21 10:07:07.202+0000,2839.68,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",7e3ec91a-d710-4154-a849-846de95e206e,banderson
+1234123412341240,2016-11-21 06:25:58.571+0000,1464.31,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",e4fa1aab-eff5-46fb-a23a-9ba5eb3887cd,banderson
+1234123412341240,2016-11-20 08:46:03.920+0000,453.65,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",f556b92f-da4a-4fd7-87d2-4ccd9e1d374b,banderson
+1234123412341240,2016-11-20 06:53:05.936+0000,1504.64,,Atlanta,Starbucks,Shopping,CANCELLED,"{'Home', 'Shopping'}",8da34d64-6bbc-4a6a-81b7-53eb3cb4c1eb,banderson
+1234123412341240,2016-11-20 00:17:00.253+0000,167.22,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",90dceabc-d71b-446a-a099-504dc74dfdaf,banderson
+1234123412341240,2016-11-19 07:10:10.255+0000,3182.81,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",823f859b-a45d-4250-808c-41bf5a272082,banderson
+1234123412341240,2016-11-18 04:54:27.505+0000,1599.02,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",8a8d752f-a203-4ce2-ac24-c261aa9153a8,banderson
+1234123412341240,2016-11-17 19:55:49.633+0000,2240.04,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",0657a330-7d24-43fd-9d1f-b927c4e01201,banderson
+1234123412341240,2016-11-17 10:07:00.676+0000,1423.47,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",d3bb3b50-4a03-4521-9d33-23d6436c6cfd,banderson
+1234123412341240,2016-11-16 06:13:18.463+0000,92.71,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",6376c4f3-6f59-492a-af1d-acdcea0f762c,banderson
+1234123412341240,2016-11-15 21:25:56.305+0000,1462.33,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",f836cf97-65a4-4f1d-b18c-63099f76c15a,banderson
+1234123412341240,2016-11-15 18:21:10.787+0000,3185.36,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",d53d81c8-858a-41e5-b57b-3d69577dc445,banderson
+1234123412341240,2016-11-15 08:01:59.751+0000,2584.88,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3b4f8a42-78a4-43d4-b30f-540ad50b7bec,banderson
+1234123412341240,2016-11-15 06:21:41.634+0000,2137.29,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",7ea8418a-cc97-4f86-9ad7-c2e018e57825,banderson
+1234123412341240,2016-11-15 04:41:56.711+0000,1797.62,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",bc2ba584-5421-4d7e-bd72-88ba00720cde,banderson
+1234123412341240,2016-11-15 04:13:57.925+0000,1489.03,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",d858f73a-ffc0-42c0-8794-c7eee6c1a8dd,banderson
+1234123412341240,2016-11-14 22:17:31.484+0000,1278.40,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",a3c3bdfb-dfe4-4367-be69-2cff9c83d19b,banderson
+1234123412341240,2016-11-14 17:50:02.650+0000,323.02,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",36d2f2dc-a0c6-45d9-a31d-54dd89e998cd,banderson
+1234123412341240,2016-11-14 11:28:48.813+0000,184.95,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",0b6e9e8f-b988-4f26-9f78-b091ea3428db,banderson
+1234123412341240,2016-11-13 22:33:13.125+0000,396.04,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",b0312d3e-a306-4f85-a368-d19d333b7054,banderson
+1234123412341240,2016-11-13 13:31:27.747+0000,278.72,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",c60209b0-0d89-4d4e-8ab2-acec8b1c8af1,banderson
+1234123412341240,2016-11-13 00:46:49.323+0000,2389.41,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",32838a4e-f0e8-44d7-9f10-1b784bf15c26,banderson
+1234123412341240,2016-11-12 11:19:11.233+0000,188.29,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",1f187840-f45d-40a6-ac1d-964561968068,banderson
+1234123412341240,2016-11-12 09:14:52.898+0000,1894.71,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c338b955-2852-4ac5-91d7-524c72c9f273,banderson
+1234123412341240,2016-11-12 03:15:25.220+0000,200.63,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",5842aeea-1cbc-46fa-8376-ec3754ac5d32,banderson
+1234123412341240,2016-11-12 03:06:34.913+0000,1840.98,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",3135a383-c0d6-4409-9e9c-7fa112c6ceb4,banderson
+1234123412341240,2016-11-11 22:09:22.622+0000,2820.19,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",41a7c531-07d0-4b33-a6bd-ec89b6a893c1,banderson
+1234123412341240,2016-11-11 18:48:26.999+0000,890.55,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",0e7f084a-973a-47cf-ba04-ddef7694899b,banderson
+1234123412341240,2016-11-11 07:54:05.556+0000,646.32,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",dcf944f5-660e-447c-8ba6-2e390e153898,banderson
+1234123412341240,2016-11-11 06:18:44.888+0000,1598.11,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",220769d4-2e5b-44da-a91c-df47e0510a4e,banderson
+1234123412341240,2016-11-11 03:10:06.291+0000,963.94,,Orlando,Wal-Mart,Shopping,CANCELLED,"{'Home', 'Shopping'}",70777b74-1165-40f3-b237-97e268bc6dc8,banderson
+1234123412341240,2016-11-11 02:46:27.394+0000,1005.68,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",3363117d-6c1b-4d0b-85cc-b4ae7606f589,banderson
+1234123412341240,2016-11-11 01:47:11.799+0000,1416.09,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",aea5adf3-6c56-4fe7-8030-fe3b2a57b84d,banderson
+1234123412341240,2016-11-10 13:03:52.278+0000,1463.88,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",c3a24da2-90f3-4cce-80c5-59d25fb1884a,banderson
+1234123412341240,2016-11-07 22:37:44.687+0000,1204.36,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",85a50d6e-2711-47aa-8272-75d7d79efd4d,banderson
+1234123412341240,2016-11-07 18:52:17.516+0000,1198.86,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",e38edf73-a92d-4be9-88fb-474f11f32537,banderson
+1234123412341240,2016-11-07 15:37:38.553+0000,1157.09,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",68df870c-f45f-41b7-bb55-eb3c106e3c82,banderson
+1234123412341240,2016-11-07 10:54:31.916+0000,1548.67,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",9d61cc48-f100-4062-99f0-fb6b3f8800bf,banderson
+1234123412341240,2016-11-07 06:43:39.093+0000,2437.06,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",50383871-8c92-4e9a-b204-904812aaf3f9,banderson
+1234123412341240,2016-11-06 18:09:37.744+0000,2258.23,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d56b6923-a45d-44c0-aefb-8137e5599cc3,banderson
+1234123412341240,2016-11-06 10:26:42.007+0000,756.11,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",065873a7-b177-4a3c-a353-df5554ea0534,banderson
+1234123412341240,2016-11-06 10:17:07.849+0000,2358.35,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",47b3c9bf-6581-4cc6-bea8-444db82e8f51,banderson
+1234123412341240,2016-11-06 05:16:28.206+0000,823.11,,Dallas,Target,Shopping,,"{'Home', 'Shopping'}",9fae875b-a3cb-41d9-84f9-595d303d3ffc,banderson
+1234123412341240,2016-11-05 18:16:27.893+0000,2835.92,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",5855b82f-3325-42e4-9c2f-4385c36acffe,banderson
+1234123412341240,2016-11-05 17:36:05.218+0000,919.94,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",4fe0ed39-1e2a-45bf-af06-93bb89729e2a,banderson
+1234123412341240,2016-11-05 12:40:18.969+0000,982.16,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",5879b0f8-a036-4162-adbe-1f3c85c40520,banderson
+1234123412341240,2016-11-02 07:56:25.740+0000,1854.86,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",e1d45466-195c-4573-b745-7f148d4e1b76,banderson
+1234123412341240,2016-11-02 03:06:26.860+0000,228.59,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",9b470db2-bbf3-4b61-8713-94ab818134f4,banderson
+1234123412341240,2016-10-31 19:56:34.617+0000,2634.35,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c7d214ed-fae2-40d0-80d9-135c3c5c2734,banderson
+1234123412341240,2016-10-31 07:28:33.431+0000,2756.11,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",5da4616f-1547-4199-8baa-62e121803574,banderson
+1234123412341240,2016-10-30 11:41:44.953+0000,1607.44,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",0b207a22-432b-44f2-8e34-47b117ea8025,banderson
+1234123412341240,2016-10-30 09:30:58.435+0000,1649.64,,Tampa,Kroger,Shopping,SUCCESS,"{'Home', 'Shopping'}",28e0871c-789d-4dc4-91d5-4b07b8c5c17e,banderson
+1234123412341240,2016-10-30 07:29:48.548+0000,981.76,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",ce46a078-a22f-4d23-9708-0c4677e1b4f7,banderson
+1234123412341240,2016-10-30 05:35:10.011+0000,53.82,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",f573118c-2ebd-4eae-91fb-0ffe4ae06f5a,banderson
+1234123412341240,2016-10-30 02:24:41.685+0000,508.23,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",24083ffd-6306-415c-aa0c-02814e7c672b,banderson
+1234123412341240,2016-10-30 01:00:52.741+0000,2921.70,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",343fb239-9c25-488e-a4ad-d432ed948328,banderson
+1234123412341240,2016-10-29 02:26:39.657+0000,1894.04,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",6c8be5ad-361e-4a03-9d18-174c1d745f1b,banderson
+1234123412341240,2016-10-29 01:19:05.986+0000,783.27,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",5afed26e-9838-4f7f-b7f3-cf27c830b1bd,banderson
+1234123412341240,2016-10-28 04:07:02.887+0000,1478.39,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",a49e697e-20a6-441a-9c8e-b20ca799f70c,banderson
+1234123412341240,2016-10-28 02:46:33.475+0000,942.68,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",74167c72-6909-45f3-a4bc-59a575fac533,banderson
+1234123412341240,2016-10-28 02:21:08.052+0000,2251.60,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",f2860e5a-78e3-4d03-a0a5-5b25c7b81aca,banderson
+1234123412341240,2016-10-27 23:33:57.103+0000,1523.96,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",d48bbfb0-08dc-4d0a-ae7e-bccb8517f338,banderson
+1234123412341240,2016-10-27 22:02:20.283+0000,2005.19,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",9f09a7ba-8d23-44a5-933f-7b62cb45cab9,banderson
+1234123412341240,2016-10-27 21:09:03.161+0000,800.92,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",c05ce200-defe-4e0d-85b6-a47abbb1ff2e,banderson
+1234123412341240,2016-10-27 20:54:10.794+0000,698.36,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",0863bf6d-79ba-483a-b78a-bc0acf6d6178,banderson
+1234123412341240,2016-10-27 13:21:40.088+0000,2407.65,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",9126bb8b-0552-45d5-8610-02b46340835a,banderson
+1234123412341240,2016-10-26 08:50:05.536+0000,1031.95,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",6818731c-ab6b-480f-9d8d-f4d88a5d9f60,banderson
+1234123412341240,2016-10-26 03:09:56.842+0000,2848.94,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",fd317cd2-97bd-40e7-9d01-3851dba49b04,banderson
+1234123412341240,2016-10-25 18:47:06.650+0000,288.20,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",92fc0a70-f52b-4a29-9f8a-232c5acaab97,banderson
+1234123412341240,2016-10-24 20:47:00.553+0000,1074.30,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",91e6c804-f821-4ec2-847a-b037a84b8f7b,banderson
+1234123412341240,2016-10-24 18:39:05.113+0000,1615.12,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",9df602d8-f507-40e6-b410-3d4ba079db50,banderson
+1234123412341240,2016-10-24 14:24:36.809+0000,1751.34,,Tampa,Amazon,Shopping,SUCCESS,"{'Home', 'Shopping'}",57436cc2-d9b6-4a4b-b6fd-34777aa1974d,banderson
+1234123412341240,2016-10-23 21:44:46.787+0000,1017.96,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",5820b112-2610-4ec9-add5-b1e8567e3d57,banderson
+1234123412341240,2016-10-23 17:08:05.912+0000,2863.89,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",39e22d6d-3afc-4bb3-ba0c-af6b5a2b3723,banderson
+1234123412341240,2016-10-23 08:11:50.113+0000,1204.75,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",33911567-45e0-4a04-93a6-8627e016619a,banderson
+1234123412341240,2016-10-22 23:02:56.874+0000,3098.10,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",1e0d9074-8570-4b5c-acb6-5e825a3180f5,banderson
+1234123412341240,2016-10-22 22:44:09.196+0000,142.70,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",01b77328-517f-4647-a266-d8a5a64a10a7,banderson
+1234123412341240,2016-10-22 20:28:39.996+0000,283.24,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",12e16e3b-2394-4126-9dbd-b6ea3e10f0b2,banderson
+1234123412341240,2016-10-22 00:37:06.142+0000,1256.69,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e75965d2-a115-4ce6-a8c2-9f78dccd7e38,banderson
+1234123412341240,2016-10-21 02:15:15.472+0000,2038.05,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",b5f76bd8-792f-4ec3-8049-9c88ee6ab085,banderson
+1234123412341240,2016-10-21 00:58:12.586+0000,1387.55,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",98090366-0e56-4a40-86fd-cb3eb2e0085c,banderson
+1234123412341240,2016-10-20 15:09:12.802+0000,1246.75,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",a11af5a6-0ebb-40e5-b921-b8b0dea8e075,banderson
+1234123412341240,2016-10-20 06:49:48.539+0000,2554.38,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",a590b937-5a96-478a-91ad-300187bbf852,banderson
+1234123412341240,2016-10-20 05:45:31.629+0000,1645.18,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",001bf014-a539-4959-a2e9-0b2a63b0e5ae,banderson
+1234123412341240,2016-10-19 17:38:52.745+0000,384.29,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",60a46d28-9f68-48fa-a0ec-0f54015aab1a,banderson
+1234123412341240,2016-10-19 06:35:47.630+0000,1273.78,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",91e02d2e-fc02-44cf-9873-f3f66064172e,banderson
+1234123412341240,2016-10-19 03:17:20.483+0000,2962.90,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",44f1c304-0789-45d4-a397-1467df3ecac4,banderson
+1234123412341240,2016-10-18 05:15:13.619+0000,1445.90,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",2435e16e-72f5-4c87-b98d-5235c917f089,banderson
+1234123412341240,2016-10-18 02:05:22.018+0000,2087.04,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",2e354487-9a4f-4dad-9c3e-1664e4a1daea,banderson
+1234123412341240,2016-10-17 08:22:58.818+0000,1939.27,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",541164be-479b-47c8-bc6d-4db0039d6706,banderson
+1234123412341240,2016-10-17 02:43:09.954+0000,1477.34,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",7a656a03-c443-4625-8954-2ea38f508ca7,banderson
+1234123412341240,2016-10-15 16:52:16.201+0000,2519.60,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",47fc8103-727d-4e7e-87b4-20ae4d0978e5,banderson
+1234123412341240,2016-10-15 02:22:43.696+0000,1063.06,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3a38b54c-f0ee-4ade-8858-23b5406abd6e,banderson
+1234123412341240,2016-10-15 00:50:06.263+0000,3008.01,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",fa630d4a-04cc-4d27-b542-cdcdf84ed68f,banderson
+1234123412341240,2016-10-14 15:23:19.810+0000,1753.08,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",49fd8de1-56ca-44f6-8785-2439b7c89903,banderson
+1234123412341240,2016-10-14 11:53:08.499+0000,1236.01,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",ab8a1ec6-ac90-4412-bfba-38d20d650607,banderson
+1234123412341240,2016-10-13 18:03:11.571+0000,904.19,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",21745c43-a848-4924-98d4-1dcc4370386c,banderson
+1234123412341240,2016-10-12 21:12:24.441+0000,2244.91,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",a721e770-fe48-487d-b1bd-55669b142446,banderson
+1234123412341240,2016-10-12 18:43:20.349+0000,822.40,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",79d5eedf-110d-4858-b828-9f36e20f07e5,banderson
+1234123412341240,2016-10-12 01:34:25.995+0000,290.14,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",8d585786-c0fe-43c5-a76a-141773eb5be5,banderson
+1234123412341240,2016-10-11 14:17:10.543+0000,835.46,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",0bb8048a-b0ba-4cd7-882e-c2e854299472,banderson
+1234123412341240,2016-10-11 08:30:22.420+0000,197.08,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",ff7a13d5-4c35-4754-b778-b112fae3a560,banderson
+1234123412341240,2016-10-11 05:51:41.191+0000,1770.66,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",5a90238b-6ba2-414e-8e33-8cee3dc5a8fc,banderson
+1234123412341240,2016-10-11 02:31:49.200+0000,2315.35,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",9e906776-a951-41e5-85a6-83a7731fb7a3,banderson
+1234123412341240,2016-10-10 22:23:17.949+0000,2828.18,,Dallas,Macys,Shopping,FAILED,"{'Home', 'Shopping'}",d1173cda-fbb4-4490-9276-86686d7963b9,banderson
+1234123412341240,2016-10-10 05:10:18.544+0000,1972.48,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",d58f657f-3bb7-4693-bc64-34ad50b8a630,banderson
+1234123412341240,2016-10-09 21:59:11.723+0000,432.36,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",76dfecc7-fb54-4b03-a0a6-c78c3960927b,banderson
+1234123412341240,2016-10-09 18:40:21.657+0000,965.23,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",5aad1d51-14b2-484e-b27d-efb9d66c0d60,banderson
+1234123412341240,2016-10-09 08:08:29.664+0000,371.26,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",31c6bb1b-b2ce-4494-8b3f-14329a1c2997,banderson
+1234123412341240,2016-10-08 09:50:43.735+0000,3025.61,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",8311f7f1-be23-43da-970d-6eb64c5138e0,banderson
+1234123412341240,2016-10-08 06:25:13.205+0000,712.10,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",bc9f3d96-1eea-431f-a1ed-b6c5706e6324,banderson
+1234123412341240,2016-10-07 19:56:23.824+0000,80.13,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",6462553a-1f9f-422d-99ba-936a1f784c56,banderson
+1234123412341240,2016-10-07 15:18:07.273+0000,503.73,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",d96a7651-5c5c-4272-8595-b6b5f2b520dd,banderson
+1234123412341240,2016-10-07 10:08:56.293+0000,1622.64,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",19a00e30-6827-44ed-a86e-397b88468d8e,banderson
+1234123412341240,2016-10-06 16:26:10.964+0000,1331.72,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",7acfe2ee-3408-4b50-ab96-6f52e8aa3785,banderson
+1234123412341240,2016-10-06 12:03:14.088+0000,1201.51,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",46d2de0a-4546-4099-b734-e51241209980,banderson
+1234123412341240,2016-10-06 03:07:00.130+0000,2767.24,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",a95bcee0-c027-41a3-a04f-861436fad1bf,banderson
+1234123412341240,2016-10-06 01:53:34.799+0000,3217.64,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",5a4f6174-a322-41c2-9124-0935cef11bb5,banderson
+1234123412341240,2016-10-06 01:32:43.900+0000,1205.25,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",77015795-d4f6-4278-8839-7a6a30518af8,banderson
+1234123412341240,2016-10-05 15:58:33.555+0000,1187.52,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7e78d227-ba18-43dd-a61a-aef50f6d5884,banderson
+1234123412341240,2016-10-05 04:14:11.498+0000,3237.03,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",bf29cc55-5297-4fd9-a905-695dbd377133,banderson
+1234123412341240,2016-10-04 14:42:32.711+0000,2299.36,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",3760a3d7-b975-4404-880f-cbaeee86fcdd,banderson
+1234123412341240,2016-10-04 13:29:02.376+0000,1455.99,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",8974da94-0838-46c5-a1fa-c9b532770efb,banderson
+1234123412341240,2016-10-04 08:05:42.710+0000,3410.62,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",804c8ada-339b-4942-a6a5-56f4cc368fbf,banderson
+1234123412341240,2016-10-04 04:10:26.622+0000,1646.07,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",7dbe22ea-3b58-4169-9737-094c3e0e242e,banderson
+1234123412341240,2016-10-03 13:00:40.162+0000,215.29,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",e242c7b9-1765-496a-973a-6b480ef6fdba,banderson
+1234123412341240,2016-10-03 10:41:37.599+0000,2043.93,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",73680a94-f69a-40b0-ad13-43869a28005f,banderson
+1234123412341240,2016-10-03 05:36:48.492+0000,1600.72,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",db6d144c-c3d1-4682-a863-7a364e2cba69,banderson
+1234123412341240,2016-10-02 13:33:17.484+0000,1511.24,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",5d82d707-e8b3-44ae-b121-93828218b072,banderson
+1234123412341240,2016-10-02 13:20:18.356+0000,2273.31,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",9631a347-d136-4934-83ca-543d41e4fb9b,banderson
+1234123412341240,2016-10-02 09:34:15.364+0000,2731.81,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",67b73135-02f6-41c8-8bf7-adc979085234,banderson
+1234123412341240,2016-10-01 20:27:03.238+0000,1080.29,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",ca2b88ea-e877-400e-afc6-00d5ba62bf65,banderson
+1234123412341240,2016-10-01 08:38:52.611+0000,492.15,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",929d2317-8286-4528-a0c9-f0d6a023a81c,banderson
+1234123412341240,2016-09-30 21:23:05.102+0000,777.89,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",43046933-268f-407a-9355-3299d66d459c,banderson
+1234123412341240,2016-09-30 19:27:30.452+0000,1615.11,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",51da4bb7-8dcf-4493-822f-18cc53ba4058,banderson
+1234123412341240,2016-09-30 17:40:58.793+0000,2989.58,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",1dd5e3a2-8afd-4ae4-b7e6-7acd61728e1b,banderson
+1234123412341240,2016-09-30 04:18:21.500+0000,1250.36,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",9283cf2b-6048-47da-8371-921fb8be429a,banderson
+1234123412341240,2016-09-30 00:50:30.946+0000,1793.66,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",aa725de4-6ba1-4279-9183-1ea02f01a2e4,banderson
+1234123412341240,2016-09-29 04:03:59.208+0000,890.72,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",3853e998-e8cc-428d-ac42-165001c786fd,banderson
+1234123412341240,2016-09-29 00:40:07.885+0000,3485.34,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",819f4787-9450-487f-a57f-b5745c0e3484,banderson
+1234123412341240,2016-09-28 23:28:27.032+0000,1413.97,,West Palm Beach,BestBuy,Pharmacy,SUCCESS,"{'Home', 'Pharmacy'}",2471ccf9-6c32-435a-a85c-6942fc4a3ad3,banderson
+1234123412341240,2016-09-26 21:35:41.014+0000,2188.29,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",1fa66985-6cff-4d8b-b17a-a221323e17db,banderson
+1234123412341240,2016-09-26 20:10:50.961+0000,537.50,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",0c310b3a-20b3-4b0a-81e1-95aa25441bb3,banderson
+1234123412341240,2016-09-26 12:02:20.219+0000,2593.12,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",e678dddf-2961-4df6-9f25-770d98d3733e,banderson
+1234123412341240,2016-09-26 02:41:44.272+0000,2281.89,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",c99babba-b4fa-4e8a-9fd3-a4b2c7e1b268,banderson
+1234123412341240,2016-09-25 19:33:33.310+0000,1732.36,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",242c0ae1-8c54-410d-a08e-0943e9f6783b,banderson
+1234123412341240,2016-09-25 16:02:46.692+0000,2070.21,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",abfbed66-2f0a-4222-b13b-79cbb9e33fde,banderson
+1234123412341240,2016-09-25 13:15:19.797+0000,1448.46,,Tampa,Kroger,Shopping,,"{'Home', 'Shopping'}",5b71d091-82d4-4bc7-a912-679f42416abd,banderson
+1234123412341240,2016-09-23 15:59:41.878+0000,2358.65,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",1e8a593e-722d-4c57-913d-48a3ee2e53dc,banderson
+1234123412341240,2016-09-23 15:00:31.820+0000,2179.78,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",dc3c4ef3-3717-4cdb-9116-7ea8f723d4c7,banderson
+1234123412341240,2016-09-23 11:30:33.874+0000,2183.54,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",d64611ea-938a-4e13-a9f9-ac15803d4824,banderson
+1234123412341240,2016-09-23 06:12:02.028+0000,1851.11,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",e083e370-ac79-42e7-8d15-a7d6618e8811,banderson
+1234123412341240,2016-09-23 05:06:54.491+0000,791.41,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",6006eb3a-1cd3-41fd-9ad5-a35844ff46ea,banderson
+1234123412341240,2016-09-22 00:26:33.664+0000,915.55,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",09a422f7-09a2-4fbb-b551-22199c35eae3,banderson
+1234123412341240,2016-09-21 19:43:16.066+0000,1955.81,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",1e7390b2-f532-443b-a585-959587cec526,banderson
+1234123412341240,2016-09-21 12:45:48.469+0000,954.94,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",5c308c39-af0f-457b-bb9a-83fec91b659d,banderson
+1234123412341240,2016-09-21 07:45:42.052+0000,931.53,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",ff24f19f-d25f-414a-addb-cbdce9bb4637,banderson
+1234123412341240,2016-09-21 03:27:16.035+0000,495.94,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",faf0e688-3705-4d9a-967c-49ac281fdbb0,banderson
+1234123412341240,2016-09-21 02:49:07.060+0000,160.42,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",0542b23e-2f59-43d1-b33f-0ae6c05ac52e,banderson
+1234123412341240,2016-09-20 18:15:25.773+0000,812.60,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",7c2a4e81-3e2b-4fc9-947f-980f409059d7,banderson
+1234123412341240,2016-09-20 14:30:16.570+0000,663.04,,Birmingham,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c94ce6b3-2209-4197-8cff-26420d23ca5f,banderson
+1234123412341240,2016-09-20 01:53:10.808+0000,793.19,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",8c5ba5d6-b0da-4591-9855-6c50190df94e,banderson
+1234123412341240,2016-09-19 10:23:41.191+0000,567.53,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",d97b7ca5-290a-48dd-8bed-2078ca738872,banderson
+1234123412341240,2016-09-18 23:44:26.959+0000,1044.78,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",45dc6725-97c7-4a0b-bcf4-2c9afb106b66,banderson
+1234123412341240,2016-09-18 20:30:52.002+0000,599.19,,Orlando,Wal-Mart,Shopping,SUCCESS,"{'Home', 'Shopping'}",48010daa-672e-49f5-babb-f68a686ac17e,banderson
+1234123412341240,2016-09-18 00:24:33.195+0000,3017.42,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",44aa4e1c-bcd2-459c-815f-839a2cff4a71,banderson
+1234123412341240,2016-09-17 19:04:58.586+0000,2038.62,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",6291e4c4-7bfd-4ae8-8e30-5f935152e3e3,banderson
+1234123412341240,2016-09-17 09:41:46.678+0000,2211.64,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",541b01b9-5f55-4a2d-b3b6-351b4a5fb60b,banderson
+1234123412341240,2016-09-17 04:45:45.720+0000,3231.06,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",c2c0ce00-3e44-41d2-b1b9-f54c4a95e082,banderson
+1234123412341240,2016-09-14 16:14:00.765+0000,761.56,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",769c0677-5796-459e-9329-2613475f32fd,banderson
+1234123412341240,2016-09-14 03:51:05.557+0000,2646.58,,Orlando,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",28386013-6915-4328-969a-ccf028a01287,banderson
+1234123412341240,2016-09-13 19:31:17.933+0000,2891.99,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",b7f72c76-0fea-4950-b846-d0c57c2ccbc4,banderson
+1234123412341240,2016-09-13 10:39:24.205+0000,644.93,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",17132fbb-5691-4f7b-a38b-9b93d3c556c2,banderson
+1234123412341240,2016-09-13 01:22:19.175+0000,1132.20,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",931f7f29-71ff-42cc-818b-8df394b68b40,banderson
+1234123412341240,2016-09-12 20:34:42.757+0000,3080.23,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",53b28909-76bf-48cb-94cb-f2be9b47e417,banderson
+1234123412341240,2016-09-12 16:12:49.496+0000,1162.62,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",96c84f38-2432-4a24-b688-5ec5f1bd0008,banderson
+1234123412341240,2016-09-12 08:33:10.274+0000,725.99,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",0ef2f297-7eee-4862-85de-9551985dfed4,banderson
+1234123412341230,2017-09-05 12:26:00.824+0000,430.92,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",6152419f-8117-41e2-aef3-03c43e3862f8,banderson
+1234123412341230,2017-09-05 05:23:12.980+0000,2421.65,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",b5516d33-c07c-4fa7-8cae-247c07ed1f5e,banderson
+1234123412341230,2017-09-05 02:09:48.614+0000,932.81,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",eecce762-0618-4253-be65-b1c63c1be034,banderson
+1234123412341230,2017-09-03 21:21:58.040+0000,220.12,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",880c18a3-5ff1-42d5-a7a8-bd8930c021be,banderson
+1234123412341230,2017-09-03 09:49:13.104+0000,725.68,,Tampa,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",d2999af5-1795-4bed-b004-b34e73b3bed9,banderson
+1234123412341230,2017-09-02 18:07:37.426+0000,1681.10,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",21587a0a-76bf-4fe8-ba4e-77e31aeaa25e,banderson
+1234123412341230,2017-09-01 23:51:56.109+0000,2922.86,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",687b8801-ab40-4dfb-9498-6fa796c1f043,banderson
+1234123412341230,2017-09-01 13:32:48.550+0000,849.41,,Birmingham,BestBuy,Pharmacy,FAILED,"{'Home', 'Pharmacy'}",806c159a-a046-4ccc-83b7-87874843b236,banderson
+1234123412341230,2017-09-01 05:50:12.163+0000,1088.22,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",13437f40-8fca-4536-8e93-b677b8c5cdf6,banderson
+1234123412341230,2017-08-31 19:50:42.658+0000,528.33,,Tampa,Amazon,Shopping,CANCELLED,"{'Home', 'Shopping'}",ba388eb5-cf47-4b86-8672-b484a301411e,banderson
+1234123412341230,2017-08-31 04:54:45.798+0000,1920.24,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",7534a9b1-83b2-4d97-b82a-cc0774b30d22,banderson
+1234123412341230,2017-08-30 03:55:21.347+0000,1567.48,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",bc9029c8-36e0-4594-9787-3c15917b695e,banderson
+1234123412341230,2017-08-29 01:24:24.672+0000,1258.53,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",20933901-9c53-4c69-926a-55d2f9be6a50,banderson
+1234123412341230,2017-08-27 21:00:54.421+0000,508.07,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",53be1ef1-f240-4a94-b9ab-7d23821c3836,banderson
+1234123412341230,2017-08-27 15:03:20.997+0000,2174.05,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",2d608735-864b-4b3e-af53-d0adb5942f99,banderson
+1234123412341230,2017-08-27 09:44:13.102+0000,511.42,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",90b245c0-e9ec-443c-a4bb-372434cea718,banderson
+1234123412341230,2017-08-27 07:57:54.087+0000,2262.21,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",28c0c65f-4a34-40c8-9594-0070f3780621,banderson
+1234123412341230,2017-08-26 10:05:27.337+0000,882.37,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",254cece0-31fc-4e68-97af-5972435c6970,banderson
+1234123412341230,2017-08-25 22:01:21.820+0000,2459.91,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",6c60c0f4-8d31-42c6-84fd-64fcfff77a33,banderson
+1234123412341230,2017-08-24 03:57:43.155+0000,1167.53,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",54175470-9e09-49e9-836b-4dc5b7066203,banderson
+1234123412341230,2017-08-22 19:09:56.034+0000,1834.37,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",e7f820c3-23f2-4388-b732-15a26f29bce9,banderson
+1234123412341230,2017-08-22 02:46:26.341+0000,792.51,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",f00a065a-240a-462e-8789-09ffb1d90385,banderson
+1234123412341230,2017-08-21 16:46:27.263+0000,857.61,,Orlando,Kroger,Shopping,,"{'Home', 'Shopping'}",fd0cc3ad-5033-4f2d-a4c2-6b8c5d165b27,banderson
+1234123412341230,2017-08-21 15:24:14.649+0000,349.27,,West Palm Beach,Kroger,Shopping,,"{'Home', 'Shopping'}",f1cd44fd-5638-40b3-bece-fea5eb118179,banderson
+1234123412341230,2017-08-21 11:52:00.371+0000,1906.12,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",dcf0f372-7437-452a-9485-0f731d7016bf,banderson
+1234123412341230,2017-08-20 10:42:14.742+0000,2312.11,,Orlando,BestBuy,Pharmacy,CANCELLED,"{'Home', 'Pharmacy'}",067da516-8f1a-44b6-b1d1-7f65798f9f71,banderson
+1234123412341230,2017-08-20 02:08:04.986+0000,1216.22,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",0be5ec17-fed3-4a37-9cd9-18d9c2c59653,banderson
+1234123412341230,2017-08-19 20:37:09.750+0000,1208.85,,Atlanta,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",0803541f-678c-4eb4-9b34-6fa2339a0c03,banderson
+1234123412341230,2017-08-19 16:01:56.702+0000,827.44,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",35a35ddd-c653-4d40-9ba6-1a53cd6e4e6d,banderson
+1234123412341230,2017-08-18 20:14:10.270+0000,1504.69,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a4a10095-0919-4f7e-8aa5-ece49a7c7e4a,banderson
+1234123412341230,2017-08-18 10:17:34.174+0000,2051.76,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",48093034-f7d6-4181-ab89-404c377b3610,banderson
+1234123412341230,2017-08-18 07:17:21.423+0000,563.78,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",29ae5ca3-9555-45bf-ab86-91160b797261,banderson
+1234123412341230,2017-08-18 01:41:33.298+0000,3563.89,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",c1f6e802-b45a-4127-9e7f-c1b2c545546e,banderson
+1234123412341230,2017-08-17 07:38:40.260+0000,1136.60,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",86c9061b-2534-4543-9156-66cdf488305a,banderson
+1234123412341230,2017-08-16 20:58:11.313+0000,2025.41,,Tampa,Target,Shopping,,"{'Home', 'Shopping'}",0e4283ba-fc61-4e37-b4c3-482c6e01290a,banderson
+1234123412341230,2017-08-16 07:33:27.127+0000,1088.71,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",4998de84-fb6b-42ab-b763-fe8185727dbe,banderson
+1234123412341230,2017-08-15 10:03:53.089+0000,47.90,,Dallas,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",ac3be123-599d-4364-b97d-448c6b905635,banderson
+1234123412341230,2017-08-14 16:18:52.974+0000,1004.37,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",50728b1f-803e-4608-8b2a-f02eaaaf7a37,banderson
+1234123412341230,2017-08-14 15:42:31.636+0000,637.11,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",7726c184-0ff5-4c30-9c9d-55c19d94ce65,banderson
+1234123412341230,2017-08-14 03:01:45.857+0000,2875.71,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",ed4294b5-b7a7-4c17-b9d1-af1497d0270d,banderson
+1234123412341230,2017-08-13 15:10:36.207+0000,1301.48,,Orlando,Amazon,Shopping,,"{'Home', 'Shopping'}",9e46e443-2123-454d-b9ca-656de8dcd1c2,banderson
+1234123412341230,2017-08-13 04:23:36.395+0000,997.76,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",875017cb-0f96-42cb-8167-95fa696c6d7a,banderson
+1234123412341230,2017-08-12 12:22:42.225+0000,950.93,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",126db4a7-f9b1-4e4f-90a1-63557400fc33,banderson
+1234123412341230,2017-08-12 09:54:43.925+0000,2134.69,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",1f3b0e4f-4c02-430c-b72c-f5627ad8b27f,banderson
+1234123412341230,2017-08-11 16:11:42.559+0000,2215.15,,Atlanta,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",e117c5a8-f3e1-47c2-be12-0756ef234f4a,banderson
+1234123412341230,2017-08-10 10:37:07.422+0000,3362.88,,West Palm Beach,Macys,Shopping,,"{'Home', 'Shopping'}",0373b6ee-f082-4097-9b9e-16ff6d1c9d0b,banderson
+1234123412341230,2017-08-09 01:00:51.323+0000,1470.20,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",c755db68-7e1c-478b-8b9c-a28a7b5d623c,banderson
+1234123412341230,2017-08-08 16:17:31.914+0000,1417.63,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",de8f33e4-5675-49a4-a2af-4e862f975248,banderson
+1234123412341230,2017-08-08 12:23:06.470+0000,1375.48,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",bb091fca-4faa-4133-8ebc-1632152dd7ae,banderson
+1234123412341230,2017-08-07 20:17:31.672+0000,2136.02,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",c0534f31-eca1-42d4-9329-38e17d512aa2,banderson
+1234123412341230,2017-08-07 01:07:59.430+0000,3740.14,,Tampa,Amazon,Shopping,,"{'Home', 'Shopping'}",53905dbe-aab7-4ec3-a602-e8a12dd45073,banderson
+1234123412341230,2017-08-06 12:30:49.143+0000,2127.15,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",40af76de-c0e2-4ac0-ad19-618f6e40362a,banderson
+1234123412341230,2017-08-06 08:01:26.773+0000,1701.71,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",6633e7e1-dbf7-449f-a117-db682fce599a,banderson
+1234123412341230,2017-08-06 00:30:57.347+0000,2800.72,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",cecb6ef3-1b38-4c48-abb9-745f321d186e,banderson
+1234123412341230,2017-08-05 15:29:53.497+0000,1454.82,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",fa652f41-e615-4e7c-a86d-e2e963a97cd8,banderson
+1234123412341230,2017-08-05 00:27:49.144+0000,934.09,,West Palm Beach,Starbucks,Shopping,,"{'Home', 'Shopping'}",7d9bbf05-09ed-4251-857a-dc4f1cc25afe,banderson
+1234123412341230,2017-08-04 21:49:14.215+0000,467.44,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",fd8cd5ec-5420-40c2-998a-d995979739ac,banderson
+1234123412341230,2017-08-04 05:49:56.423+0000,1202.33,,Orlando,Target,Shopping,,"{'Home', 'Shopping'}",0d20bdec-9d4b-4a99-9b3c-f01c2a88ae73,banderson
+1234123412341230,2017-08-03 22:19:48.746+0000,476.75,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",f5553b29-a667-4a2c-aada-db62348689a8,banderson
+1234123412341230,2017-08-03 15:45:04.219+0000,1373.22,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",c5c70b77-bc2b-41c3-8b81-87aa1cfba1e7,banderson
+1234123412341230,2017-08-03 14:26:15.657+0000,252.11,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",fefdb33d-fb2a-407c-b535-9885430ef711,banderson
+1234123412341230,2017-08-03 07:53:16.091+0000,1533.48,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",ec964fee-3bd8-46e9-8758-47f86c69b57f,banderson
+1234123412341230,2017-08-03 03:03:15.509+0000,419.72,,West Palm Beach,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",bdb86667-3d8c-4de7-b539-3d77b51246a3,banderson
+1234123412341230,2017-08-02 22:56:57.661+0000,783.04,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",8707288f-ee0b-479a-b771-c023f0393144,banderson
+1234123412341230,2017-08-02 18:44:51.008+0000,521.05,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",6c0e579f-5c13-4209-8d98-e619653dab47,banderson
+1234123412341230,2017-08-02 15:18:54.745+0000,2354.16,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",607154e3-6eb6-4559-ab52-8e8f6da9035e,banderson
+1234123412341230,2017-08-02 13:59:57.329+0000,3583.12,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",1caa2951-73df-433f-bfe9-75fff09fd7bc,banderson
+1234123412341230,2017-08-02 11:15:29.472+0000,1707.89,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",eca6bfcf-d37b-4d43-9d9b-edf149ba5927,banderson
+1234123412341230,2017-08-02 00:06:39.877+0000,2029.39,,Orlando,Starbucks,Shopping,,"{'Home', 'Shopping'}",5c2186db-008f-47c9-8e7f-f23522d35f23,banderson
+1234123412341230,2017-08-01 18:49:22.636+0000,1106.03,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",6048eac7-7acc-4ffd-8d57-8ddd5e3df2e7,banderson
+1234123412341230,2017-08-01 00:11:06.282+0000,538.85,,Birmingham,Macys,Shopping,,"{'Home', 'Shopping'}",5ba8d250-b01f-4f90-976a-7d0880645ace,banderson
+1234123412341230,2017-07-31 18:57:58.882+0000,940.54,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",1b4b7215-1a64-4367-9973-1914ca219d24,banderson
+1234123412341230,2017-07-31 04:51:07.557+0000,2959.10,,Tampa,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",30272b6d-d5af-4e25-b61f-dd2db4708d40,banderson
+1234123412341230,2017-07-30 17:31:19.155+0000,919.41,,Orlando,Macys,Shopping,,"{'Home', 'Shopping'}",d7e69a6f-3f5b-4bf4-87b2-c808d23ac3d9,banderson
+1234123412341230,2017-07-30 16:30:39.402+0000,920.91,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",e45a160a-0154-4510-8eca-724de2c07b07,banderson
+1234123412341230,2017-07-30 08:48:04.183+0000,2303.51,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",7e8e22e9-dcc8-4d9e-9ef6-ce3e61a1d2be,banderson
+1234123412341230,2017-07-29 21:11:12.288+0000,2197.43,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",531b564e-f0cf-43df-8f96-bd42c68510d9,banderson
+1234123412341230,2017-07-29 02:09:54.890+0000,1298.74,,Atlanta,Amazon,Shopping,,"{'Home', 'Shopping'}",6660c095-1e1c-48dd-b5aa-89d859677574,banderson
+1234123412341230,2017-07-29 01:58:10.614+0000,649.02,,Atlanta,Starbucks,Shopping,,"{'Home', 'Shopping'}",2fb17023-bce0-4c88-b7bd-a8c8f5401eb6,banderson
+1234123412341230,2017-07-28 19:03:16.734+0000,1778.55,,Dallas,Wal-Mart,Shopping,CANCELLED,"{'Home', 'Shopping'}",d695367b-3d6c-49d7-a85e-ea8ad865b206,banderson
+1234123412341230,2017-07-27 22:08:40.679+0000,1814.99,,Tampa,Macys,Shopping,,"{'Home', 'Shopping'}",f728756c-db2c-4a1e-b1d3-c2fd0aae636a,banderson
+1234123412341230,2017-07-27 18:04:15.595+0000,3765.78,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",6fdddb1d-38b1-42f4-829d-c981f8bd93c5,banderson
+1234123412341230,2017-07-27 10:35:07.177+0000,1932.08,,Dallas,Kroger,Shopping,,"{'Home', 'Shopping'}",b676a1a4-5871-4157-bc88-7306ce46b72a,banderson
+1234123412341230,2017-07-26 11:12:19.327+0000,982.21,,Atlanta,PizzaHut,HouseHold,CANCELLED,"{'Home', 'HouseHold'}",237419b7-1a6b-4865-8720-699631784a2e,banderson
+1234123412341230,2017-07-26 09:29:22.780+0000,730.86,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",d13b86fc-6a45-4b65-ae4d-2a22676f8bcc,banderson
+1234123412341230,2017-07-26 06:57:02.732+0000,1163.00,,Dallas,Macys,Shopping,SUCCESS,"{'Home', 'Shopping'}",d98134a6-686c-48a7-8193-42d4b129d6b2,banderson
+1234123412341230,2017-07-26 05:48:17.242+0000,2003.71,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",c6074add-049a-4b6f-a766-a3cc186eeff2,banderson
+1234123412341230,2017-07-25 13:22:44.768+0000,1622.20,,Dallas,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",65946e32-2cdd-42e3-ae0b-ee4f2692c047,banderson
+1234123412341230,2017-07-25 12:23:54.846+0000,2034.54,,Birmingham,Starbucks,Shopping,,"{'Home', 'Shopping'}",734bde14-0937-4636-8668-526a644869e6,banderson
+1234123412341230,2017-07-25 09:53:26.760+0000,572.80,,Dallas,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",4d98eec3-2044-4a83-a51b-716fa9c6835a,banderson
+1234123412341230,2017-07-25 02:40:29.658+0000,2649.43,,Birmingham,Target,Shopping,,"{'Home', 'Shopping'}",22b2a2c3-e153-4052-a5e1-d1513f04d77d,banderson
+1234123412341230,2017-07-24 12:08:12.098+0000,218.17,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",59469597-dc82-40bd-b0ba-dec720d9545f,banderson
+1234123412341230,2017-07-24 06:31:07.018+0000,2420.72,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",267809f9-b937-4485-a65e-284dceee1d1f,banderson
+1234123412341230,2017-07-24 04:09:14.848+0000,1667.99,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",de2fc252-99f9-4a3b-852e-5379edbd12f7,banderson
+1234123412341230,2017-07-24 00:18:07.105+0000,240.16,,Birmingham,Kroger,Shopping,,"{'Home', 'Shopping'}",6ae84749-68ed-48de-8fe9-431755c954d9,banderson
+1234123412341230,2017-07-23 17:17:53.049+0000,542.43,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",3b2c42ab-fb41-4fbc-becc-57238302b4de,banderson
+1234123412341230,2017-07-23 02:04:23.445+0000,2703.19,,West Palm Beach,Amazon,Shopping,,"{'Home', 'Shopping'}",af432989-d9a4-4a20-841d-43319ca69ced,banderson
+1234123412341230,2017-07-23 00:00:44.561+0000,1306.89,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",a02c9915-137a-4c9c-a618-aa49b1b3105e,banderson
+1234123412341230,2017-07-21 10:07:56.232+0000,696.67,,Birmingham,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",d04ddf41-07aa-4351-9517-072ab31b94ca,banderson
+1234123412341230,2017-07-20 16:39:18.301+0000,1562.09,,Atlanta,Macys,Shopping,,"{'Home', 'Shopping'}",f00dc9a0-f045-4945-8c5f-48cb4f3ec1c1,banderson
+1234123412341230,2017-07-20 04:56:23.798+0000,1278.24,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",3e0c7755-fc85-4148-94aa-1e5d96e5c054,banderson
+1234123412341230,2017-07-19 13:38:22.367+0000,1937.22,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",f246cb60-fb4b-4498-8011-690ecae7c505,banderson
+1234123412341230,2017-07-18 14:56:34.219+0000,1683.81,,Birmingham,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",ad94db6e-9c56-4b31-a9fc-6ea8005dc9f0,banderson
+1234123412341230,2017-07-18 13:25:29.858+0000,1492.89,,Orlando,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",ccbdeb34-1854-4bd6-b6d2-6f427cc64ad7,banderson
+1234123412341230,2017-07-18 08:22:52.768+0000,1062.45,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",0297bb35-1644-48e0-bd69-bab8bf1e389f,banderson
+1234123412341230,2017-07-17 19:45:44.462+0000,958.29,,Atlanta,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",83a14700-e9c5-4511-a300-f71ea2fa21d5,banderson
+1234123412341230,2017-07-17 19:02:04.814+0000,799.48,,Dallas,Starbucks,Shopping,,"{'Home', 'Shopping'}",04c18ed5-0676-4d15-a262-3f340f921abd,banderson
+1234123412341230,2017-07-17 14:50:12.377+0000,1209.73,,West Palm Beach,Wal-Mart,Shopping,,"{'Home', 'Shopping'}",492cc701-0259-42b8-a6b0-e0862f6e9016,banderson
+1234123412341230,2017-07-17 14:17:53.362+0000,1021.80,,Birmingham,Kroger,Shopping,SUCCESS,"{'Home', 'Shopping'}",9ab38543-c203-4158-831a-b86b8c1e1a17,banderson
+1234123412341230,2017-07-17 13:22:00.469+0000,2959.95,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",6e67d295-f6c1-40f6-8173-a94a10c4bd49,banderson
+1234123412341230,2017-07-17 09:09:10.207+0000,1850.05,,Tampa,Starbucks,Shopping,,"{'Home', 'Shopping'}",ebf1bb96-e3c4-4e44-98b0-bb74f6735c2e,banderson
+1234123412341230,2017-07-17 02:43:00.134+0000,1388.07,,Orlando,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",2808f836-c39e-4589-bde4-cde8577cdd4c,banderson
+1234123412341230,2017-07-16 23:48:34.683+0000,1672.53,,Dallas,Amazon,Shopping,,"{'Home', 'Shopping'}",7c336dfe-9ae4-4fb0-b07a-28655a4450e1,banderson
+1234123412341230,2017-07-16 19:22:50.597+0000,950.79,,West Palm Beach,Target,Shopping,,"{'Home', 'Shopping'}",b2f1cb55-5187-41b5-8302-b17ea0d60ce4,banderson
+1234123412341230,2017-07-16 00:09:39.292+0000,2072.95,,Atlanta,Kroger,Shopping,,"{'Home', 'Shopping'}",edeb36d4-9f25-4aa0-b542-03ae859549fa,banderson
+1234123412341230,2017-07-15 23:26:07.187+0000,1856.37,,Atlanta,Target,Shopping,,"{'Home', 'Shopping'}",b4b95052-4edc-468d-ad33-0958a282d778,banderson
+1234123412341230,2017-07-15 19:30:34.428+0000,973.89,,West Palm Beach,PizzaHut,HouseHold,,"{'Home', 'HouseHold'}",a6800e11-6f55-4821-972c-e92798798d4b,banderson
+1234123412341230,2017-07-15 18:21:23.505+0000,1192.50,,Dallas,Macys,Shopping,,"{'Home', 'Shopping'}",5fc6fc86-5d47-4698-9213-86e51964ba82,banderson
+1234123412341230,2017-07-14 20:39:43.229+0000,1769.26,,Birmingham,Amazon,Shopping,,"{'Home', 'Shopping'}",c41d1da9-590b-4e27-a326-115d73dcbd0e,banderson
+1234123412341230,2017-07-14 17:35:16.967+0000,2642.32,,Tampa,BestBuy,Pharmacy,,"{'Home', 'Pharmacy'}",afbae8d9-c954-4802-8a0e-46dca951ee1d,banderson
