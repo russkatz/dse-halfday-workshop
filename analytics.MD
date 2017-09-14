@@ -76,7 +76,7 @@ The table transactions_by_id needs to be populated with all of the transactions 
 
 * Create a varible that points to the table you want to copy from. This is a "lazy evaluation", meaning Spark won't execute the work that needs to be done until it is needed.
 
-`val transactions = sc.cassandraTable("dsbank", "latest_transactions")`
+`val transactions = sc.cassandraTable("dsbank", "transactions")`
 
 * Write all of the rows from "lastest_transactions" into "transactions_by_id". This will actually execute the evaluation of the transactions varible we created in the previous step.
 
