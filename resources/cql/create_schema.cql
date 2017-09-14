@@ -1,4 +1,4 @@
-DROP KEYSPACE dsbank;
+DROP KEYSPACE IF EXISTS dsbank;
 
 CREATE KEYSPACE dsbank WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
 
