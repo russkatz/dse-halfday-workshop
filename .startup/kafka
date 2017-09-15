@@ -3,7 +3,7 @@
 sudo pip install kafka-python
 pip install kafka-python
 
-wget -P /tmp/  http://www-eu.apache.org/dist/kafka/0.11.0.0/kafka_2.11-0.11.0.0.tgz
+wget -P /tmp/  http://mirror.cogentco.com/pub/apache/kafka/0.11.0.0/kafka_2.11-0.11.0.0.tgz
 
 mkdir -p /opt/kafka
 cd /opt/kafka
@@ -16,4 +16,3 @@ sleep 5
 sleep 1
 /opt/kafka/kafka_2.11-0.11.0.0/bin/kafka-topics.sh --alter --zookeeper localhost:2181 --topic fraud --config retention.ms=120000
 sleep 1
-

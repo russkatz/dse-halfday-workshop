@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cd resources/cql
-cqlsh localhost -f create_schema.cql

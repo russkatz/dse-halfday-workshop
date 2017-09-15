@@ -1,7 +1,6 @@
 packages
-workbooks
 kafka
 producer
+workbooks
 dseconfig
-setupcql
 restartdse
