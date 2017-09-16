@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# DSE RPC to localhost
 sed -ie 's/^rpc_address:.*/rpc_address: 127.0.0.1/g' /etc/dse/cassandra/cassandra.yaml
 
+# Enable dsefs with adjusted min_free_space
 sed -ie 's/^\# dsefs_options:.*/dsefs_options:\n     enabled: true\n     keyspace_name: dsefs\n     work_dir: \/var\/lib\/dsefs\n     public_port: 5598\n     private_port: 5599\n     data_directories:\n           \- dir: \/var\/lib\/dsefs\/data\n             storage_weight: 1.0\n             min_free_space: 5368709\n/g' /etc/dse/dse.yaml
+
+# Enable graph
+sed -ie 's/GRAPH_ENABLED=0/GRAPH_ENABLED=1/g' /etc/default/dse
