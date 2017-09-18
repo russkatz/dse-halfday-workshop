@@ -3,3 +3,6 @@
 sudo apt-get install -y  python-pip 
 
 sudo pip install kafka-python
+
+
+chmod -R 777 resources/graph
