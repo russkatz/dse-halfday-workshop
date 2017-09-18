@@ -694,3 +694,497 @@ groovy.lang.MissingPropertyException: No such property: source for class: Script
 	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:94)
 	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
 	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-18 00:34:20 INFO  Executable:74 - Setting configuration graph=fraud
+2017-09-18 00:34:20 INFO  Executable:74 - Setting configuration address=localhost
+2017-09-18 00:34:20 DEBUG Executable:86 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@42f93a98
+2017-09-18 00:34:20 DEBUG GuavaCompatibility:247 - Error while checking existence of method Futures.transformAsync
+java.lang.NoSuchMethodException: com.google.common.util.concurrent.Futures.transformAsync(com.google.common.util.concurrent.ListenableFuture, com.google.common.util.concurrent.AsyncFunction)
+	at java.lang.Class.getMethod(Class.java:1786)
+	at com.datastax.driver.core.GuavaCompatibility.methodExists(GuavaCompatibility.java:244)
+	at com.datastax.driver.core.GuavaCompatibility.isGuava_19_0_OrHigher(GuavaCompatibility.java:216)
+	at com.datastax.driver.core.GuavaCompatibility.selectImplementation(GuavaCompatibility.java:122)
+	at com.datastax.driver.core.GuavaCompatibility.<clinit>(GuavaCompatibility.java:43)
+	at com.datastax.driver.core.Cluster.<clinit>(Cluster.java:59)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.configuredBuilder(ClusterBuilder.java:267)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:188)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-18 00:34:20 INFO  GuavaCompatibility:126 - Detected Guava < 19 in the classpath, using legacy compatibility layer
+2017-09-18 00:34:20 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2017-09-18 00:34:20 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2017-09-18 00:34:20 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-09-18 00:34:20 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2017-09-18 00:34:20 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 2
+2017-09-18 00:34:20 DEBUG Cluster:1407 - Starting new cluster with contact points [localhost/127.0.0.1:9042]
+2017-09-18 00:34:20 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-09-18 00:34:20 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2017-09-18 00:34:20 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-09-18 00:34:20 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-09-18 00:34:20 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-09-18 00:34:20 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-09-18 00:34:20 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-09-18 00:34:20 DEBUG PlatformDependent0:91 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.ClassNotFoundException: jdk.internal.misc.Unsafe
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:290)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:283)
+	at io.netty.util.internal.PlatformDependent.getSystemClassLoader(PlatformDependent.java:641)
+	at io.netty.util.internal.PlatformDependent.isAndroid0(PlatformDependent.java:665)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:65)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at com.datastax.driver.core.Connection$Factory.<init>(Connection.java:745)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1437)
+	at com.datastax.driver.core.Cluster.getMetadata(Cluster.java:390)
+	at com.datastax.driver.core.DelegatingCluster.getMetadata(DelegatingCluster.java:82)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:193)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-18 00:34:20 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - Java version: 8
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 2005925888 bytes
+2017-09-18 00:34:20 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-09-18 00:34:20 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2017-09-18 00:34:20 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2017-09-18 00:34:20 DEBUG NativeLibraryLoader:71 - -Dio.netty.tmpdir: /tmp
+2017-09-18 00:34:20 DEBUG NativeLibraryLoader:71 - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+2017-09-18 00:34:20 DEBUG NetUtil:86 - Loopback interface: lo (lo, 127.0.0.1)
+2017-09-18 00:34:20 DEBUG NetUtil:81 - /proc/sys/net/core/somaxconn: 128
+2017-09-18 00:34:20 INFO  NettyUtil:70 - Found Netty's native epoll transport in the classpath, using it
+2017-09-18 00:34:20 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 4
+2017-09-18 00:34:20 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-09-18 00:34:20 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-09-18 00:34:20 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-09-18 00:34:20 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13fd2ccd
+2017-09-18 00:34:20 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2017-09-18 00:34:21 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-09-18 00:34:21 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 4
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 4
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-09-18 00:34:21 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-09-18 00:34:21 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2017-09-18 00:34:21 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-09-18 00:34:21 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-09-18 00:34:21 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-18 00:34:21 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-09-18 00:34:21 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-09-18 00:34:21 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-09-18 00:34:21 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-09-18 00:34:21 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-09-18 00:34:21 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@673acf0b
+2017-09-18 00:34:21 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2017-09-18 00:34:21 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-18 00:34:21 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2017-09-18 00:34:21 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2017-09-18 00:34:21 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2017-09-18 00:34:21 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 1 milliseconds
+2017-09-18 00:34:21 DEBUG STATES:174 - [Control connection] established to localhost/127.0.0.1:9042
+2017-09-18 00:34:21 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'dc1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-09-18 00:34:21 INFO  Cluster:1559 - New Cassandra host localhost/127.0.0.1:9042 added
+2017-09-18 00:34:21 WARN  ClusterBuilder:196 - Found node running unsupported version: 5.1.2, IP: localhost/127.0.0.1
+2017-09-18 00:34:21 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2017-09-18 00:34:21 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-09-18 00:34:21 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-18 00:34:21 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-18 00:34:21 DEBUG HostConnectionPool:143 - Created connection pool to host localhost/127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-09-18 00:34:21 DEBUG Session:395 - Added connection pool for localhost/127.0.0.1:9042
+2017-09-18 00:34:21 WARN  SimpleGraphStatement:132 - GraphSON1 is being used for a graph query, however it is recommended to switch to GraphSON2 when executing a graph query to maintain type information in requests and responses to the DSE Graph server. Enabling GraphSON2 can be done via the DseCluster's GraphOptions, see https://goo.gl/EAUBUv for more information.
+2017-09-18 00:34:21 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  //Configures the data loader to create the schema
+[2	]  config create_schema: false, load_new: true
+[3	]  
+[4	]  if (inputpath == '')
+[5	]    path = new java.io.File('.').getCanonicalPath() + '/data/'
+[6	]  else
+[7	]    path = inputpath + '/'
+[8	]  
+[9	]  customers = File.csv(path + 'customers.csv').delimiter('|')
+[10	]  sessions = File.csv(path + 'sessions.csv').delimiter('|')
+[11	]  orders = File.csv(path + 'orders.csv').delimiter('|')
+[12	]  chargebacks = File.csv(path + 'chargebacks.csv').delimiter('|')
+[13	]  creditCards = File.csv(path + 'creditCards.csv').delimiter('|')
+[14	]  devices = File.csv(path + 'devices.csv').delimiter('|')
+[15	]  
+[16	]  //    customerAddresses = File.json(path + 'customerAddresses.json')
+[17	]  customerOrders = File.csv(path + 'customerOrders.csv').delimiter('|')
+[18	]  customerSessions = File.csv(path + 'customerSessions.csv').delimiter('|')
+[19	]  customerChargebacks = File.csv(path + 'customerChargebacks.csv').delimiter('|')
+[20	]  orderChargebacks = File.csv(path + 'orderChargebacks.csv').delimiter('|')
+[21	]  
+[22	]  load(customers).asVertices {
+[23	]      label 'customer'
+[24	]      key 'customerid'
+[25	]      ignore 'address'
+[26	]      ignore 'city'
+[27	]      ignore 'state'
+[28	]      ignore 'postalcode'
+[29	]      ignore 'countrycode'
+[30	]  }
+[31	]  
+[32	]  load(customers).asVertices {
+[33	]      label 'address'
+[34	]      key address: 'address', postalcode: 'postalcode'
+[35	]      ignore 'customerid'
+[36	]      ignore 'firstname'
+[37	]      ignore 'lastname'
+[38	]      ignore 'email'
+[39	]      ignore 'phone'
+[40	]      ignore 'createdtime'
+[41	]  }
+[42	]  
+[43	]  load(sessions).asVertices {
+[44	]      label 'session'
+[45	]      key 'sessionid'
+[46	]  }
+[47	]  
+[48	]  load(orders).asVertices {
+[49	]      label 'order'
+[50	]      key 'orderid'
+[51	]  }
+[52	]  
+[53	]  load(chargebacks).asVertices {
+[54	]      label 'chargeback'
+[55	]      key 'chargebacknumber'
+[56	]  }
+[57	]  
+[58	]  load(creditCards).asVertices {
+[59	]      label 'creditCard'
+[60	]      key 'creditcardhashed'
+[61	]  }
+[62	]  
+[63	]  load(devices).asVertices {
+[64	]      label 'device'
+[65	]      key 'deviceid'
+[66	]  }
+[67	]  
+[68	]  load(customerOrders).asEdges {
+[69	]      label 'places'
+[70	]      outV 'customerid', {
+[71	]          label 'customer'
+[72	]          key 'customerid'
+[73	]      }
+[74	]      inV 'orderid', {
+[75	]          label 'order'
+[76	]          key 'orderid'
+[77	]      }
+[78	]  }
+[79	]  
+[80	]  load(orders).asEdges {
+[81	]      label 'usesCard'
+[82	]      outV 'orderid', {
+[83	]          label 'order'
+[84	]          key 'orderid'
+[85	]      }
+[86	]      inV 'creditcardhashed', {
+[87	]          label 'creditCard'
+[88	]          key 'creditcardhashed'
+[89	]      }
+[90	]      ignore 'createdtime'
+[91	]      ignore 'outcome'
+[92	]      ignore 'ipaddress'
+[93	]      ignore 'amount'
+[94	]      ignore 'deviceid'
+[95	]  }
+[96	]  
+[97	]  load(orderChargebacks).asEdges {
+[98	]      label 'resultsIn'
+[99	]      outV 'orderid', {
+[100	]          label 'order'
+[101	]          key 'orderid'
+[102	]      }
+[103	]      inV 'chargebacknumber', {
+[104	]          label 'chargeback'
+[105	]          key 'chargebacknumber'
+[106	]      }
+[107	]      ignore 'amount'
+[108	]      ignore 'createdtime'
+[109	]  }
+[110	]  
+[111	]  load(chargebacks).asEdges {
+[112	]      label 'fromCard'
+[113	]      outV 'chargebacknumber', {
+[114	]          label 'chargeback'
+[115	]          key 'chargebacknumber'
+[116	]      }
+[117	]      inV 'creditcardhashed', {
+[118	]          label 'creditCard'
+[119	]          key 'creditcardhashed'
+[120	]      }
+[121	]      ignore 'amount'
+[122	]      ignore 'createdtime'
+[123	]  }
+[124	]  
+[125	]  load(customerSessions).asEdges {
+[126	]      label 'logsInto'
+[127	]      outV 'customerid', {
+[128	]          label 'customer'
+[129	]          key 'customerid'
+[130	]      }
+[131	]      inV 'sessionid', {
+[132	]          label 'session'
+[133	]          key 'sessionid'
+[134	]      }
+[135	]  }
+[136	]  
+[137	]  load(customerChargebacks).asEdges {
+[138	]      label 'chargedWith'
+[139	]      outV 'customerid', {
+[140	]          label 'customer'
+[141	]          key 'customerid'
+[142	]      }
+[143	]      inV 'chargebacknumber', {
+[144	]          label 'chargeback'
+[145	]          key 'chargebacknumber'
+[146	]      }
+[147	]  }
+[148	]  
+[149	]  load(sessions).asEdges {
+[150	]      label 'using'
+[151	]      outV 'sessionid', {
+[152	]          label 'session'
+[153	]          key 'sessionid'
+[154	]      }
+[155	]      inV 'deviceid', {
+[156	]          label 'device'
+[157	]          key 'deviceid'
+[158	]      }
+[159	]      ignore 'ipaddress'
+[160	]      ignore 'createdtime'
+[161	]  }
+[162	]  
+[163	]  load(orders).asEdges {
+[164	]      label 'using'
+[165	]      outV 'orderid', {
+[166	]          label 'order'
+[167	]          key 'orderid'
+[168	]      }
+[169	]      inV 'deviceid', {
+[170	]          label 'device'
+[171	]          key 'deviceid'
+[172	]      }
+[173	]      ignore 'createdtime'
+[174	]      ignore 'outcome'
+[175	]      ignore 'ipaddress'
+[176	]      ignore 'creditcardhashed'
+[177	]      ignore 'amount'
+[178	]  }
+[179	]  
+[180	]  // load(customerAddresses).asEdges {
+[181	]  //     label 'hasAddress'
+[182	]  //     outV 'customer', {
+[183	]  //         label 'customer'
+[184	]  //         key 'customerid'
+[185	]  //     }
+[186	]  //     inV 'address', {
+[187	]  //         label 'address'
+[188	]  //         key address: 'address', postalcode: 'postalcode'
+[189	]  //     }
+[190	]  //     ignore 'firstname'
+[191	]  //     ignore 'lastname'
+[192	]  //     ignore 'email'
+[193	]  //     ignore 'phone'
+[194	]  //     ignore 'createdtime'
+[195	]  // }
+
+2017-09-18 00:34:22 WARN  Executable:110 - As of DGL 6.0, transformation functions will be deprecated. Please consider pre-processing your data using external tools instead. You can safely ignore this warning if you're not using any of the transformation functions in your scripts.
+2017-09-18 00:34:22 WARN  Executable:116 - Schema discovery and preparation is deprecated. Starting with DGL version 6.x. it will no longer be supported.
+2017-09-18 00:34:22 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-09-18 00:34:22 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-18 00:34:22 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-18 00:34:22 DEBUG HostConnectionPool:143 - Created connection pool to host localhost/127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-09-18 00:34:22 DEBUG Session:395 - Added connection pool for localhost/127.0.0.1:9042
+2017-09-18 00:34:23 DEBUG GraphJsonUtils:70 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2017-09-18 00:34:24 DEBUG Reporter:120 - query times 2: p50 638227.0µs, p80 638227.0µs, p90 638227.0µs, p95 638227.0µs, p99 638227.0µs, p99.9 638227.0µs, p99.99 638227.0µs
+2017-09-18 00:34:25 INFO  DataLoaderImpl:242 - Initializing tasks with [1] read threads and [1] loader threads
+2017-09-18 00:34:25 INFO  DataLoaderImpl:243 - Initializing tasks with [6] edge loading threads and [1] vertex loading threads
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [creditCards] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [devices] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customerOrders] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [orderChargebacks] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customerSessions] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customerChargebacks] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:25 INFO  DataLoaderImpl:344 - The following schema registrations will be added.
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(edgeLabel[chargedWith]) vertexLabel[chargeback]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[deviceid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[chargeback] hasIncidence(propertyKey[creditcardhashed])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[address] hasIncidence(propertyKey[countrycode])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[createdtime])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[device] hasIncidence(propertyKey[type])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[phone])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[createdtime])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[address] hasIncidence(propertyKey[postalcode])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[session] hasIncidence(propertyKey[sessionid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[address] hasIncidence(propertyKey[address])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[session] hasIncidence(edgeLabel[using]) vertexLabel[device]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[email])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[session] hasIncidence(propertyKey[deviceid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[outcome])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[creditcardhashed])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(edgeLabel[using]) vertexLabel[device]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[session] hasIncidence(propertyKey[createdtime])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[device] hasIncidence(propertyKey[osversion])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[lastname])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[chargeback] hasIncidence(edgeLabel[fromCard]) vertexLabel[creditCard]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[device] hasIncidence(propertyKey[os])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(edgeLabel[places]) vertexLabel[order]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[firstname])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(edgeLabel[usesCard]) vertexLabel[creditCard]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[amount])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[ipaddress])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[address] hasIncidence(propertyKey[state])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(edgeLabel[logsInto]) vertexLabel[session]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[address] hasIncidence(propertyKey[city])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[customer] hasIncidence(propertyKey[customerid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[chargeback] hasIncidence(propertyKey[chargebacknumber])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[session] hasIncidence(propertyKey[ipaddress])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[creditCard] hasIncidence(propertyKey[type])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[chargeback] hasIncidence(propertyKey[amount])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[creditCard] hasIncidence(propertyKey[creditcardhashed])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(propertyKey[orderid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[chargeback] hasIncidence(propertyKey[createdtime])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[order] hasIncidence(edgeLabel[resultsIn]) vertexLabel[chargeback]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:346 - Adding schema registration: vertexLabel[device] hasIncidence(propertyKey[deviceid])
+2017-09-18 00:34:25 INFO  DataLoaderImpl:349 - Sum of loading statistics: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=0,absentVertexCount=369,edgeCount=112,vertexPropertyCount=924,elementPropertyCount=0]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:351 - Max load for weight [VERTEX (Sum of vertex counts)]: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=0,absentVertexCount=62,edgeCount=31,vertexPropertyCount=62,elementPropertyCount=0]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:351 - Max load for weight [TOTAL (Sum of vertex, edge, and vertex-property counts)]: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=0,absentVertexCount=34,edgeCount=0,vertexPropertyCount=202,elementPropertyCount=0]
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [chargebacks] throughput is [19.082800583417193] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [sessions] throughput is [218.05348814080583] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [customerOrders] throughput is [82.15899182748076] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [creditCards] throughput is [62.83656693353395] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [customerChargebacks] throughput is [20.298662338450555] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [devices] throughput is [103.69257975150407] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [orders] throughput is [104.45123410625258] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [customers] throughput is [143.33342477162697] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [orderChargebacks] throughput is [18.781511620196365] items/s
+2017-09-18 00:34:25 DEBUG Reporter:69 - Input queue [customerSessions] throughput is [197.20812069121212] items/s
+2017-09-18 00:34:25 DEBUG Reporter:120 - query times 4: p50 5478.0µs, p80 5478.0µs, p90 5478.0µs, p95 5478.0µs, p99 5478.0µs, p99.9 5478.0µs, p99.99 5478.0µs
+2017-09-18 00:34:25 INFO  DataLoaderImpl:424 - Looking for vertexes in the following loads [customers, customers, sessions, orders, chargebacks, creditCards, devices, customerOrders, orders, orderChargebacks, chargebacks, customerSessions, customerChargebacks, sessions, orders]
+2017-09-18 00:34:25 INFO  DataLoaderImpl:242 - Initializing tasks with [1] read threads and [1] loader threads
+2017-09-18 00:34:25 INFO  DataLoaderImpl:243 - Initializing tasks with [6] edge loading threads and [1] vertex loading threads
+2017-09-18 00:34:25 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:26 DEBUG Reporter:69 - Input queue [customers] throughput is [37.915025832126005] items/s
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [creditCards] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [devices] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [customerOrders] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [orderChargebacks] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [customerSessions] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [customerChargebacks] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:26 INFO  DataLoaderImpl:437 - Looking for relations in the following loads [customers, customers, sessions, orders, chargebacks, creditCards, devices, customerOrders, orders, orderChargebacks, chargebacks, customerSessions, customerChargebacks, sessions, orders]
+2017-09-18 00:34:26 INFO  DataLoaderImpl:242 - Initializing tasks with [1] read threads and [6] loader threads
+2017-09-18 00:34:26 INFO  DataLoaderImpl:243 - Initializing tasks with [6] edge loading threads and [1] vertex loading threads
+2017-09-18 00:34:26 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [chargebacks] throughput is [3.8204929371655014] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [sessions] throughput is [41.824357310870404] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [customerOrders] throughput is [16.771504502738058] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [creditCards] throughput is [12.675284317458848] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [customerChargebacks] throughput is [4.001813499155537] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [devices] throughput is [21.05811331371008] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [orders] throughput is [20.01687096233083] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [customers] throughput is [50.068708552441976] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [orderChargebacks] throughput is [3.77912884965385] items/s
+2017-09-18 00:34:27 DEBUG Reporter:69 - Input queue [customerSessions] throughput is [38.456544435514154] items/s
+2017-09-18 00:34:27 DEBUG Reporter:75 - Promoted 369 vertices to the persistent cache in 0ms avg put time: 0.0ms
+2017-09-18 00:34:27 DEBUG Reporter:120 - query times 15: p50 4212.0µs, p80 4212.0µs, p90 4212.0µs, p95 4212.0µs, p99 4212.0µs, p99.9 4212.0µs, p99.99 4212.0µs
+2017-09-18 00:34:27 INFO  Reporter:92 - ADD Request for 369 vertices 0 edges 0 properties 0 anonymous
+2017-09-18 00:34:27 INFO  Reporter:97 - Current total additions: 369 vertices 0 edges 0 properties 0 anonymous
+2017-09-18 00:34:27 INFO  Reporter:99 - 369 total elements written
+2017-09-18 00:34:27 INFO  DataLoaderImpl:213 - Scheduling [customers] for reading
+2017-09-18 00:34:27 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:28 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:28 DEBUG Reporter:69 - Input queue [sessions] throughput is [55.05035822084971] items/s
+2017-09-18 00:34:28 DEBUG Reporter:69 - Input queue [orders] throughput is [15622.419511062904] items/s
+2017-09-18 00:34:28 DEBUG Reporter:70 - Input queue [orders] has [13] entries
+2017-09-18 00:34:28 DEBUG Reporter:69 - Input queue [customers] throughput is [54.77968094866988] items/s
+2017-09-18 00:34:28 DEBUG Reporter:120 - query times 11: p50 18690.0µs, p80 18690.0µs, p90 18690.0µs, p95 18690.0µs, p99 18690.0µs, p99.9 18690.0µs, p99.99 18690.0µs
+2017-09-18 00:34:28 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 363 properties 0 anonymous
+2017-09-18 00:34:28 INFO  Reporter:97 - Current total additions: 369 vertices 0 edges 363 properties 0 anonymous
+2017-09-18 00:34:28 INFO  Reporter:99 - 732 total elements written
+2017-09-18 00:34:28 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:29 DEBUG Reporter:69 - Input queue [chargebacks] throughput is [6.556298706428934] items/s
+2017-09-18 00:34:29 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 84 properties 0 anonymous
+2017-09-18 00:34:29 INFO  Reporter:97 - Current total additions: 369 vertices 0 edges 447 properties 0 anonymous
+2017-09-18 00:34:29 INFO  Reporter:99 - 816 total elements written
+2017-09-18 00:34:29 INFO  DataLoaderImpl:213 - Scheduling [creditCards] for reading
+2017-09-18 00:34:29 INFO  DataLoaderImpl:213 - Scheduling [devices] for reading
+2017-09-18 00:34:29 INFO  DataLoaderImpl:213 - Scheduling [customerOrders] for reading
+2017-09-18 00:34:29 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:30 INFO  DataLoaderImpl:213 - Scheduling [orderChargebacks] for reading
+2017-09-18 00:34:30 INFO  DataLoaderImpl:213 - Scheduling [chargebacks] for reading
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [chargebacks] throughput is [9.437036274850724] items/s
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [customerOrders] throughput is [15.53624433183846] items/s
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [creditCards] throughput is [11.645015548001306] items/s
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [devices] throughput is [19.346079449771878] items/s
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [orders] throughput is [16.23733494543162] items/s
+2017-09-18 00:34:30 DEBUG Reporter:69 - Input queue [orderChargebacks] throughput is [9.025445646496417] items/s
+2017-09-18 00:34:30 DEBUG Reporter:120 - query times 15: p50 7521.0µs, p80 7521.0µs, p90 7521.0µs, p95 7521.0µs, p99 7521.0µs, p99.9 7521.0µs, p99.99 7521.0µs
+2017-09-18 00:34:30 INFO  Reporter:92 - ADD Request for 0 vertices 31 edges 74 properties 0 anonymous
+2017-09-18 00:34:30 INFO  Reporter:97 - Current total additions: 369 vertices 31 edges 521 properties 0 anonymous
+2017-09-18 00:34:30 INFO  Reporter:99 - 921 total elements written
+2017-09-18 00:34:30 INFO  DataLoaderImpl:213 - Scheduling [customerSessions] for reading
+2017-09-18 00:34:31 INFO  DataLoaderImpl:213 - Scheduling [customerChargebacks] for reading
+2017-09-18 00:34:31 DEBUG Reporter:69 - Input queue [customerChargebacks] throughput is [10.71353297380645] items/s
+2017-09-18 00:34:31 DEBUG Reporter:69 - Input queue [customerSessions] throughput is [36.98707863558701] items/s
+2017-09-18 00:34:31 DEBUG Reporter:120 - query times 3: p50 5234.0µs, p80 5234.0µs, p90 5234.0µs, p95 5234.0µs, p99 5234.0µs, p99.9 5234.0µs, p99.99 5234.0µs
+2017-09-18 00:34:31 INFO  Reporter:92 - ADD Request for 0 vertices 33 edges 0 properties 0 anonymous
+2017-09-18 00:34:31 INFO  Reporter:97 - Current total additions: 369 vertices 64 edges 521 properties 0 anonymous
+2017-09-18 00:34:31 INFO  Reporter:99 - 954 total elements written
+2017-09-18 00:34:31 INFO  DataLoaderImpl:213 - Scheduling [sessions] for reading
+2017-09-18 00:34:32 INFO  DataLoaderImpl:213 - Scheduling [orders] for reading
+2017-09-18 00:34:32 DEBUG Reporter:69 - Input queue [sessions] throughput is [40.18940280252244] items/s
+2017-09-18 00:34:32 DEBUG Reporter:69 - Input queue [orders] throughput is [56.18958297869512] items/s
+2017-09-18 00:34:32 DEBUG Reporter:120 - query times 3: p50 5901.0µs, p80 5901.0µs, p90 5901.0µs, p95 5901.0µs, p99 5901.0µs, p99.9 5901.0µs, p99.99 5901.0µs
+2017-09-18 00:34:32 INFO  Reporter:92 - ADD Request for 0 vertices 34 edges 0 properties 0 anonymous
+2017-09-18 00:34:32 INFO  Reporter:97 - Current total additions: 369 vertices 98 edges 521 properties 0 anonymous
+2017-09-18 00:34:32 INFO  Reporter:99 - 988 total elements written
+2017-09-18 00:34:32 DEBUG Cluster:1664 - Shutting down
+2017-09-18 00:34:32 DEBUG Connection:683 - Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-09-18 00:34:32 DEBUG STATES:87 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 2
+2017-09-18 00:34:32 DEBUG Connection:683 - Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-09-18 00:34:32 DEBUG STATES:87 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 1
+2017-09-18 00:34:32 DEBUG Connection:683 - Connection[localhost/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-09-18 00:34:32 DEBUG STATES:87 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 0
+2017-09-18 00:34:33 DEBUG Reporter:120 - query times 3: p50 12501.0µs, p80 12501.0µs, p90 12501.0µs, p95 12501.0µs, p99 12501.0µs, p99.9 12501.0µs, p99.99 12501.0µs
+2017-09-18 00:34:33 INFO  Reporter:92 - ADD Request for 0 vertices 14 edges 0 properties 0 anonymous
+2017-09-18 00:34:33 INFO  Reporter:97 - Current total additions: 369 vertices 112 edges 521 properties 0 anonymous
+2017-09-18 00:34:33 INFO  Reporter:99 - 1002 total elements written
+2017-09-18 00:34:34 DEBUG PoolThreadCache:81 - Freed 6 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2017-09-18 00:34:34 DEBUG PoolThreadCache:81 - Freed 45 thread-local buffer(s) from thread: cluster1-nio-worker-0
