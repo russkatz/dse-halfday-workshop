@@ -1,0 +1,696 @@
+2017-09-16 15:30:03 INFO  Executable:74 - Setting configuration graph=fraud
+2017-09-16 15:30:03 INFO  Executable:74 - Setting configuration address=localhost
+2017-09-16 15:30:03 DEBUG Executable:86 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@42f93a98
+2017-09-16 15:30:03 DEBUG GuavaCompatibility:247 - Error while checking existence of method Futures.transformAsync
+java.lang.NoSuchMethodException: com.google.common.util.concurrent.Futures.transformAsync(com.google.common.util.concurrent.ListenableFuture, com.google.common.util.concurrent.AsyncFunction)
+	at java.lang.Class.getMethod(Class.java:1786)
+	at com.datastax.driver.core.GuavaCompatibility.methodExists(GuavaCompatibility.java:244)
+	at com.datastax.driver.core.GuavaCompatibility.isGuava_19_0_OrHigher(GuavaCompatibility.java:216)
+	at com.datastax.driver.core.GuavaCompatibility.selectImplementation(GuavaCompatibility.java:122)
+	at com.datastax.driver.core.GuavaCompatibility.<clinit>(GuavaCompatibility.java:43)
+	at com.datastax.driver.core.Cluster.<clinit>(Cluster.java:59)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.configuredBuilder(ClusterBuilder.java:267)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:188)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-16 15:30:03 INFO  GuavaCompatibility:126 - Detected Guava < 19 in the classpath, using legacy compatibility layer
+2017-09-16 15:30:03 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2017-09-16 15:30:03 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2017-09-16 15:30:03 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-09-16 15:30:03 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2017-09-16 15:30:03 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 2
+2017-09-16 15:30:03 DEBUG Cluster:1407 - Starting new cluster with contact points [localhost/127.0.0.1:9042]
+2017-09-16 15:30:03 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-09-16 15:30:03 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2017-09-16 15:30:03 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-09-16 15:30:03 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-09-16 15:30:03 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-09-16 15:30:03 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-09-16 15:30:03 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-09-16 15:30:03 DEBUG PlatformDependent0:91 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.ClassNotFoundException: jdk.internal.misc.Unsafe
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:290)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:283)
+	at io.netty.util.internal.PlatformDependent.getSystemClassLoader(PlatformDependent.java:641)
+	at io.netty.util.internal.PlatformDependent.isAndroid0(PlatformDependent.java:665)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:65)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at com.datastax.driver.core.Connection$Factory.<init>(Connection.java:745)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1437)
+	at com.datastax.driver.core.Cluster.getMetadata(Cluster.java:390)
+	at com.datastax.driver.core.DelegatingCluster.getMetadata(DelegatingCluster.java:82)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:193)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-16 15:30:03 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - Java version: 8
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 2005925888 bytes
+2017-09-16 15:30:03 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-09-16 15:30:03 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2017-09-16 15:30:03 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2017-09-16 15:30:03 DEBUG NativeLibraryLoader:71 - -Dio.netty.tmpdir: /tmp
+2017-09-16 15:30:03 DEBUG NativeLibraryLoader:71 - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+2017-09-16 15:30:03 DEBUG NetUtil:86 - Loopback interface: lo (lo, 127.0.0.1)
+2017-09-16 15:30:03 DEBUG NetUtil:81 - /proc/sys/net/core/somaxconn: 128
+2017-09-16 15:30:03 INFO  NettyUtil:70 - Found Netty's native epoll transport in the classpath, using it
+2017-09-16 15:30:03 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 4
+2017-09-16 15:30:03 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-09-16 15:30:03 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-09-16 15:30:03 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-09-16 15:30:03 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13fd2ccd
+2017-09-16 15:30:03 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2017-09-16 15:30:04 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-09-16 15:30:04 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 4
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 4
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-09-16 15:30:04 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-09-16 15:30:04 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2017-09-16 15:30:04 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-09-16 15:30:04 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-09-16 15:30:04 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-16 15:30:04 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-09-16 15:30:04 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-09-16 15:30:04 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-09-16 15:30:04 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-09-16 15:30:04 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-09-16 15:30:04 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@673acf0b
+2017-09-16 15:30:04 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2017-09-16 15:30:04 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-16 15:30:04 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2017-09-16 15:30:04 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2017-09-16 15:30:04 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2017-09-16 15:30:04 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 1 milliseconds
+2017-09-16 15:30:04 DEBUG STATES:174 - [Control connection] established to localhost/127.0.0.1:9042
+2017-09-16 15:30:04 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'dc1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-09-16 15:30:04 INFO  Cluster:1559 - New Cassandra host localhost/127.0.0.1:9042 added
+2017-09-16 15:30:04 WARN  ClusterBuilder:196 - Found node running unsupported version: 5.1.2, IP: localhost/127.0.0.1
+2017-09-16 15:30:04 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2017-09-16 15:30:04 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-09-16 15:30:04 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-16 15:30:04 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-16 15:30:04 DEBUG HostConnectionPool:143 - Created connection pool to host localhost/127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-09-16 15:30:04 DEBUG Session:395 - Added connection pool for localhost/127.0.0.1:9042
+2017-09-16 15:30:04 WARN  SimpleGraphStatement:132 - GraphSON1 is being used for a graph query, however it is recommended to switch to GraphSON2 when executing a graph query to maintain type information in requests and responses to the DSE Graph server. Enabling GraphSON2 can be done via the DseCluster's GraphOptions, see https://goo.gl/EAUBUv for more information.
+2017-09-16 15:30:04 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  //Configures the data loader to create the schema
+[2	]  config create_schema: false, load_new: true
+[3	]  
+[4	]  if (source == '' || source == 'file') {
+[5	]  
+[6	]      // If the user specifies an inputpath on the command-line, use that.
+[7	]      // Otherwise check the data directory from the data directory from where the loader is run.
+[8	]      if (inputpath == '')
+[9	]          path = new java.io.File('.').getCanonicalPath() + '/data/'
+[10	]      else
+[11	]          path = inputpath + '/'
+[12	]  
+[13	]      customers = File.csv(path + 'customers.csv').delimiter('|')
+[14	]      sessions = File.csv(path + 'sessions.csv').delimiter('|')
+[15	]      orders = File.csv(path + 'orders.csv').delimiter('|')
+[16	]      chargebacks = File.csv(path + 'chargebacks.csv').delimiter('|')
+[17	]      creditCards = File.csv(path + 'creditCards.csv').delimiter('|')
+[18	]      devices = File.csv(path + 'devices.csv').delimiter('|')
+[19	]  
+[20	]  //    customerAddresses = File.json(path + 'customerAddresses.json')
+[21	]      customerOrders = File.csv(path + 'customerOrders.csv').delimiter('|')
+[22	]      customerSessions = File.csv(path + 'customerSessions.csv').delimiter('|')
+[23	]      customerChargebacks = File.csv(path + 'customerChargebacks.csv').delimiter('|')
+[24	]      orderChargebacks = File.csv(path + 'orderChargebacks.csv').delimiter('|')
+[25	]  } else if (source == 'db') {
+[26	]  
+[27	]      // Don't forget to add the jdbc driver to the loader classpath (loader root directory)
+[28	]      db = Database.connection('jdbc:mysql://localhost/fraud').user('root').password('foo').MySQL();//driver('com.mysql.jdbc.Driver');
+[29	]  
+[30	]      customers =     db.query 'select * from customers'
+[31	]      sessions =      db.query 'select * from sessions'
+[32	]      orders =        db.query 'select * from orders'
+[33	]      chargebacks =   db.query 'select * from chargebacks'
+[34	]      creditCards =   db.query 'select * from creditcards'
+[35	]      devices =       db.query 'select * from devices'
+[36	]  
+[37	]  //    customerAddresses =     db.query 'select * from customer_addresses'
+[38	]      customerOrders =        db.query 'select * from customer_orders'
+[39	]      customerSessions =      db.query 'select * from customer_sessions'
+[40	]      customerChargebacks =   db.query 'select * from customer_chargebacks'
+[41	]      orderChargebacks =      db.query 'select * from order_chargebacks'
+[42	]  } else {
+[43	]      throw new Exception('Source \'' + source + '\' is not valid.')
+[44	]  }
+[45	]  
+[46	]  load(customers).asVertices {
+[47	]      label 'customer'
+[48	]      key 'customerid'
+[49	]      ignore 'address'
+[50	]      ignore 'city'
+[51	]      ignore 'state'
+[52	]      ignore 'postalcode'
+[53	]      ignore 'countrycode'
+[54	]  }
+[55	]  
+[56	]  load(customers).asVertices {
+[57	]      label 'address'
+[58	]      key address: 'address', postalcode: 'postalcode'
+[59	]      ignore 'customerid'
+[60	]      ignore 'firstname' 
+[61	]      ignore 'lastname'
+[62	]      ignore 'email'
+[63	]      ignore 'phone'
+[64	]      ignore 'createdtime'
+[65	]  }
+[66	]  
+[67	]  load(sessions).asVertices {
+[68	]      label 'session'
+[69	]      key 'sessionid'
+[70	]  }
+[71	]  
+[72	]  load(orders).asVertices {
+[73	]      label 'order'
+[74	]      key 'orderid'
+[75	]  }
+[76	]  
+[77	]  load(chargebacks).asVertices {
+[78	]      label 'chargeback'
+[79	]      key 'chargebacknumber'
+[80	]  }
+[81	]  
+[82	]  load(creditCards).asVertices {
+[83	]      label 'creditCard'
+[84	]      key 'creditcardhashed'
+[85	]  }
+[86	]  
+[87	]  load(devices).asVertices {
+[88	]      label 'device'
+[89	]      key 'deviceid'
+[90	]  }
+[91	]  
+[92	]  load(customerOrders).asEdges {
+[93	]      label 'places'
+[94	]      outV 'customerid', {
+[95	]          label 'customer'
+[96	]          key 'customerid'
+[97	]      }
+[98	]      inV 'orderid', {
+[99	]          label 'order'
+[100	]          key 'orderid'
+[101	]      }
+[102	]  }
+[103	]  
+[104	]  load(orders).asEdges {
+[105	]      label 'usesCard'
+[106	]      outV 'orderid', {
+[107	]          label 'order'
+[108	]          key 'orderid'
+[109	]      }
+[110	]      inV 'creditcardhashed', {
+[111	]          label 'creditCard'
+[112	]          key 'creditcardhashed'
+[113	]      }
+[114	]      ignore 'createdtime'
+[115	]      ignore 'outcome'
+[116	]      ignore 'ipaddress'
+[117	]      ignore 'amount'
+[118	]      ignore 'deviceid'
+[119	]  }
+[120	]  
+[121	]  load(orderChargebacks).asEdges {
+[122	]      label 'resultsIn'
+[123	]      outV 'orderid', {
+[124	]          label 'order'
+[125	]          key 'orderid'
+[126	]      }
+[127	]      inV 'chargebacknumber', {
+[128	]          label 'chargeback'
+[129	]          key 'chargebacknumber'
+[130	]      }
+[131	]      ignore 'amount'
+[132	]      ignore 'createdtime'
+[133	]  }
+[134	]  
+[135	]  load(chargebacks).asEdges {
+[136	]      label 'fromCard'
+[137	]      outV 'chargebacknumber', {
+[138	]          label 'chargeback'
+[139	]          key 'chargebacknumber'
+[140	]      }
+[141	]      inV 'creditcardhashed', {
+[142	]          label 'creditCard'
+[143	]          key 'creditcardhashed'
+[144	]      }
+[145	]      ignore 'amount'
+[146	]      ignore 'createdtime'
+[147	]  }
+[148	]  
+[149	]  load(customerSessions).asEdges {
+[150	]      label 'logsInto'
+[151	]      outV 'customerid', {
+[152	]          label 'customer'
+[153	]          key 'customerid'
+[154	]      }
+[155	]      inV 'sessionid', {
+[156	]          label 'session'
+[157	]          key 'sessionid'
+[158	]      }
+[159	]  }
+[160	]  
+[161	]  load(customerChargebacks).asEdges {
+[162	]      label 'chargedWith'
+[163	]      outV 'customerid', {
+[164	]          label 'customer'
+[165	]          key 'customerid'
+[166	]      }
+[167	]      inV 'chargebacknumber', {
+[168	]          label 'chargeback'
+[169	]          key 'chargebacknumber'
+[170	]      }
+[171	]  }
+[172	]  
+[173	]  load(sessions).asEdges {
+[174	]      label 'using'
+[175	]      outV 'sessionid', {
+[176	]          label 'session'
+[177	]          key 'sessionid'
+[178	]      }
+[179	]      inV 'deviceid', {
+[180	]          label 'device'
+[181	]          key 'deviceid'
+[182	]      }
+[183	]      ignore 'ipaddress'
+[184	]      ignore 'createdtime'
+[185	]  }
+[186	]  
+[187	]  load(orders).asEdges {
+[188	]      label 'using'
+[189	]      outV 'orderid', {
+[190	]          label 'order'
+[191	]          key 'orderid'
+[192	]      }
+[193	]      inV 'deviceid', {
+[194	]          label 'device'
+[195	]          key 'deviceid'
+[196	]      }
+[197	]      ignore 'createdtime'
+[198	]      ignore 'outcome'
+[199	]      ignore 'ipaddress'
+[200	]      ignore 'creditcardhashed'
+[201	]      ignore 'amount'
+[202	]  }
+[203	]  
+[204	]  // load(customerAddresses).asEdges {
+[205	]  //     label 'hasAddress'
+[206	]  //     outV 'customer', {
+[207	]  //         label 'customer'
+[208	]  //         key 'customerid'
+[209	]  //     }
+[210	]  //     inV 'address', {
+[211	]  //         label 'address'
+[212	]  //         key address: 'address', postalcode: 'postalcode'
+[213	]  //     }
+[214	]  //     ignore 'firstname' 
+[215	]  //     ignore 'lastname'
+[216	]  //     ignore 'email'
+[217	]  //     ignore 'phone'
+[218	]  //     ignore 'createdtime'
+[219	]  // }
+
+2017-09-16 15:30:05 ERROR Executable:135 - Encountered error while loading
+groovy.lang.MissingPropertyException: No such property: source for class: Script1
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1.run(Script1.groovy:4)
+	at com.datastax.dsegraphloader.cli.GroovyScriptExecutor.evaluate(GroovyScriptExecutor.java:122)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:94)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-16 15:32:06 INFO  Executable:74 - Setting configuration graph=fraud
+2017-09-16 15:32:06 INFO  Executable:74 - Setting configuration address=localhost
+2017-09-16 15:32:06 DEBUG Executable:86 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@42f93a98
+2017-09-16 15:32:06 DEBUG GuavaCompatibility:247 - Error while checking existence of method Futures.transformAsync
+java.lang.NoSuchMethodException: com.google.common.util.concurrent.Futures.transformAsync(com.google.common.util.concurrent.ListenableFuture, com.google.common.util.concurrent.AsyncFunction)
+	at java.lang.Class.getMethod(Class.java:1786)
+	at com.datastax.driver.core.GuavaCompatibility.methodExists(GuavaCompatibility.java:244)
+	at com.datastax.driver.core.GuavaCompatibility.isGuava_19_0_OrHigher(GuavaCompatibility.java:216)
+	at com.datastax.driver.core.GuavaCompatibility.selectImplementation(GuavaCompatibility.java:122)
+	at com.datastax.driver.core.GuavaCompatibility.<clinit>(GuavaCompatibility.java:43)
+	at com.datastax.driver.core.Cluster.<clinit>(Cluster.java:59)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.configuredBuilder(ClusterBuilder.java:267)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:188)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-16 15:32:06 INFO  GuavaCompatibility:126 - Detected Guava < 19 in the classpath, using legacy compatibility layer
+2017-09-16 15:32:06 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2017-09-16 15:32:06 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2017-09-16 15:32:06 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-09-16 15:32:07 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2017-09-16 15:32:07 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 2
+2017-09-16 15:32:07 DEBUG Cluster:1407 - Starting new cluster with contact points [localhost/127.0.0.1:9042]
+2017-09-16 15:32:07 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-09-16 15:32:07 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2017-09-16 15:32:07 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-09-16 15:32:07 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-09-16 15:32:07 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-09-16 15:32:07 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-09-16 15:32:07 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-09-16 15:32:07 DEBUG PlatformDependent0:91 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.ClassNotFoundException: jdk.internal.misc.Unsafe
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:290)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:283)
+	at io.netty.util.internal.PlatformDependent.getSystemClassLoader(PlatformDependent.java:641)
+	at io.netty.util.internal.PlatformDependent.isAndroid0(PlatformDependent.java:665)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:65)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at com.datastax.driver.core.Connection$Factory.<init>(Connection.java:745)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1437)
+	at com.datastax.driver.core.Cluster.getMetadata(Cluster.java:390)
+	at com.datastax.driver.core.DelegatingCluster.getMetadata(DelegatingCluster.java:82)
+	at com.datastax.dsegraphloader.api.ClusterBuilder.build(ClusterBuilder.java:193)
+	at com.datastax.dsegraphloader.api.DataLoader.connect(DataLoader.java:117)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:88)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
+2017-09-16 15:32:07 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - Java version: 8
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 2005925888 bytes
+2017-09-16 15:32:07 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-09-16 15:32:07 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2017-09-16 15:32:07 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2017-09-16 15:32:07 DEBUG NativeLibraryLoader:71 - -Dio.netty.tmpdir: /tmp
+2017-09-16 15:32:07 DEBUG NativeLibraryLoader:71 - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+2017-09-16 15:32:07 DEBUG NetUtil:86 - Loopback interface: lo (lo, 127.0.0.1)
+2017-09-16 15:32:07 DEBUG NetUtil:81 - /proc/sys/net/core/somaxconn: 128
+2017-09-16 15:32:07 INFO  NettyUtil:70 - Found Netty's native epoll transport in the classpath, using it
+2017-09-16 15:32:07 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 4
+2017-09-16 15:32:07 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-09-16 15:32:07 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-09-16 15:32:07 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-09-16 15:32:07 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13fd2ccd
+2017-09-16 15:32:07 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2017-09-16 15:32:07 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-09-16 15:32:07 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 4
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 4
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-09-16 15:32:07 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-09-16 15:32:07 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2017-09-16 15:32:07 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-09-16 15:32:07 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-09-16 15:32:07 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-16 15:32:07 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-09-16 15:32:07 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-09-16 15:32:07 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-09-16 15:32:07 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-09-16 15:32:07 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-09-16 15:32:07 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ea0b5e6
+2017-09-16 15:32:07 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2017-09-16 15:32:07 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-16 15:32:07 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2017-09-16 15:32:07 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2017-09-16 15:32:07 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2017-09-16 15:32:07 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2017-09-16 15:32:07 DEBUG STATES:174 - [Control connection] established to localhost/127.0.0.1:9042
+2017-09-16 15:32:07 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'dc1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-09-16 15:32:07 INFO  Cluster:1559 - New Cassandra host localhost/127.0.0.1:9042 added
+2017-09-16 15:32:07 WARN  ClusterBuilder:196 - Found node running unsupported version: 5.1.2, IP: localhost/127.0.0.1
+2017-09-16 15:32:07 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2017-09-16 15:32:07 DEBUG STATES:79 - [localhost/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-09-16 15:32:07 DEBUG Connection:158 - Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-09-16 15:32:07 DEBUG STATES:310 - [localhost/127.0.0.1:9042] Connection[localhost/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-09-16 15:32:07 DEBUG HostConnectionPool:143 - Created connection pool to host localhost/127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-09-16 15:32:07 DEBUG Session:395 - Added connection pool for localhost/127.0.0.1:9042
+2017-09-16 15:32:07 WARN  SimpleGraphStatement:132 - GraphSON1 is being used for a graph query, however it is recommended to switch to GraphSON2 when executing a graph query to maintain type information in requests and responses to the DSE Graph server. Enabling GraphSON2 can be done via the DseCluster's GraphOptions, see https://goo.gl/EAUBUv for more information.
+2017-09-16 15:32:07 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  //Configures the data loader to create the schema
+[2	]  config create_schema: false, load_new: true
+[3	]  
+[4	]  if (source == '' || source == 'file') {
+[5	]  
+[6	]      // If the user specifies an inputpath on the command-line, use that.
+[7	]      // Otherwise check the data directory from the data directory from where the loader is run.
+[8	]      if (inputpath == '')
+[9	]          path = new java.io.File('.').getCanonicalPath() + '/data/'
+[10	]      else
+[11	]          path = inputpath + '/'
+[12	]  
+[13	]      customers = File.csv(path + 'customers.csv').delimiter('|')
+[14	]      sessions = File.csv(path + 'sessions.csv').delimiter('|')
+[15	]      orders = File.csv(path + 'orders.csv').delimiter('|')
+[16	]      chargebacks = File.csv(path + 'chargebacks.csv').delimiter('|')
+[17	]      creditCards = File.csv(path + 'creditCards.csv').delimiter('|')
+[18	]      devices = File.csv(path + 'devices.csv').delimiter('|')
+[19	]  
+[20	]  //    customerAddresses = File.json(path + 'customerAddresses.json')
+[21	]      customerOrders = File.csv(path + 'customerOrders.csv').delimiter('|')
+[22	]      customerSessions = File.csv(path + 'customerSessions.csv').delimiter('|')
+[23	]      customerChargebacks = File.csv(path + 'customerChargebacks.csv').delimiter('|')
+[24	]      orderChargebacks = File.csv(path + 'orderChargebacks.csv').delimiter('|')
+[25	]  } else if (source == 'db') {
+[26	]  
+[27	]      // Don't forget to add the jdbc driver to the loader classpath (loader root directory)
+[28	]      db = Database.connection('jdbc:mysql://localhost/fraud').user('root').password('foo').MySQL();//driver('com.mysql.jdbc.Driver');
+[29	]  
+[30	]      customers =     db.query 'select * from customers'
+[31	]      sessions =      db.query 'select * from sessions'
+[32	]      orders =        db.query 'select * from orders'
+[33	]      chargebacks =   db.query 'select * from chargebacks'
+[34	]      creditCards =   db.query 'select * from creditcards'
+[35	]      devices =       db.query 'select * from devices'
+[36	]  
+[37	]  //    customerAddresses =     db.query 'select * from customer_addresses'
+[38	]      customerOrders =        db.query 'select * from customer_orders'
+[39	]      customerSessions =      db.query 'select * from customer_sessions'
+[40	]      customerChargebacks =   db.query 'select * from customer_chargebacks'
+[41	]      orderChargebacks =      db.query 'select * from order_chargebacks'
+[42	]  } else {
+[43	]      throw new Exception('Source \'' + source + '\' is not valid.')
+[44	]  }
+[45	]  
+[46	]  load(customers).asVertices {
+[47	]      label 'customer'
+[48	]      key 'customerid'
+[49	]      ignore 'address'
+[50	]      ignore 'city'
+[51	]      ignore 'state'
+[52	]      ignore 'postalcode'
+[53	]      ignore 'countrycode'
+[54	]  }
+[55	]  
+[56	]  load(customers).asVertices {
+[57	]      label 'address'
+[58	]      key address: 'address', postalcode: 'postalcode'
+[59	]      ignore 'customerid'
+[60	]      ignore 'firstname' 
+[61	]      ignore 'lastname'
+[62	]      ignore 'email'
+[63	]      ignore 'phone'
+[64	]      ignore 'createdtime'
+[65	]  }
+[66	]  
+[67	]  load(sessions).asVertices {
+[68	]      label 'session'
+[69	]      key 'sessionid'
+[70	]  }
+[71	]  
+[72	]  load(orders).asVertices {
+[73	]      label 'order'
+[74	]      key 'orderid'
+[75	]  }
+[76	]  
+[77	]  load(chargebacks).asVertices {
+[78	]      label 'chargeback'
+[79	]      key 'chargebacknumber'
+[80	]  }
+[81	]  
+[82	]  load(creditCards).asVertices {
+[83	]      label 'creditCard'
+[84	]      key 'creditcardhashed'
+[85	]  }
+[86	]  
+[87	]  load(devices).asVertices {
+[88	]      label 'device'
+[89	]      key 'deviceid'
+[90	]  }
+[91	]  
+[92	]  load(customerOrders).asEdges {
+[93	]      label 'places'
+[94	]      outV 'customerid', {
+[95	]          label 'customer'
+[96	]          key 'customerid'
+[97	]      }
+[98	]      inV 'orderid', {
+[99	]          label 'order'
+[100	]          key 'orderid'
+[101	]      }
+[102	]  }
+[103	]  
+[104	]  load(orders).asEdges {
+[105	]      label 'usesCard'
+[106	]      outV 'orderid', {
+[107	]          label 'order'
+[108	]          key 'orderid'
+[109	]      }
+[110	]      inV 'creditcardhashed', {
+[111	]          label 'creditCard'
+[112	]          key 'creditcardhashed'
+[113	]      }
+[114	]      ignore 'createdtime'
+[115	]      ignore 'outcome'
+[116	]      ignore 'ipaddress'
+[117	]      ignore 'amount'
+[118	]      ignore 'deviceid'
+[119	]  }
+[120	]  
+[121	]  load(orderChargebacks).asEdges {
+[122	]      label 'resultsIn'
+[123	]      outV 'orderid', {
+[124	]          label 'order'
+[125	]          key 'orderid'
+[126	]      }
+[127	]      inV 'chargebacknumber', {
+[128	]          label 'chargeback'
+[129	]          key 'chargebacknumber'
+[130	]      }
+[131	]      ignore 'amount'
+[132	]      ignore 'createdtime'
+[133	]  }
+[134	]  
+[135	]  load(chargebacks).asEdges {
+[136	]      label 'fromCard'
+[137	]      outV 'chargebacknumber', {
+[138	]          label 'chargeback'
+[139	]          key 'chargebacknumber'
+[140	]      }
+[141	]      inV 'creditcardhashed', {
+[142	]          label 'creditCard'
+[143	]          key 'creditcardhashed'
+[144	]      }
+[145	]      ignore 'amount'
+[146	]      ignore 'createdtime'
+[147	]  }
+[148	]  
+[149	]  load(customerSessions).asEdges {
+[150	]      label 'logsInto'
+[151	]      outV 'customerid', {
+[152	]          label 'customer'
+[153	]          key 'customerid'
+[154	]      }
+[155	]      inV 'sessionid', {
+[156	]          label 'session'
+[157	]          key 'sessionid'
+[158	]      }
+[159	]  }
+[160	]  
+[161	]  load(customerChargebacks).asEdges {
+[162	]      label 'chargedWith'
+[163	]      outV 'customerid', {
+[164	]          label 'customer'
+[165	]          key 'customerid'
+[166	]      }
+[167	]      inV 'chargebacknumber', {
+[168	]          label 'chargeback'
+[169	]          key 'chargebacknumber'
+[170	]      }
+[171	]  }
+[172	]  
+[173	]  load(sessions).asEdges {
+[174	]      label 'using'
+[175	]      outV 'sessionid', {
+[176	]          label 'session'
+[177	]          key 'sessionid'
+[178	]      }
+[179	]      inV 'deviceid', {
+[180	]          label 'device'
+[181	]          key 'deviceid'
+[182	]      }
+[183	]      ignore 'ipaddress'
+[184	]      ignore 'createdtime'
+[185	]  }
+[186	]  
+[187	]  load(orders).asEdges {
+[188	]      label 'using'
+[189	]      outV 'orderid', {
+[190	]          label 'order'
+[191	]          key 'orderid'
+[192	]      }
+[193	]      inV 'deviceid', {
+[194	]          label 'device'
+[195	]          key 'deviceid'
+[196	]      }
+[197	]      ignore 'createdtime'
+[198	]      ignore 'outcome'
+[199	]      ignore 'ipaddress'
+[200	]      ignore 'creditcardhashed'
+[201	]      ignore 'amount'
+[202	]  }
+[203	]  
+[204	]  // load(customerAddresses).asEdges {
+[205	]  //     label 'hasAddress'
+[206	]  //     outV 'customer', {
+[207	]  //         label 'customer'
+[208	]  //         key 'customerid'
+[209	]  //     }
+[210	]  //     inV 'address', {
+[211	]  //         label 'address'
+[212	]  //         key address: 'address', postalcode: 'postalcode'
+[213	]  //     }
+[214	]  //     ignore 'firstname' 
+[215	]  //     ignore 'lastname'
+[216	]  //     ignore 'email'
+[217	]  //     ignore 'phone'
+[218	]  //     ignore 'createdtime'
+[219	]  // }
+
+2017-09-16 15:32:08 ERROR Executable:135 - Encountered error while loading
+groovy.lang.MissingPropertyException: No such property: source for class: Script1
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1.run(Script1.groovy:4)
+	at com.datastax.dsegraphloader.cli.GroovyScriptExecutor.evaluate(GroovyScriptExecutor.java:122)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:94)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:47)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:133)
