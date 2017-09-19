@@ -46,4 +46,11 @@ CREATE TABLE dsbank.account_fraud (
     PRIMARY KEY ((account_number, fraud_level), transaction_id)
 );
 
+
+CREATE TABLE dsbank.merchant_category (
+  merchant text,
+  category text,
+  PRIMARY KEY (merchant,category)
+);
 COPY dsbank.transactions FROM 'dsbank.csv' ;
+COPY dsbank.merchant_category FROM 'categories.csv' ;
