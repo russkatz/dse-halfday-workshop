@@ -1,3 +1,4 @@
+system.graph('fraud').ifExists().drop()
 system.graph('fraud').create()
 :remote config alias g fraud.g
 
