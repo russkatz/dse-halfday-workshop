@@ -4,6 +4,6 @@ producer
 workbooks
 dgl
 dseconfig
-setupcql
 restartdse
+setupcql
 loadgraph
