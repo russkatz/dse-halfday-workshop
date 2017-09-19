@@ -6,3 +6,4 @@ dgl
 dseconfig
 setupcql
 restartdse
+loadgraph
