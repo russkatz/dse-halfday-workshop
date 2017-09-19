@@ -7,3 +7,4 @@ dse gremlin-console -e schema.groovy
 
 ${DGL} -graph fraud -address localhost fraud-mapping.groovy -inputpath data/
 
+dse gremlin-console -e edges.groovy
