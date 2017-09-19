@@ -22,5 +22,6 @@ if [ `hostname` = "node0" ]; then
    sleep 5
    cqlsh localhost -f graphks.cql
    sleep 10
+   nodetool repair
 
 fi
