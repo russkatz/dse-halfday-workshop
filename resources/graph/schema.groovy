@@ -1,5 +1,5 @@
-system.graph('fraud').create()
-:remote config alias g fraud.g
+system.graph('fraud2').create()
+:remote config alias g fraud2.g
 // Property keys
 schema.propertyKey('customerid').Uuid().ifNotExists().create()
 schema.propertyKey('firstname').Text().ifNotExists().create()
