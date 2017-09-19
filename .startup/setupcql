@@ -1,4 +1,9 @@
 #!/bin/sh
 
 cd resources/cql
+
 cqlsh localhost -f create_schema.cql
+while [ $? -ne 0 ]; do
+  sleep 5
+  cqlsh localhost -f create_schema.cql
+done

@@ -8,3 +8,6 @@ sed -ie 's/^\# dsefs_options:.*/dsefs_options:\n     enabled: true\n     keyspac
 
 # Enable graph
 sed -ie 's/GRAPH_ENABLED=0/GRAPH_ENABLED=1/g' /etc/default/dse
+
+#Fix gremlin-console to run on localhost
+sed -ie 's/hosts: \[.*\]/hosts: \[localhost\]/g' /etc/dse/graph/gremlin-console/conf/remote.yaml
