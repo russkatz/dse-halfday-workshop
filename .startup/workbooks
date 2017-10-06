@@ -15,7 +15,7 @@ cd /opt/dse/datastax-studio-2.0.0
 tar -zxf /tmp/dse-workshop-studio.tar.gz
 
 echo "Starting DSE Studio .."
-for pid in `ps -aef | grep studio-server | awk '{print $2}'`; do kill -9 $pid; done
+for pid in `ps -aef | grep [s]tudio-server | awk '{print $2}'`; do kill -9 $pid; done
 sleep 5
 
 nohup /opt/dse/datastax-studio-2.0.0/bin/server.sh &
