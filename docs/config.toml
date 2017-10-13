@@ -1,0 +1,38 @@
+languageCode = "en-us"
+title = "DSE Halfday Workshop"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+
+[params]
+	description = "DSE Halfday Workshop"
+
+	logo = "images/asset-hub.svg"
+	favicon = "/images/asset-hub.png"
+
+[params.palette]
+    primary = "grey"
+    accent  = "teal"
+
+[params.font]
+    text = "Roboto"
+    code = "Roboto Mono"
+
+[social]
+	github  = "russkatz/dse-halfday-workshop"
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+
+
+[[menu.main]]
+	name   = "DSE Core"
+	url    = "core/"
+	weight = 10
+[[menu.main]]
+    name   = "DSE Search"
+    url    = "search/"
+    weight = 100
