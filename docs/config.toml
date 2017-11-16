@@ -29,10 +29,15 @@ canonifyurls = true
 
 
 [[menu.main]]
-	name   = "DSE Core"
-	url    = "core/"
+	name   = "Half Day Workshops Introduction"
+	url    = "/"
 	weight = 10
 [[menu.main]]
-    name   = "DSE Search"
-    url    = "search/"
-    weight = 100
+    name   = "Presales Interactions"
+	weight = 20
+[[menu.main]]
+    name   = "Setup Instructions"
+    weight = 30
+[[menu.main]]
+    name   = "Workshop Delivery"
+    weight = 40
