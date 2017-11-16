@@ -1,20 +1,29 @@
 #!/bin/bash
+IP=$(ifconfig | awk '/inet/ { print $2 }' | egrep -v '^fe|^127|^192|^172|::' | head -1)
+IP=${IP#addr:}
 
-if [ ! -x /usr/bin/hugo ]
+echo "standing up docs"
+#standup the docs
+#install hugo
+if [ ! -x /opt/hugo/hugo ]
 then
- HUGO_VERSION=0.20.2
- DL_SUFFIX=Linux-64bit
- INNER_SUFFIX=linux_amd64
- wget -P /tmp/ https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_${DL_SUFFIX}.tar.gz
- tar -xvf /tmp/hugo_${HUGO_VERSION}_${DL_SUFFIX}.tar.gz -C /tmp
- sudo mv /tmp/hugo_${HUGO_VERSION}_${INNER_SUFFIX}/hugo_${HUGO_VERSION}_${INNER_SUFFIX} /usr/bin/hugo
- sudo chmod +x /usr/bin/hugo
+  mkdir /opt
+  sudo mkdir /opt/hugo
+  wget -P /tmp/ https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz
+  sudo tar -xvf /tmp/hugo_0.26_Linux-64bit.tar.gz -C /opt/hugo
+fi
+
+if [ $HOSTNAME == 'node0' ]
+then
+  echo 'HERE'
+  IP=$(cat /etc/hosts | grep node0_ext | awk '{print $1}')
+  echo 'ip   ' $IP
 fi
 
 git submodule update --init
 git submodule sync
 
-rm -rf docs/public 
+sudo pkill -f hugo
 
-cd docs && hugo
-cd public && python -m SimpleHTTPServer 1313 &
+cd docs
+/opt/hugo/hugo serve --bind 0.0.0.0  --appendPort  --baseUrl "http://${IP}/" --canonifyURLs true &
