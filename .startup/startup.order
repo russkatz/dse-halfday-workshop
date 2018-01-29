@@ -6,5 +6,7 @@ workbooks
 dgl
 dseconfig
 restartdse
+node1
+node2
 setupcql
 loadgraph
