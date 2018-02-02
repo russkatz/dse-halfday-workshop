@@ -5,6 +5,6 @@ cd /tmp/dse-halfday-workshop/resources/graph
 
 dse gremlin-console -e schema.groovy
 
-${DGL} -graph fraud -address localhost fraud-mapping.groovy -inputpath data/
+${DGL} -graph fraud -address node0 fraud-mapping.groovy -inputpath data/
 
 dse gremlin-console -e edges.groovy
