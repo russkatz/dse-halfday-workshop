@@ -1,0 +1,5 @@
+#!/bin/sh
+
+apt-get install redir
+
+redir --lport 9042 --laddr=127.0.0.1 --cport 9042 --caddr node0 &
