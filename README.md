@@ -8,7 +8,7 @@ This workshop is to give people a first look at the capabilities that DSE can of
 
 ### What is included?
 
-A Powerpoint presentation will walk the students through DSE. It is broken into multiple sections each with a hands on exercise:
+A PowerPoint presentation will walk the students through DSE. It is broken into multiple sections each with a hands on exercise:
 
 * DSE Core
 * DSE Search
