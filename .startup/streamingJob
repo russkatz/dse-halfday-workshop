@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -x
+
+dse spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 --class com.datastax.demo.DsbankReports /tmp/dse-halfday-workshop/resources/analytics/stream.jar
