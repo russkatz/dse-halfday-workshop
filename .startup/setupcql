@@ -10,3 +10,6 @@ cqlsh localhost -f create_schema.cql
 #  sleep 5
 #  cqlsh localhost -f create_schema.cql
 #done
+
+#fix spark permissions
+chmod -R 777 /mnt/ephemeral/cassandra/spark/rdd
