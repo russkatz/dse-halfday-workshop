@@ -1,12 +1,11 @@
 ---
-date: 2017-04-28T10:43:02
 title: Setup Instuctions
-weight: 201
+weight: 301
 menu:
   main:
     parent: Setup Instructions
     identifier: setup
-    weight: 22
+    weight: 31
 ---
 
 ## DSE ½ Day Workshop Setup Instructions

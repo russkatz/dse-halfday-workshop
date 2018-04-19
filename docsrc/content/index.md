@@ -1,5 +1,4 @@
 ---
-date: "2017-04-10T14:21:00-05:00"
 title: "Half-day Workshop Introduction"
 weight: 100
 type: index

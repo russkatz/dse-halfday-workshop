@@ -1,12 +1,11 @@
 ---
-date: 2017-04-28T10:43:02
 title: Workshop Delivery
-weight: 201
+weight: 401
 menu:
   main:
     parent: Workshop Delivery
     identifier: delivery
-    weight: 22
+    weight: 41
 ---
 
 ## DSE ½ Day Workshop Delivery

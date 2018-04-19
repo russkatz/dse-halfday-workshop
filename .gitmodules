@@ -1,9 +1,3 @@
-[submodule "docs/hugo-material-docs"]
-	path = docs/hugo-material-docs
-	url = https://github.com/jshook/hugo-material-docs.git
-[submodule "hugo-material-docs"]
-	path = hugo-material-docs
-	url = https://github.com/jshook/hugo-material-docs.git
-[submodule "docs/themes/hugo-material-docs"]
-	path = docs/themes/hugo-material-docs
+[submodule "docsrc/themes/hugo-material-docs"]
+	path = docsrc/themes/hugo-material-docs
 	url = https://github.com/jshook/hugo-material-docs.git
