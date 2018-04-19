@@ -1,23 +1,19 @@
 #!/bin/sh
 
-echo "Downloading DSE Studio 2.0.0 .."
-wget -P /tmp "https://www.dropbox.com/s/y9tpbxmepj50hyj/datastax-studio-2.0.0.tar.gz"
 echo "Downloading workbooks .."
 wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
 
 echo "Configuring DSE Studio .."
-mkdir -p /opt/dse/
-cd /opt/dse
-tar -zxf /tmp/datastax-studio-2.0.0.tar.gz
-sed -i 's%baseDirectory: null%baseDirectory: /opt/dse/datastax-studio-2.0.0/dse-workshop-studio%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
-sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /opt/dse/datastax-studio-2.0.0/conf/configuration.yaml
-cd /opt/dse/datastax-studio-2.0.0
+sed -i 's%baseDirectory: null%baseDirectory: /tmp/datastax-studio-6.0.0/dse-workshop-studio%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
+sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
+cd /tmp/datastax-studio-6.0.0
 tar -zxf /tmp/dse-workshop-studio.tar.gz
 
 echo "Starting DSE Studio .."
 for pid in `ps -aef | grep [s]tudio-server | awk '{print $2}'`; do kill -9 $pid; done
 sleep 5
 
-nohup /opt/dse/datastax-studio-2.0.0/bin/server.sh &
+rm -rf ~/.datastax_studio
+nohup /tmp/datastax-studio-6.0.0/bin/server.sh &
 
 echo "http://"`curl -s http://api.ipify.org`":9091"
