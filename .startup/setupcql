@@ -12,5 +12,5 @@ cqlsh localhost -f create_schema.cql
 #done
 
 #fix spark permissions
-#chmod -R 777 /mnt/ephemeral/cassandra/spark/rdd
-chmod -R cassandra:cassandra /mnt/ephemeral/cassandra/spark
+chmod -R 775 /mnt/ephemeral/cassandra/spark/
+chown -R ds_user:cassandra /mnt/ephemeral/cassandra/spark
