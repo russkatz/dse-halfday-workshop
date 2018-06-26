@@ -6,6 +6,7 @@ wget --no-check-certificate --content-disposition -P /tmp https://github.com/rus
 echo "Configuring DSE Studio .."
 sed -i 's%baseDirectory: null%baseDirectory: /tmp/datastax-studio-6.0.0/dse-workshop-studio%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
 sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
+sed -i 's%executionTimeoutMs: 0%executionTimeoutMs: 600000%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
 cd /tmp/datastax-studio-6.0.0
 tar -zxf /tmp/dse-workshop-studio.tar.gz
 
