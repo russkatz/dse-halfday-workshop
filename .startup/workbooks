@@ -1,13 +1,13 @@
 #!/bin/sh
 
-echo "Downloading workbooks .."
-wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
+#echo "Downloading workbooks .."
+#wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
 
 echo "Configuring DSE Studio .."
-sed -i 's%baseDirectory: null%baseDirectory: /tmp/datastax-studio-6.0.0/dse-workshop-studio%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
-sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
-sed -i 's%executionTimeoutMs: 0%executionTimeoutMs: 600000%g' /tmp/datastax-studio-6.0.0/conf/configuration.yaml
-cd /tmp/datastax-studio-6.0.0
+sed -i 's%baseDirectory: null%baseDirectory: /tmp/studio/dse-workshop-studio%g' /tmp/studio/conf/configuration.yaml
+sed -i 's%httpBindAddress: localhost%httpBindAddress: 0.0.0.0%g' /tmp/studio/conf/configuration.yaml
+sed -i 's%executionTimeoutMs: 0%executionTimeoutMs: 600000%g' /tmp/studio/conf/configuration.yaml
+cd /tmp/studio
 tar -zxf /tmp/dse-workshop-studio.tar.gz
 
 echo "Starting DSE Studio .."
@@ -15,6 +15,6 @@ for pid in `ps -aef | grep [s]tudio-server | awk '{print $2}'`; do kill -9 $pid;
 sleep 5
 
 rm -rf ~/.datastax_studio
-nohup /tmp/datastax-studio-6.0.0/bin/server.sh &
+nohup /tmp/studio/bin/server.sh &
 
 echo "http://"`curl -s http://api.ipify.org`":9091"
