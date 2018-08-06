@@ -45,7 +45,7 @@ The workshop is broken down into the following sections:
 
 ##  Presentation
 
-The presentation to be used with the workshop can be found here: https://docs.google.com/presentation/d/1xtMxR3j4Fm-yzCSc52Gna-tGnjIoOPP78cW1L9bKWWw/edit#slide=id.p5
+The presentation to be used with the workshop can be found here: https://drive.google.com/file/d/1pqoLRxSJ2-kWCS5JiZZQ8iRBzjh54wjh/view
 
 ## Hands-On Exercises
 
