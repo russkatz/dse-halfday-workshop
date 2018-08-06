@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#echo "Downloading workbooks .."
-#wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
+echo "Downloading workbooks .."
+wget --no-check-certificate --content-disposition -P /tmp https://github.com/russkatz/dse-halfday-workshop/raw/master/files/dse-workshop-studio.tar.gz
 
 echo "Configuring DSE Studio .."
 sed -i 's%baseDirectory: null%baseDirectory: /tmp/studio/dse-workshop-studio%g' /tmp/studio/conf/configuration.yaml
