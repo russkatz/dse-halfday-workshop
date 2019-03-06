@@ -13,6 +13,7 @@ A PowerPoint presentation will walk the students through DSE. It is broken into 
 * DSE Core
 * DSE Search
 * DSE Analytics
+* DSE Graph
 * DSE Opscenter / Security
 
 ### Business Take Aways
